@@ -11,7 +11,6 @@ EQUI_CombatAbilityWnd.xml
 EQUI_CombatSkillsSelectWindow.xml  
 EQUI_FileSelectionWnd.xml  
 EQUI_GemsGameWnd.xml  
-EQUI_GiveWnd.xml  
 EQUI_GroupSearchWnd.xml  
 EQUI_GuildBankWnd.xml  
 EQUI_GuildManagementWnd.xml  
@@ -43,7 +42,6 @@ EQUI_TaskSelectWnd.xml
 EQUI_TaskTemplateSelectWnd.xml  
 EQUI_TaskWnd.xml  
 EQUI_TicketWindow.xml  
-EQUI_TrackingWnd.xml  
 EQUI_TributeBenefitWnd.xml  
 EQUI_TributeMasterWnd.xml  
 

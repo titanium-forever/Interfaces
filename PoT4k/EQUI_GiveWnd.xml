@@ -3,14 +3,15 @@
   <Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
   <Label item="GVW_NPCName">
     <ScreenID>GVW_NPCName</ScreenID>
+    <Font>6</Font>
     <RelativePosition>true</RelativePosition>
     <Location>
       <X>0</X>
-      <Y>1</Y>
+      <Y>2</Y>
     </Location>
     <Size>
-      <CX>94</CX>
-      <CY>30</CY>
+      <CX>188</CX>
+      <CY>60</CY>
     </Size>
     <TextColor>
       <R>255</R>
@@ -24,12 +25,12 @@
     <ScreenID>GVW_MyItemSlot0</ScreenID>
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>30</X>
-      <Y>32</Y>
+      <X>60</X>
+      <Y>64</Y>
     </Location>
     <Size>
-      <CX>32</CX>
-      <CY>32</CY>
+      <CX>64</CX>
+      <CY>64</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>3000</EQType>
@@ -40,12 +41,12 @@
     <ScreenID>GVW_MyItemSlot1</ScreenID>
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>30</X>
-      <Y>66</Y>
+      <X>60</X>
+      <Y>132</Y>
     </Location>
     <Size>
-      <CX>32</CX>
-      <CY>32</CY>
+      <CX>64</CX>
+      <CY>64</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>3001</EQType>
@@ -56,12 +57,12 @@
     <ScreenID>GVW_MyItemSlot2</ScreenID>
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>30</X>
-      <Y>100</Y>
+      <X>60</X>
+      <Y>200</Y>
     </Location>
     <Size>
-      <CX>32</CX>
-      <CY>32</CY>
+      <CX>64</CX>
+      <CY>64</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>3002</EQType>
@@ -72,12 +73,12 @@
     <ScreenID>GVW_MyItemSlot3</ScreenID>
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>30</X>
-      <Y>134</Y>
+      <X>60</X>
+      <Y>268</Y>
     </Location>
     <Size>
-      <CX>32</CX>
-      <CY>32</CY>
+      <CX>64</CX>
+      <CY>64</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>3003</EQType>
@@ -86,25 +87,26 @@
   </InvSlot>
   <StaticAnimation item="GVW_PlatCoin">
     <Location>
-      <X>4</X>
-      <Y>178</Y>
+      <X>8</X>
+      <Y>356</Y>
     </Location>
     <Size>
-      <CX>16</CX>
-      <CY>16</CY>
+      <CX>32</CX>
+      <CY>32</CY>
     </Size>
     <Animation>A_PlatinumCoin</Animation>
   </StaticAnimation>
   <Button item="GVW_MyMoney0">
     <ScreenID>GVW_MyMoney0</ScreenID>
+    <Font>6</Font>
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>24</X>
-      <Y>170</Y>
+      <X>48</X>
+      <Y>340</Y>
     </Location>
     <Size>
-      <CX>64</CX>
-      <CY>32</CY>
+      <CX>128</CX>
+      <CY>64</CY>
     </Size>
     <TooltipReference>Platinum</TooltipReference>
     <TextColor>
@@ -118,25 +120,26 @@
   </Button>
   <StaticAnimation item="GVW_GoldCoin">
     <Location>
-      <X>4</X>
-      <Y>212</Y>
+      <X>8</X>
+      <Y>424</Y>
     </Location>
     <Size>
-      <CX>16</CX>
-      <CY>16</CY>
+      <CX>32</CX>
+      <CY>32</CY>
     </Size>
     <Animation>A_GoldCoin</Animation>
   </StaticAnimation>
   <Button item="GVW_MyMoney1">
     <ScreenID>GVW_MyMoney1</ScreenID>
+    <Font>6</Font>
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>24</X>
-      <Y>204</Y>
+      <X>48</X>
+      <Y>408</Y>
     </Location>
     <Size>
-      <CX>64</CX>
-      <CY>32</CY>
+      <CX>128</CX>
+      <CY>64</CY>
     </Size>
     <TooltipReference>Gold</TooltipReference>
     <TextColor>
@@ -150,25 +153,26 @@
   </Button>
   <StaticAnimation item="GVW_SilverCoin">
     <Location>
-      <X>4</X>
-      <Y>246</Y>
+      <X>8</X>
+      <Y>492</Y>
     </Location>
     <Size>
-      <CX>16</CX>
-      <CY>16</CY>
+      <CX>32</CX>
+      <CY>32</CY>
     </Size>
     <Animation>A_SilverCoin</Animation>
   </StaticAnimation>
   <Button item="GVW_MyMoney2">
     <ScreenID>GVW_MyMoney2</ScreenID>
+    <Font>6</Font>
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>24</X>
-      <Y>238</Y>
+      <X>48</X>
+      <Y>476</Y>
     </Location>
     <Size>
-      <CX>64</CX>
-      <CY>32</CY>
+      <CX>128</CX>
+      <CY>64</CY>
     </Size>
     <TooltipReference>Silver</TooltipReference>
     <TextColor>
@@ -182,25 +186,26 @@
   </Button>
   <StaticAnimation item="GVW_CopperCoin">
     <Location>
-      <X>4</X>
-      <Y>280</Y>
+      <X>8</X>
+      <Y>560</Y>
     </Location>
     <Size>
-      <CX>16</CX>
-      <CY>16</CY>
+      <CX>32</CX>
+      <CY>32</CY>
     </Size>
     <Animation>A_CopperCoin</Animation>
   </StaticAnimation>
   <Button item="GVW_MyMoney3">
     <ScreenID>GVW_MyMoney3</ScreenID>
+    <Font>6</Font>
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>24</X>
-      <Y>272</Y>
+      <X>48</X>
+      <Y>544</Y>
     </Location>
     <Size>
-      <CX>64</CX>
-      <CY>32</CY>
+      <CX>128</CX>
+      <CY>64</CY>
     </Size>
     <TooltipReference>Copper</TooltipReference>
     <TextColor>
@@ -216,14 +221,15 @@
     <ScreenID>GVW_Give_Button</ScreenID>
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>14</X>
-      <Y>310</Y>
+      <X>28</X>
+      <Y>620</Y>
     </Location>
     <Size>
-      <CX>64</CX>
-      <CY>32</CY>
+      <CX>128</CX>
+      <CY>64</CY>
     </Size>
     <Text>Give</Text>
+    <Font>6</Font>
     <TextColor>
       <R>255</R>
       <G>255</G>
@@ -241,14 +247,15 @@
     <ScreenID>GVW_Cancel_Button</ScreenID>
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>14</X>
-      <Y>346</Y>
+      <X>28</X>
+      <Y>692</Y>
     </Location>
     <Size>
-      <CX>64</CX>
-      <CY>32</CY>
+      <CX>128</CX>
+      <CY>64</CY>
     </Size>
     <Text>Cancel</Text>
+    <Font>6</Font>
     <TextColor>
       <R>255</R>
       <G>255</G>
