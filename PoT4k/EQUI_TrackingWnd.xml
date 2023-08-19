@@ -26,15 +26,16 @@
     <ScreenID>TRW_FilterRedButton</ScreenID>
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>4</X>
-      <Y>1</Y>
+      <X>8</X>
+      <Y>2</Y>
     </Location>
     <Size>
-      <CX>16</CX>
-      <CY>16</CY>
+      <CX>32</CX>
+      <CY>32</CY>
     </Size>
     <Style_Checkbox>true</Style_Checkbox>
     <Text>R</Text>
+    <Font>6</Font>
     <TextColor>
       <R>240</R>
       <G>0</G>
@@ -52,15 +53,16 @@
     <ScreenID>TRW_FilterYellowButton</ScreenID>
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>27</X>
-      <Y>1</Y>
+      <X>54</X>
+      <Y>2</Y>
     </Location>
     <Size>
-      <CX>16</CX>
-      <CY>16</CY>
+      <CX>32</CX>
+      <CY>32</CY>
     </Size>
     <Style_Checkbox>true</Style_Checkbox>
     <Text>Y</Text>
+    <Font>6</Font>
     <TextColor>
       <R>240</R>
       <G>240</G>
@@ -78,15 +80,16 @@
     <ScreenID>TRW_FilterWhiteButton</ScreenID>
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>50</X>
-      <Y>1</Y>
+      <X>100</X>
+      <Y>2</Y>
     </Location>
     <Size>
-      <CX>16</CX>
-      <CY>16</CY>
+      <CX>32</CX>
+      <CY>32</CY>
     </Size>
     <Style_Checkbox>true</Style_Checkbox>
     <Text>W</Text>
+    <Font>6</Font>
     <TextColor>
       <R>240</R>
       <G>240</G>
@@ -104,15 +107,16 @@
     <ScreenID>TRW_FilterBlueButton</ScreenID>
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>73</X>
-      <Y>1</Y>
+      <X>146</X>
+      <Y>2</Y>
     </Location>
     <Size>
-      <CX>16</CX>
-      <CY>16</CY>
+      <CX>32</CX>
+      <CY>32</CY>
     </Size>
     <Style_Checkbox>true</Style_Checkbox>
     <Text>B</Text>
+    <Font>6</Font>
     <TextColor>
       <R>0</R>
       <G>0</G>
@@ -130,15 +134,16 @@
     <ScreenID>TRW_FilterLightBlueButton</ScreenID>
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>96</X>
-      <Y>1</Y>
+      <X>192</X>
+      <Y>2</Y>
     </Location>
     <Size>
-      <CX>16</CX>
-      <CY>16</CY>
+      <CX>32</CX>
+      <CY>32</CY>
     </Size>
     <Style_Checkbox>true</Style_Checkbox>
     <Text>L</Text>
+    <Font>6</Font>
     <TextColor>
       <R>0</R>
       <G>240</G>
@@ -156,15 +161,16 @@
     <ScreenID>TRW_FilterGreenButton</ScreenID>
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>119</X>
-      <Y>1</Y>
+      <X>238</X>
+      <Y>2</Y>
     </Location>
     <Size>
-      <CX>16</CX>
-      <CY>16</CY>
+      <CX>32</CX>
+      <CY>32</CY>
     </Size>
     <Style_Checkbox>true</Style_Checkbox>
     <Text>G</Text>
+    <Font>6</Font>
     <TextColor>
       <R>0</R>
       <G>240</G>
@@ -181,16 +187,17 @@
   <!-- tracking list itself -->
   <Listbox item="TRW_TrackingList">
     <ScreenID>TRW_TrackingList</ScreenID>
+    <Font>5</Font>
     <DrawTemplate>WDT_Inner</DrawTemplate>
     <AutoStretch>true</AutoStretch>
     <LeftAnchorOffset>0</LeftAnchorOffset>
-    <TopAnchorOffset>19</TopAnchorOffset>
+    <TopAnchorOffset>38</TopAnchorOffset>
     <RightAnchorOffset>0</RightAnchorOffset>
-    <BottomAnchorOffset>45</BottomAnchorOffset>
+    <BottomAnchorOffset>90</BottomAnchorOffset>
     <RightAnchorToLeft>false</RightAnchorToLeft>
     <BottomAnchorToTop>false</BottomAnchorToTop>
     <Columns>
-      <Width>148</Width>
+      <Width>296</Width>
     </Columns>
     <Style_Border>true</Style_Border>
     <Style_VScroll>true</Style_VScroll>
@@ -200,14 +207,15 @@
     <ScreenID>TRW_TrackButton</ScreenID>
     <RelativePosition>true</RelativePosition>
     <AutoStretch>true</AutoStretch>
-    <LeftAnchorOffset>4</LeftAnchorOffset>
-    <TopAnchorOffset>43</TopAnchorOffset>
-    <RightAnchorOffset>68</RightAnchorOffset>
-    <BottomAnchorOffset>27</BottomAnchorOffset>
+    <LeftAnchorOffset>8</LeftAnchorOffset>
+    <TopAnchorOffset>86</TopAnchorOffset>
+    <RightAnchorOffset>136</RightAnchorOffset>
+    <BottomAnchorOffset>54</BottomAnchorOffset>
     <TopAnchorToTop>false</TopAnchorToTop>
     <BottomAnchorToTop>false</BottomAnchorToTop>
     <RightAnchorToLeft>true</RightAnchorToLeft>
     <Text>Track</Text>
+    <Font>6</Font>
     <TextColor>
       <R>255</R>
       <G>255</G>
@@ -225,15 +233,16 @@
     <ScreenID>DoneButton</ScreenID>
     <RelativePosition>true</RelativePosition>
     <AutoStretch>true</AutoStretch>
-    <LeftAnchorOffset>72</LeftAnchorOffset>
-    <TopAnchorOffset>43</TopAnchorOffset>
-    <RightAnchorOffset>136</RightAnchorOffset>
-    <BottomAnchorOffset>27</BottomAnchorOffset>
+    <LeftAnchorOffset>144</LeftAnchorOffset>
+    <TopAnchorOffset>86</TopAnchorOffset>
+    <RightAnchorOffset>272</RightAnchorOffset>
+    <BottomAnchorOffset>54</BottomAnchorOffset>
     <TopAnchorToTop>false</TopAnchorToTop>
     <BottomAnchorToTop>false</BottomAnchorToTop>
     <RightAnchorToLeft>true</RightAnchorToLeft>
     <LeftAnchorToLeft>true</LeftAnchorToLeft>
     <Text>Cancel</Text>
+    <Font>6</Font>
     <TextColor>
       <R>255</R>
       <G>255</G>
@@ -268,16 +277,17 @@
   </Label>
   <Combobox item="TRW_TrackPlayersCombobox">
     <ScreenID>TRW_TrackPlayersCombobox</ScreenID>
+    <Font>6</Font>
     <DrawTemplate>WDT_Inner</DrawTemplate>
     <AutoStretch>true</AutoStretch>
     <LeftAnchorOffset>0</LeftAnchorOffset>
-    <TopAnchorOffset>25</TopAnchorOffset>
-    <RightAnchorOffset>60</RightAnchorOffset>
-    <BottomAnchorOffset>1</BottomAnchorOffset>
+    <TopAnchorOffset>50</TopAnchorOffset>
+    <RightAnchorOffset>120</RightAnchorOffset>
+    <BottomAnchorOffset>2</BottomAnchorOffset>
     <TopAnchorToTop>false</TopAnchorToTop>
     <BottomAnchorToTop>false</BottomAnchorToTop>
     <RightAnchorToLeft>true</RightAnchorToLeft>
-    <ListHeight>160</ListHeight>
+    <ListHeight>320</ListHeight>
     <Button>BDT_Combo</Button>
     <Style_Border>true</Style_Border>
   </Combobox>
@@ -302,30 +312,32 @@
   </Label>
   <Combobox item="TRW_TrackSortCombobox">
     <ScreenID>TRW_TrackSortCombobox</ScreenID>
+    <Font>6</Font>
     <DrawTemplate>WDT_Inner</DrawTemplate>
     <AutoStretch>true</AutoStretch>
-    <LeftAnchorOffset>64</LeftAnchorOffset>
-    <TopAnchorOffset>25</TopAnchorOffset>
-    <RightAnchorOffset>140</RightAnchorOffset>
-    <BottomAnchorOffset>1</BottomAnchorOffset>
+    <LeftAnchorOffset>128</LeftAnchorOffset>
+    <TopAnchorOffset>50</TopAnchorOffset>
+    <RightAnchorOffset>280</RightAnchorOffset>
+    <BottomAnchorOffset>2</BottomAnchorOffset>
     <TopAnchorToTop>false</TopAnchorToTop>
     <BottomAnchorToTop>false</BottomAnchorToTop>
     <RightAnchorToLeft>true</RightAnchorToLeft>
-    <ListHeight>160</ListHeight>
+    <ListHeight>320</ListHeight>
     <Button>BDT_Combo</Button>
     <Style_Border>true</Style_Border>
   </Combobox>
   <Screen item="TrackingWnd">
     <RelativePosition>false</RelativePosition>
     <Location>
-      <X>0</X>
-      <Y>20</Y>
+      <X>40</X>
+      <Y>40</Y>
     </Location>
     <Size>
-      <CX>148</CX>
-      <CY>460</CY>
+      <CX>296</CX>
+      <CY>920</CY>
     </Size>
     <Text>Track</Text>
+    <Font>6</Font>
     <DrawTemplate>WDT_Rounded</DrawTemplate>
     <Style_Titlebar>true</Style_Titlebar>
     <Style_Closebox>true</Style_Closebox>
