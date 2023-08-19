@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+  <Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+  <Listbox item="FLW_FindLocationList">
+    <ScreenID>FLW_FindLocationList</ScreenID>
+    <Font>5</Font>
+    <DrawTemplate>WDT_Inner</DrawTemplate>
+    <AutoStretch>true</AutoStretch>
+    <LeftAnchorOffset>0</LeftAnchorOffset>
+    <TopAnchorOffset>24</TopAnchorOffset>
+    <RightAnchorOffset>0</RightAnchorOffset>
+    <BottomAnchorOffset>54</BottomAnchorOffset>
+    <RightAnchorToLeft>false</RightAnchorToLeft>
+    <BottomAnchorToTop>false</BottomAnchorToTop>
+    <Columns>
+      <Width>200</Width>
+      <Heading>Category</Heading>
+    </Columns>
+    <Columns>
+      <Width>250</Width>
+      <Heading>Description</Heading>
+    </Columns>
+    <Style_Border>true</Style_Border>
+    <Style_VScroll>true</Style_VScroll>
+  </Listbox>
+  <Button item="FLW_FilterLocationsCheckbox">
+    <ScreenID>FLW_FilterLocationsCheckbox</ScreenID>
+    <RelativePosition>true</RelativePosition>
+    <AutoStretch>true</AutoStretch>
+    <LeftAnchorOffset>20</LeftAnchorOffset>
+    <TopAnchorOffset>46</TopAnchorOffset>
+    <RightAnchorOffset>44</RightAnchorOffset>
+    <BottomAnchorOffset>22</BottomAnchorOffset>
+    <TopAnchorToTop>false</TopAnchorToTop>
+    <BottomAnchorToTop>false</BottomAnchorToTop>
+    <RightAnchorToLeft>true</RightAnchorToLeft>
+    <Style_Transparent>false</Style_Transparent>
+    <Style_Checkbox>true</Style_Checkbox>
+    <Text />
+    <TextColor>
+      <R>255</R>
+      <G>255</G>
+      <B>255</B>
+    </TextColor>
+    <ButtonDrawTemplate>
+      <Normal>A_CheckBoxNormal</Normal>
+      <Pressed>A_CheckBoxPressed</Pressed>
+    </ButtonDrawTemplate>
+  </Button>
+  <Label item="FLW_FilterLocationsLabel">
+    <ScreenID>FLW_FilterLocationsLabel</ScreenID>
+    <Font>6</Font>
+    <RelativePosition>true</RelativePosition>
+    <AutoStretch>true</AutoStretch>
+    <LeftAnchorOffset>52</LeftAnchorOffset>
+    <TopAnchorOffset>48</TopAnchorOffset>
+    <RightAnchorOffset>20</RightAnchorOffset>
+    <BottomAnchorOffset>8</BottomAnchorOffset>
+    <TopAnchorToTop>false</TopAnchorToTop>
+    <BottomAnchorToTop>false</BottomAnchorToTop>
+    <RightAnchorToLeft>false</RightAnchorToLeft>
+    <Text>Only show destinations I can use.</Text>
+    <TextColor>
+      <R>255</R>
+      <G>255</G>
+      <B>255</B>
+    </TextColor>
+    <NoWrap>true</NoWrap>
+    <AlignCenter>false</AlignCenter>
+    <AlignRight>false</AlignRight>
+  </Label>
+  <Screen item="FindLocationWnd">
+    <!--<ScreenID/>-->
+    <Font>6</Font>
+    <RelativePosition>false</RelativePosition>
+    <Location>
+      <X>200</X>
+      <Y>200</Y>
+    </Location>
+    <Size>
+      <CX>500</CX>
+      <CY>480</CY>
+    </Size>
+    <Style_VScroll>false</Style_VScroll>
+    <Style_HScroll>false</Style_HScroll>
+    <Style_Transparent>false</Style_Transparent>
+    <!--<TooltipReference/>-->
+    <Text>Find Window</Text>
+    <DrawTemplate>WDT_Rounded</DrawTemplate>
+    <Style_Titlebar>true</Style_Titlebar>
+    <Style_Closebox>true</Style_Closebox>
+    <Style_Minimizebox>true</Style_Minimizebox>
+    <Style_Border>true</Style_Border>
+    <Style_Sizable>true</Style_Sizable>
+    <Pieces>FLW_FindLocationList</Pieces>
+    <Pieces>FLW_FilterLocationsCheckbox</Pieces>
+    <Pieces>FLW_FilterLocationsLabel</Pieces>
+  </Screen>
+</XML>
