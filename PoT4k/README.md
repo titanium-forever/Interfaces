@@ -10,7 +10,6 @@ EQUI_BodyTintWnd.xml
 EQUI_CombatAbilityWnd.xml  
 EQUI_CombatSkillsSelectWindow.xml  
 EQUI_FileSelectionWnd.xml  
-EQUI_GemsGameWnd.xml  
 EQUI_GroupSearchWnd.xml  
 EQUI_GuildBankWnd.xml  
 EQUI_GuildManagementWnd.xml  
@@ -19,14 +18,12 @@ EQUI_HelpWnd.xml
 EQUI_ItemExpTransferWnd.xml  
 EQUI_JournalCatWnd.xml  
 EQUI_JournalNPCWnd.xml  
-EQUI_LargeDialogWnd.xml  
 EQUI_LeadershipWnd.xml  
 EQUI_LFGuildWnd.xml  
 EQUI_MailAddressBookWindow.xml  
 EQUI_MailCompositionWindow.xml  
 EQUI_MailWindow.xml  
 EQUI_NoteWindow.xml  
-EQUI_OptionsWindow.xml  
 EQUI_PlayerNotesWindow.xml  
 EQUI_PointMerchantWnd.xml  
 EQUI_PotionBeltWnd.xml  
@@ -66,6 +63,9 @@ Tooltip sizes
 ### EQUI_MerchantWnd.xml
 - list header row height
 
+# Can't do
+
+EQUI_OptionsWindow.xml  
 
 # Won't Do
 
@@ -75,6 +75,7 @@ EQUI_CompassWnd.xml
 EQUI_DynamicZoneWnd.xml  
 EQUI_FacePick.xml  
 EQUI_FeedbackWnd.xml  
+EQUI_GemsGameWnd.xml 
 EQUI_MIZoneSelectWnd.xml  
 EQUI_MusicPlayerWnd.xml  
 EQUI_ServerListWnd.xml  

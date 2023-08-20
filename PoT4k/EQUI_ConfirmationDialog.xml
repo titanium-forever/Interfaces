@@ -5,14 +5,15 @@
     <ScreenID>Yes_Button</ScreenID>
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>6</X>
-      <Y>148</Y>
+      <X>12</X>
+      <Y>296</Y>
     </Location>
     <Size>
-      <CX>64</CX>
-      <CY>32</CY>
+      <CX>128</CX>
+      <CY>64</CY>
     </Size>
     <Text>Yes</Text>
+    <Font>6</Font>
     <TextColor>
       <R>255</R>
       <G>255</G>
@@ -30,14 +31,15 @@
     <ScreenID>No_Button</ScreenID>
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>196</X>
-      <Y>148</Y>
+      <X>392</X>
+      <Y>296</Y>
     </Location>
     <Size>
-      <CX>64</CX>
-      <CY>32</CY>
+      <CX>128</CX>
+      <CY>64</CY>
     </Size>
     <Text>No</Text>
+    <Font>6</Font>
     <TextColor>
       <R>255</R>
       <G>255</G>
@@ -55,14 +57,15 @@
     <ScreenID>OK_Button</ScreenID>
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>100</X>
-      <Y>148</Y>
+      <X>200</X>
+      <Y>296</Y>
     </Location>
     <Size>
-      <CX>64</CX>
-      <CY>32</CY>
+      <CX>128</CX>
+      <CY>64</CY>
     </Size>
     <Text>OK</Text>
+    <Font>6</Font>
     <TextColor>
       <R>255</R>
       <G>255</G>
@@ -78,14 +81,15 @@
   </Button>
   <StaticText item="CD_StaticText1">
     <ScreenID>Text1</ScreenID>
+    <Font>6</Font>
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>5</X>
-      <Y>4</Y>
+      <X>10</X>
+      <Y>8</Y>
     </Location>
     <Size>
-      <CX>96</CX>
-      <CY>100</CY>
+      <CX>192</CX>
+      <CY>200</CY>
     </Size>
     <Text>UTF16:00410042AC01AC02AC03AC04AC05</Text>
     <TextColor>
@@ -97,26 +101,28 @@
   </StaticText>
   <STMLbox item="CD_TextOutput">
     <ScreenID>TextOutput</ScreenID>
+    <Font>5</Font>
     <DrawTemplate>WDT_Inner</DrawTemplate>
     <Style_VScroll>false</Style_VScroll>
     <Location>
-      <X>4</X>
-      <Y>4</Y>
+      <X>8</X>
+      <Y>8</Y>
     </Location>
     <Size>
-      <CX>256</CX>
-      <CY>140</CY>
+      <CX>512</CX>
+      <CY>280</CY>
     </Size>
   </STMLbox>
   <Screen item="ConfirmationDialogBox">
     <RelativePosition>false</RelativePosition>
+    <Font>6</Font>
     <Location>
       <X>550</X>
       <Y>350</Y>
     </Location>
     <Size>
-      <CX>274</CX>
-      <CY>204</CY>
+      <CX>548</CX>
+      <CY>408</CY>
     </Size>
     <Style_Transparent>false</Style_Transparent>
     <DrawTemplate>WDT_Rounded</DrawTemplate>

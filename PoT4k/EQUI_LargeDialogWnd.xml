@@ -6,13 +6,14 @@
   <!-- rather than quick, one- or two-liner Yes/No questions.-->
   <STMLbox item="LDW_TextBox">
     <ScreenID>LDW_TextBox</ScreenID>
+    <Font>5</Font>
     <DrawTemplate>WDT_Inner</DrawTemplate>
     <RelativePosition>true</RelativePosition>
     <AutoStretch>true</AutoStretch>
-    <LeftAnchorOffset>2</LeftAnchorOffset>
-    <TopAnchorOffset>2</TopAnchorOffset>
-    <RightAnchorOffset>2</RightAnchorOffset>
-    <BottomAnchorOffset>52</BottomAnchorOffset>
+    <LeftAnchorOffset>4</LeftAnchorOffset>
+    <TopAnchorOffset>4</TopAnchorOffset>
+    <RightAnchorOffset>4</RightAnchorOffset>
+    <BottomAnchorOffset>104</BottomAnchorOffset>
     <RightAnchorToLeft>false</RightAnchorToLeft>
     <BottomAnchorToTop>false</BottomAnchorToTop>
     <Style_VScroll>true</Style_VScroll>
@@ -23,10 +24,10 @@
     <ScreenID>LDW_YesButton</ScreenID>
     <RelativePosition>true</RelativePosition>
     <AutoStretch>true</AutoStretch>
-    <LeftAnchorOffset>2</LeftAnchorOffset>
-    <TopAnchorOffset>22</TopAnchorOffset>
-    <RightAnchorOffset>52</RightAnchorOffset>
-    <BottomAnchorOffset>2</BottomAnchorOffset>
+    <LeftAnchorOffset>4</LeftAnchorOffset>
+    <TopAnchorOffset>44</TopAnchorOffset>
+    <RightAnchorOffset>104</RightAnchorOffset>
+    <BottomAnchorOffset>4</BottomAnchorOffset>
     <LeftAnchorToLeft>true</LeftAnchorToLeft>
     <RightAnchorToLeft>true</RightAnchorToLeft>
     <TopAnchorToTop>false</TopAnchorToTop>
@@ -36,6 +37,7 @@
     <Style_Transparent>false</Style_Transparent>
     <Style_Checkbox>false</Style_Checkbox>
     <Text>Yes</Text>
+    <Font>6</Font>
     <TextColor>
       <R>255</R>
       <G>255</G>
@@ -53,10 +55,10 @@
     <ScreenID>LDW_NoButton</ScreenID>
     <RelativePosition>true</RelativePosition>
     <AutoStretch>true</AutoStretch>
-    <LeftAnchorOffset>52</LeftAnchorOffset>
-    <TopAnchorOffset>22</TopAnchorOffset>
-    <RightAnchorOffset>2</RightAnchorOffset>
-    <BottomAnchorOffset>2</BottomAnchorOffset>
+    <LeftAnchorOffset>104</LeftAnchorOffset>
+    <TopAnchorOffset>44</TopAnchorOffset>
+    <RightAnchorOffset>4</RightAnchorOffset>
+    <BottomAnchorOffset>4</BottomAnchorOffset>
     <LeftAnchorToLeft>false</LeftAnchorToLeft>
     <RightAnchorToLeft>false</RightAnchorToLeft>
     <TopAnchorToTop>false</TopAnchorToTop>
@@ -66,6 +68,7 @@
     <Style_Transparent>false</Style_Transparent>
     <Style_Checkbox>false</Style_Checkbox>
     <Text>No</Text>
+    <Font>6</Font>
     <TextColor>
       <R>255</R>
       <G>255</G>
@@ -83,10 +86,10 @@
     <ScreenID>LDW_OkButton</ScreenID>
     <RelativePosition>true</RelativePosition>
     <AutoStretch>true</AutoStretch>
-    <LeftAnchorOffset>100</LeftAnchorOffset>
-    <RightAnchorOffset>100</RightAnchorOffset>
-    <TopAnchorOffset>22</TopAnchorOffset>
-    <BottomAnchorOffset>2</BottomAnchorOffset>
+    <LeftAnchorOffset>200</LeftAnchorOffset>
+    <RightAnchorOffset>200</RightAnchorOffset>
+    <TopAnchorOffset>44</TopAnchorOffset>
+    <BottomAnchorOffset>4</BottomAnchorOffset>
     <LeftAnchorToLeft>true</LeftAnchorToLeft>
     <RightAnchorToLeft>false</RightAnchorToLeft>
     <TopAnchorToTop>false</TopAnchorToTop>
@@ -96,6 +99,7 @@
     <Style_Transparent>false</Style_Transparent>
     <Style_Checkbox>false</Style_Checkbox>
     <Text>OK</Text>
+    <Font>6</Font>
     <TextColor>
       <R>255</R>
       <G>255</G>
@@ -112,10 +116,10 @@
   <Slider item="LDW_SoundVolumeSlider">
     <ScreenID>LDW_SoundVolumeSlider</ScreenID>
     <AutoStretch>true</AutoStretch>
-    <LeftAnchorOffset>147</LeftAnchorOffset>
-    <RightAnchorOffset>237</RightAnchorOffset>
-    <TopAnchorOffset>48</TopAnchorOffset>
-    <BottomAnchorOffset>28</BottomAnchorOffset>
+    <LeftAnchorOffset>294</LeftAnchorOffset>
+    <RightAnchorOffset>474</RightAnchorOffset>
+    <TopAnchorOffset>96</TopAnchorOffset>
+    <BottomAnchorOffset>56</BottomAnchorOffset>
     <LeftAnchorToLeft>true</LeftAnchorToLeft>
     <RightAnchorToLeft>true</RightAnchorToLeft>
     <TopAnchorToTop>false</TopAnchorToTop>
@@ -129,15 +133,16 @@
   </Slider>
   <Label item="LDW_SoundVolumeValueLabel">
     <ScreenID>LDW_SoundVolumeValueLabel</ScreenID>
-    <LeftAnchorOffset>76</LeftAnchorOffset>
-    <RightAnchorOffset>143</RightAnchorOffset>
-    <TopAnchorOffset>46</TopAnchorOffset>
-    <BottomAnchorOffset>24</BottomAnchorOffset>
+    <LeftAnchorOffset>152</LeftAnchorOffset>
+    <RightAnchorOffset>286</RightAnchorOffset>
+    <TopAnchorOffset>92</TopAnchorOffset>
+    <BottomAnchorOffset>48</BottomAnchorOffset>
     <LeftAnchorToLeft>true</LeftAnchorToLeft>
     <RightAnchorToLeft>true</RightAnchorToLeft>
     <TopAnchorToTop>false</TopAnchorToTop>
     <BottomAnchorToTop>false</BottomAnchorToTop>
     <Text>Vol. 0 %</Text>
+    <Font>6</Font>
     <TextColor>
       <R>255</R>
       <G>255</G>
@@ -156,10 +161,10 @@
     <ScreenID>LDW_MuteButton</ScreenID>
     <RelativePosition>true</RelativePosition>
     <AutoStretch>true</AutoStretch>
-    <LeftAnchorOffset>62</LeftAnchorOffset>
-    <TopAnchorOffset>48</TopAnchorOffset>
-    <RightAnchorOffset>2</RightAnchorOffset>
-    <BottomAnchorOffset>28</BottomAnchorOffset>
+    <LeftAnchorOffset>124</LeftAnchorOffset>
+    <TopAnchorOffset>96</TopAnchorOffset>
+    <RightAnchorOffset>4</RightAnchorOffset>
+    <BottomAnchorOffset>56</BottomAnchorOffset>
     <LeftAnchorToLeft>false</LeftAnchorToLeft>
     <RightAnchorToLeft>false</RightAnchorToLeft>
     <TopAnchorToTop>false</TopAnchorToTop>
@@ -169,6 +174,7 @@
     <Style_Transparent>false</Style_Transparent>
     <Style_Checkbox>false</Style_Checkbox>
     <Text>Mute</Text>
+    <Font>6</Font>
     <TextColor>
       <R>255</R>
       <G>255</G>
@@ -186,10 +192,10 @@
     <ScreenID>LDW_ReplayButton</ScreenID>
     <RelativePosition>true</RelativePosition>
     <AutoStretch>true</AutoStretch>
-    <LeftAnchorOffset>2</LeftAnchorOffset>
-    <TopAnchorOffset>48</TopAnchorOffset>
-    <RightAnchorOffset>62</RightAnchorOffset>
-    <BottomAnchorOffset>28</BottomAnchorOffset>
+    <LeftAnchorOffset>4</LeftAnchorOffset>
+    <TopAnchorOffset>96</TopAnchorOffset>
+    <RightAnchorOffset>124</RightAnchorOffset>
+    <BottomAnchorOffset>56</BottomAnchorOffset>
     <LeftAnchorToLeft>true</LeftAnchorToLeft>
     <RightAnchorToLeft>true</RightAnchorToLeft>
     <TopAnchorToTop>false</TopAnchorToTop>
@@ -199,6 +205,7 @@
     <Style_Transparent>false</Style_Transparent>
     <Style_Checkbox>false</Style_Checkbox>
     <Text>Replay</Text>
+    <Font>6</Font>
     <TextColor>
       <R>255</R>
       <G>255</G>
@@ -216,6 +223,7 @@
     <RelativePosition>false</RelativePosition>
     <Text />
     <!-- Window title set by server -->
+    <Font>6</Font>
     <Location>
       <X>20</X>
       <Y>20</Y>
