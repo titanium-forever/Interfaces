@@ -5,14 +5,15 @@
   <!-- Player Info Label -->
   <Label item="PIP_PlayerInfoLabel">
     <ScreenID>PIP_PlayerInfoLabel</ScreenID>
+    <Font>6</Font>
     <RelativePosition>true</RelativePosition>
     <AutoStretch>true</AutoStretch>
     <TopAnchorToTop>true</TopAnchorToTop>
     <BottomAnchorToTop>true</BottomAnchorToTop>
     <LeftAnchorToLeft>true</LeftAnchorToLeft>
     <RightAnchorToLeft>false</RightAnchorToLeft>
-    <TopAnchorOffset>10</TopAnchorOffset>
-    <BottomAnchorOffset>30</BottomAnchorOffset>
+    <TopAnchorOffset>20</TopAnchorOffset>
+    <BottomAnchorOffset>60</BottomAnchorOffset>
     <LeftAnchorOffset>0</LeftAnchorOffset>
     <RightAnchorOffset>0</RightAnchorOffset>
     <TextColor>
@@ -33,11 +34,12 @@
     <BottomAnchorToTop>true</BottomAnchorToTop>
     <LeftAnchorToLeft>true</LeftAnchorToLeft>
     <RightAnchorToLeft>true</RightAnchorToLeft>
-    <TopAnchorOffset>37</TopAnchorOffset>
-    <BottomAnchorOffset>55</BottomAnchorOffset>
-    <LeftAnchorOffset>10</LeftAnchorOffset>
-    <RightAnchorOffset>80</RightAnchorOffset>
+    <TopAnchorOffset>74</TopAnchorOffset>
+    <BottomAnchorOffset>110</BottomAnchorOffset>
+    <LeftAnchorOffset>20</LeftAnchorOffset>
+    <RightAnchorOffset>160</RightAnchorOffset>
     <Text>Comments:</Text>
+    <Font>6</Font>
     <TextColor>
       <R>255</R>
       <G>255</G>
@@ -49,6 +51,7 @@
   </Label>
   <Editbox item="PIP_CommentsEditbox">
     <ScreenID>PIP_CommentsEditbox</ScreenID>
+    <Font>6</Font>
     <DrawTemplate>WDT_Inner</DrawTemplate>
     <RelativePosition>true</RelativePosition>
     <Style_Border>true</Style_Border>
@@ -57,10 +60,10 @@
     <BottomAnchorToTop>true</BottomAnchorToTop>
     <LeftAnchorToLeft>true</LeftAnchorToLeft>
     <RightAnchorToLeft>false</RightAnchorToLeft>
-    <TopAnchorOffset>35</TopAnchorOffset>
-    <BottomAnchorOffset>55</BottomAnchorOffset>
-    <LeftAnchorOffset>85</LeftAnchorOffset>
-    <RightAnchorOffset>200</RightAnchorOffset>
+    <TopAnchorOffset>70</TopAnchorOffset>
+    <BottomAnchorOffset>110</BottomAnchorOffset>
+    <LeftAnchorOffset>170</LeftAnchorOffset>
+    <RightAnchorOffset>400</RightAnchorOffset>
     <TextColor>
       <R>255</R>
       <G>255</G>
@@ -76,14 +79,15 @@
     <BottomAnchorToTop>true</BottomAnchorToTop>
     <LeftAnchorToLeft>false</LeftAnchorToLeft>
     <RightAnchorToLeft>false</RightAnchorToLeft>
-    <TopAnchorOffset>37</TopAnchorOffset>
-    <BottomAnchorOffset>57</BottomAnchorOffset>
-    <LeftAnchorOffset>150</LeftAnchorOffset>
-    <RightAnchorOffset>10</RightAnchorOffset>
+    <TopAnchorOffset>74</TopAnchorOffset>
+    <BottomAnchorOffset>114</BottomAnchorOffset>
+    <LeftAnchorOffset>300</LeftAnchorOffset>
+    <RightAnchorOffset>20</RightAnchorOffset>
     <Style_VScroll>false</Style_VScroll>
     <Style_HScroll>false</Style_HScroll>
     <Style_Transparent>false</Style_Transparent>
     <Text>Additional Filters...</Text>
+    <Font>6</Font>
     <TooltipReference>Set extra rules to help trim out group results that you don't want.</TooltipReference>
     <TextColor>
       <R>255</R>
@@ -107,11 +111,12 @@
     <BottomAnchorToTop>true</BottomAnchorToTop>
     <LeftAnchorToLeft>true</LeftAnchorToLeft>
     <RightAnchorToLeft>true</RightAnchorToLeft>
-    <TopAnchorOffset>140</TopAnchorOffset>
-    <BottomAnchorOffset>160</BottomAnchorOffset>
-    <LeftAnchorOffset>10</LeftAnchorOffset>
-    <RightAnchorOffset>130</RightAnchorOffset>
+    <TopAnchorOffset>286</TopAnchorOffset>
+    <BottomAnchorOffset>326</BottomAnchorOffset>
+    <LeftAnchorOffset>20</LeftAnchorOffset>
+    <RightAnchorOffset>260</RightAnchorOffset>
     <Text>Want group levels:</Text>
+    <Font>6</Font>
     <TextColor>
       <R>255</R>
       <G>255</G>
@@ -123,6 +128,7 @@
   </Label>
   <Editbox item="PIP_LevelRangeMinEditbox">
     <ScreenID>PIP_LevelRangeMinEditbox</ScreenID>
+    <Font>6</Font>
     <DrawTemplate>WDT_Inner</DrawTemplate>
     <RelativePosition>true</RelativePosition>
     <Style_Border>true</Style_Border>
@@ -131,10 +137,10 @@
     <BottomAnchorToTop>true</BottomAnchorToTop>
     <LeftAnchorToLeft>true</LeftAnchorToLeft>
     <RightAnchorToLeft>true</RightAnchorToLeft>
-    <TopAnchorOffset>140</TopAnchorOffset>
-    <BottomAnchorOffset>160</BottomAnchorOffset>
-    <LeftAnchorOffset>130</LeftAnchorOffset>
-    <RightAnchorOffset>160</RightAnchorOffset>
+    <TopAnchorOffset>280</TopAnchorOffset>
+    <BottomAnchorOffset>320</BottomAnchorOffset>
+    <LeftAnchorOffset>220</LeftAnchorOffset>
+    <RightAnchorOffset>270</RightAnchorOffset>
     <TextColor>
       <R>255</R>
       <G>255</G>
@@ -149,11 +155,12 @@
     <BottomAnchorToTop>true</BottomAnchorToTop>
     <LeftAnchorToLeft>true</LeftAnchorToLeft>
     <RightAnchorToLeft>true</RightAnchorToLeft>
-    <TopAnchorOffset>140</TopAnchorOffset>
-    <BottomAnchorOffset>160</BottomAnchorOffset>
-    <LeftAnchorOffset>161</LeftAnchorOffset>
-    <RightAnchorOffset>175</RightAnchorOffset>
+    <TopAnchorOffset>286</TopAnchorOffset>
+    <BottomAnchorOffset>326</BottomAnchorOffset>
+    <LeftAnchorOffset>272</LeftAnchorOffset>
+    <RightAnchorOffset>300</RightAnchorOffset>
     <Text>-</Text>
+    <Font>6</Font>
     <TextColor>
       <R>255</R>
       <G>255</G>
@@ -165,6 +172,7 @@
   </Label>
   <Editbox item="PIP_LevelRangeMaxEditbox">
     <ScreenID>PIP_LevelRangeMaxEditbox</ScreenID>
+    <Font>6</Font>
     <DrawTemplate>WDT_Inner</DrawTemplate>
     <RelativePosition>true</RelativePosition>
     <Style_Border>true</Style_Border>
@@ -173,10 +181,10 @@
     <BottomAnchorToTop>true</BottomAnchorToTop>
     <LeftAnchorToLeft>true</LeftAnchorToLeft>
     <RightAnchorToLeft>true</RightAnchorToLeft>
-    <TopAnchorOffset>140</TopAnchorOffset>
-    <BottomAnchorOffset>160</BottomAnchorOffset>
-    <LeftAnchorOffset>175</LeftAnchorOffset>
-    <RightAnchorOffset>205</RightAnchorOffset>
+    <TopAnchorOffset>280</TopAnchorOffset>
+    <BottomAnchorOffset>320</BottomAnchorOffset>
+    <LeftAnchorOffset>300</LeftAnchorOffset>
+    <RightAnchorOffset>350</RightAnchorOffset>
     <TextColor>
       <R>255</R>
       <G>255</G>
@@ -192,14 +200,15 @@
     <BottomAnchorToTop>true</BottomAnchorToTop>
     <LeftAnchorToLeft>false</LeftAnchorToLeft>
     <RightAnchorToLeft>false</RightAnchorToLeft>
-    <LeftAnchorOffset>220</LeftAnchorOffset>
-    <RightAnchorOffset>120</RightAnchorOffset>
-    <TopAnchorOffset>142</TopAnchorOffset>
-    <BottomAnchorOffset>162</BottomAnchorOffset>
+    <LeftAnchorOffset>440</LeftAnchorOffset>
+    <RightAnchorOffset>240</RightAnchorOffset>
+    <TopAnchorOffset>282</TopAnchorOffset>
+    <BottomAnchorOffset>322</BottomAnchorOffset>
     <Style_VScroll>false</Style_VScroll>
     <Style_HScroll>false</Style_HScroll>
     <Style_Transparent>false</Style_Transparent>
     <Text>LFG on</Text>
+    <Font>6</Font>
     <TooltipReference>Submit your information so groups seeking players may see it.</TooltipReference>
     <TextColor>
       <R>255</R>
@@ -223,14 +232,15 @@
     <BottomAnchorToTop>true</BottomAnchorToTop>
     <LeftAnchorToLeft>false</LeftAnchorToLeft>
     <RightAnchorToLeft>false</RightAnchorToLeft>
-    <LeftAnchorOffset>220</LeftAnchorOffset>
-    <RightAnchorOffset>120</RightAnchorOffset>
-    <TopAnchorOffset>142</TopAnchorOffset>
-    <BottomAnchorOffset>162</BottomAnchorOffset>
+    <LeftAnchorOffset>440</LeftAnchorOffset>
+    <RightAnchorOffset>240</RightAnchorOffset>
+    <TopAnchorOffset>282</TopAnchorOffset>
+    <BottomAnchorOffset>322</BottomAnchorOffset>
     <Style_VScroll>false</Style_VScroll>
     <Style_HScroll>false</Style_HScroll>
     <Style_Transparent>false</Style_Transparent>
     <Text>Update Info</Text>
+    <Font>6</Font>
     <TooltipReference>Update the information you currently have listed for groups seeking players.</TooltipReference>
     <TextColor>
       <R>255</R>
@@ -253,14 +263,15 @@
     <BottomAnchorToTop>true</BottomAnchorToTop>
     <LeftAnchorToLeft>false</LeftAnchorToLeft>
     <RightAnchorToLeft>false</RightAnchorToLeft>
-    <LeftAnchorOffset>110</LeftAnchorOffset>
-    <RightAnchorOffset>10</RightAnchorOffset>
-    <TopAnchorOffset>142</TopAnchorOffset>
-    <BottomAnchorOffset>162</BottomAnchorOffset>
+    <LeftAnchorOffset>220</LeftAnchorOffset>
+    <RightAnchorOffset>20</RightAnchorOffset>
+    <TopAnchorOffset>282</TopAnchorOffset>
+    <BottomAnchorOffset>322</BottomAnchorOffset>
     <Style_VScroll>false</Style_VScroll>
     <Style_HScroll>false</Style_HScroll>
     <Style_Transparent>false</Style_Transparent>
     <Text>LFG off</Text>
+    <Font>6</Font>
     <TooltipReference>Remove your listed information so players seeking groups may no longer see it.</TooltipReference>
     <TextColor>
       <R>255</R>
@@ -312,14 +323,15 @@
   <!-- Player Info Label -->
   <Label item="GIP_GroupInfoLabel">
     <ScreenID>GIP_GroupInfoLabel</ScreenID>
+    <Font>6</Font>
     <RelativePosition>true</RelativePosition>
     <AutoStretch>true</AutoStretch>
     <TopAnchorToTop>true</TopAnchorToTop>
     <BottomAnchorToTop>true</BottomAnchorToTop>
     <LeftAnchorToLeft>true</LeftAnchorToLeft>
     <RightAnchorToLeft>false</RightAnchorToLeft>
-    <TopAnchorOffset>10</TopAnchorOffset>
-    <BottomAnchorOffset>30</BottomAnchorOffset>
+    <TopAnchorOffset>20</TopAnchorOffset>
+    <BottomAnchorOffset>60</BottomAnchorOffset>
     <LeftAnchorOffset>0</LeftAnchorOffset>
     <RightAnchorOffset>0</RightAnchorOffset>
     <TextColor>
@@ -340,11 +352,12 @@
     <BottomAnchorToTop>true</BottomAnchorToTop>
     <LeftAnchorToLeft>true</LeftAnchorToLeft>
     <RightAnchorToLeft>true</RightAnchorToLeft>
-    <TopAnchorOffset>37</TopAnchorOffset>
-    <BottomAnchorOffset>57</BottomAnchorOffset>
-    <LeftAnchorOffset>10</LeftAnchorOffset>
-    <RightAnchorOffset>80</RightAnchorOffset>
+    <TopAnchorOffset>74</TopAnchorOffset>
+    <BottomAnchorOffset>114</BottomAnchorOffset>
+    <LeftAnchorOffset>20</LeftAnchorOffset>
+    <RightAnchorOffset>160</RightAnchorOffset>
     <Text>Comments:</Text>
+    <Font>6</Font>
     <TextColor>
       <R>255</R>
       <G>255</G>
@@ -356,6 +369,7 @@
   </Label>
   <Editbox item="GIP_CommentsEditbox">
     <ScreenID>GIP_CommentsEditbox</ScreenID>
+    <Font>6</Font>
     <DrawTemplate>WDT_Inner</DrawTemplate>
     <RelativePosition>true</RelativePosition>
     <Style_Border>true</Style_Border>
@@ -364,10 +378,10 @@
     <BottomAnchorToTop>true</BottomAnchorToTop>
     <LeftAnchorToLeft>true</LeftAnchorToLeft>
     <RightAnchorToLeft>false</RightAnchorToLeft>
-    <TopAnchorOffset>35</TopAnchorOffset>
-    <BottomAnchorOffset>55</BottomAnchorOffset>
-    <LeftAnchorOffset>85</LeftAnchorOffset>
-    <RightAnchorOffset>200</RightAnchorOffset>
+    <TopAnchorOffset>70</TopAnchorOffset>
+    <BottomAnchorOffset>110</BottomAnchorOffset>
+    <LeftAnchorOffset>170</LeftAnchorOffset>
+    <RightAnchorOffset>400</RightAnchorOffset>
     <TextColor>
       <R>255</R>
       <G>255</G>
@@ -383,14 +397,15 @@
     <BottomAnchorToTop>true</BottomAnchorToTop>
     <LeftAnchorToLeft>false</LeftAnchorToLeft>
     <RightAnchorToLeft>false</RightAnchorToLeft>
-    <TopAnchorOffset>37</TopAnchorOffset>
-    <BottomAnchorOffset>57</BottomAnchorOffset>
-    <LeftAnchorOffset>150</LeftAnchorOffset>
-    <RightAnchorOffset>10</RightAnchorOffset>
+    <TopAnchorOffset>74</TopAnchorOffset>
+    <BottomAnchorOffset>114</BottomAnchorOffset>
+    <LeftAnchorOffset>300</LeftAnchorOffset>
+    <RightAnchorOffset>20</RightAnchorOffset>
     <Style_VScroll>false</Style_VScroll>
     <Style_HScroll>false</Style_HScroll>
     <Style_Transparent>false</Style_Transparent>
     <Text>Additional Filters...</Text>
+    <Font>6</Font>
     <TooltipReference>Set extra rules to help trim out player results that you don't want.</TooltipReference>
     <TextColor>
       <R>255</R>
@@ -414,11 +429,12 @@
     <BottomAnchorToTop>true</BottomAnchorToTop>
     <LeftAnchorToLeft>true</LeftAnchorToLeft>
     <RightAnchorToLeft>true</RightAnchorToLeft>
-    <TopAnchorOffset>64</TopAnchorOffset>
-    <BottomAnchorOffset>84</BottomAnchorOffset>
-    <LeftAnchorOffset>10</LeftAnchorOffset>
-    <RightAnchorOffset>130</RightAnchorOffset>
+    <TopAnchorOffset>128</TopAnchorOffset>
+    <BottomAnchorOffset>168</BottomAnchorOffset>
+    <LeftAnchorOffset>20</LeftAnchorOffset>
+    <RightAnchorOffset>260</RightAnchorOffset>
     <Text>Want classes:</Text>
+    <Font>6</Font>
     <TextColor>
       <R>255</R>
       <G>255</G>
@@ -436,10 +452,10 @@
     <BottomAnchorToTop>true</BottomAnchorToTop>
     <RightAnchorToLeft>true</RightAnchorToLeft>
     <LeftAnchorToLeft>true</LeftAnchorToLeft>
-    <LeftAnchorOffset>120</LeftAnchorOffset>
-    <RightAnchorOffset>132</RightAnchorOffset>
-    <TopAnchorOffset>70</TopAnchorOffset>
-    <BottomAnchorOffset>82</BottomAnchorOffset>
+    <LeftAnchorOffset>240</LeftAnchorOffset>
+    <RightAnchorOffset>264</RightAnchorOffset>
+    <TopAnchorOffset>140</TopAnchorOffset>
+    <BottomAnchorOffset>164</BottomAnchorOffset>
     <Style_VScroll>false</Style_VScroll>
     <Style_HScroll>false</Style_HScroll>
     <Style_Transparent>false</Style_Transparent>
@@ -462,10 +478,10 @@
     <BottomAnchorToTop>true</BottomAnchorToTop>
     <RightAnchorToLeft>true</RightAnchorToLeft>
     <LeftAnchorToLeft>true</LeftAnchorToLeft>
-    <LeftAnchorOffset>120</LeftAnchorOffset>
-    <RightAnchorOffset>132</RightAnchorOffset>
-    <TopAnchorOffset>86</TopAnchorOffset>
-    <BottomAnchorOffset>98</BottomAnchorOffset>
+    <LeftAnchorOffset>240</LeftAnchorOffset>
+    <RightAnchorOffset>264</RightAnchorOffset>
+    <TopAnchorOffset>172</TopAnchorOffset>
+    <BottomAnchorOffset>196</BottomAnchorOffset>
     <Style_VScroll>false</Style_VScroll>
     <Style_HScroll>false</Style_HScroll>
     <Style_Transparent>false</Style_Transparent>
@@ -488,10 +504,10 @@
     <BottomAnchorToTop>true</BottomAnchorToTop>
     <RightAnchorToLeft>true</RightAnchorToLeft>
     <LeftAnchorToLeft>true</LeftAnchorToLeft>
-    <LeftAnchorOffset>120</LeftAnchorOffset>
-    <RightAnchorOffset>132</RightAnchorOffset>
-    <TopAnchorOffset>102</TopAnchorOffset>
-    <BottomAnchorOffset>114</BottomAnchorOffset>
+    <LeftAnchorOffset>240</LeftAnchorOffset>
+    <RightAnchorOffset>264</RightAnchorOffset>
+    <TopAnchorOffset>204</TopAnchorOffset>
+    <BottomAnchorOffset>228</BottomAnchorOffset>
     <Style_VScroll>false</Style_VScroll>
     <Style_HScroll>false</Style_HScroll>
     <Style_Transparent>false</Style_Transparent>
@@ -514,10 +530,10 @@
     <BottomAnchorToTop>true</BottomAnchorToTop>
     <RightAnchorToLeft>true</RightAnchorToLeft>
     <LeftAnchorToLeft>true</LeftAnchorToLeft>
-    <LeftAnchorOffset>120</LeftAnchorOffset>
-    <RightAnchorOffset>132</RightAnchorOffset>
-    <TopAnchorOffset>118</TopAnchorOffset>
-    <BottomAnchorOffset>130</BottomAnchorOffset>
+    <LeftAnchorOffset>240</LeftAnchorOffset>
+    <RightAnchorOffset>264</RightAnchorOffset>
+    <TopAnchorOffset>236</TopAnchorOffset>
+    <BottomAnchorOffset>260</BottomAnchorOffset>
     <Style_VScroll>false</Style_VScroll>
     <Style_HScroll>false</Style_HScroll>
     <Style_Transparent>false</Style_Transparent>
@@ -540,10 +556,10 @@
     <BottomAnchorToTop>true</BottomAnchorToTop>
     <RightAnchorToLeft>true</RightAnchorToLeft>
     <LeftAnchorToLeft>true</LeftAnchorToLeft>
-    <LeftAnchorOffset>200</LeftAnchorOffset>
-    <RightAnchorOffset>212</RightAnchorOffset>
-    <TopAnchorOffset>70</TopAnchorOffset>
-    <BottomAnchorOffset>82</BottomAnchorOffset>
+    <LeftAnchorOffset>400</LeftAnchorOffset>
+    <RightAnchorOffset>424</RightAnchorOffset>
+    <TopAnchorOffset>140</TopAnchorOffset>
+    <BottomAnchorOffset>164</BottomAnchorOffset>
     <Style_VScroll>false</Style_VScroll>
     <Style_HScroll>false</Style_HScroll>
     <Style_Transparent>false</Style_Transparent>
@@ -566,10 +582,10 @@
     <BottomAnchorToTop>true</BottomAnchorToTop>
     <RightAnchorToLeft>true</RightAnchorToLeft>
     <LeftAnchorToLeft>true</LeftAnchorToLeft>
-    <LeftAnchorOffset>200</LeftAnchorOffset>
-    <RightAnchorOffset>212</RightAnchorOffset>
-    <TopAnchorOffset>86</TopAnchorOffset>
-    <BottomAnchorOffset>98</BottomAnchorOffset>
+    <LeftAnchorOffset>400</LeftAnchorOffset>
+    <RightAnchorOffset>424</RightAnchorOffset>
+    <TopAnchorOffset>172</TopAnchorOffset>
+    <BottomAnchorOffset>196</BottomAnchorOffset>
     <Style_VScroll>false</Style_VScroll>
     <Style_HScroll>false</Style_HScroll>
     <Style_Transparent>false</Style_Transparent>
@@ -592,10 +608,10 @@
     <BottomAnchorToTop>true</BottomAnchorToTop>
     <RightAnchorToLeft>true</RightAnchorToLeft>
     <LeftAnchorToLeft>true</LeftAnchorToLeft>
-    <LeftAnchorOffset>200</LeftAnchorOffset>
-    <RightAnchorOffset>212</RightAnchorOffset>
-    <TopAnchorOffset>102</TopAnchorOffset>
-    <BottomAnchorOffset>114</BottomAnchorOffset>
+    <LeftAnchorOffset>400</LeftAnchorOffset>
+    <RightAnchorOffset>424</RightAnchorOffset>
+    <TopAnchorOffset>204</TopAnchorOffset>
+    <BottomAnchorOffset>228</BottomAnchorOffset>
     <Style_VScroll>false</Style_VScroll>
     <Style_HScroll>false</Style_HScroll>
     <Style_Transparent>false</Style_Transparent>
@@ -618,10 +634,10 @@
     <BottomAnchorToTop>true</BottomAnchorToTop>
     <RightAnchorToLeft>true</RightAnchorToLeft>
     <LeftAnchorToLeft>true</LeftAnchorToLeft>
-    <LeftAnchorOffset>200</LeftAnchorOffset>
-    <RightAnchorOffset>212</RightAnchorOffset>
-    <TopAnchorOffset>118</TopAnchorOffset>
-    <BottomAnchorOffset>130</BottomAnchorOffset>
+    <LeftAnchorOffset>400</LeftAnchorOffset>
+    <RightAnchorOffset>424</RightAnchorOffset>
+    <TopAnchorOffset>236</TopAnchorOffset>
+    <BottomAnchorOffset>260</BottomAnchorOffset>
     <Style_VScroll>false</Style_VScroll>
     <Style_HScroll>false</Style_HScroll>
     <Style_Transparent>false</Style_Transparent>
@@ -644,10 +660,10 @@
     <BottomAnchorToTop>true</BottomAnchorToTop>
     <RightAnchorToLeft>true</RightAnchorToLeft>
     <LeftAnchorToLeft>true</LeftAnchorToLeft>
-    <LeftAnchorOffset>280</LeftAnchorOffset>
-    <RightAnchorOffset>292</RightAnchorOffset>
-    <TopAnchorOffset>70</TopAnchorOffset>
-    <BottomAnchorOffset>82</BottomAnchorOffset>
+    <LeftAnchorOffset>560</LeftAnchorOffset>
+    <RightAnchorOffset>584</RightAnchorOffset>
+    <TopAnchorOffset>140</TopAnchorOffset>
+    <BottomAnchorOffset>164</BottomAnchorOffset>
     <Style_VScroll>false</Style_VScroll>
     <Style_HScroll>false</Style_HScroll>
     <Style_Transparent>false</Style_Transparent>
@@ -670,10 +686,10 @@
     <BottomAnchorToTop>true</BottomAnchorToTop>
     <RightAnchorToLeft>true</RightAnchorToLeft>
     <LeftAnchorToLeft>true</LeftAnchorToLeft>
-    <LeftAnchorOffset>280</LeftAnchorOffset>
-    <RightAnchorOffset>292</RightAnchorOffset>
-    <TopAnchorOffset>86</TopAnchorOffset>
-    <BottomAnchorOffset>98</BottomAnchorOffset>
+    <LeftAnchorOffset>560</LeftAnchorOffset>
+    <RightAnchorOffset>584</RightAnchorOffset>
+    <TopAnchorOffset>172</TopAnchorOffset>
+    <BottomAnchorOffset>196</BottomAnchorOffset>
     <Style_VScroll>false</Style_VScroll>
     <Style_HScroll>false</Style_HScroll>
     <Style_Transparent>false</Style_Transparent>
@@ -696,10 +712,10 @@
     <BottomAnchorToTop>true</BottomAnchorToTop>
     <RightAnchorToLeft>true</RightAnchorToLeft>
     <LeftAnchorToLeft>true</LeftAnchorToLeft>
-    <LeftAnchorOffset>280</LeftAnchorOffset>
-    <RightAnchorOffset>292</RightAnchorOffset>
-    <TopAnchorOffset>102</TopAnchorOffset>
-    <BottomAnchorOffset>114</BottomAnchorOffset>
+    <LeftAnchorOffset>560</LeftAnchorOffset>
+    <RightAnchorOffset>584</RightAnchorOffset>
+    <TopAnchorOffset>204</TopAnchorOffset>
+    <BottomAnchorOffset>228</BottomAnchorOffset>
     <Style_VScroll>false</Style_VScroll>
     <Style_HScroll>false</Style_HScroll>
     <Style_Transparent>false</Style_Transparent>
@@ -722,10 +738,10 @@
     <BottomAnchorToTop>true</BottomAnchorToTop>
     <RightAnchorToLeft>true</RightAnchorToLeft>
     <LeftAnchorToLeft>true</LeftAnchorToLeft>
-    <LeftAnchorOffset>280</LeftAnchorOffset>
-    <RightAnchorOffset>292</RightAnchorOffset>
-    <TopAnchorOffset>118</TopAnchorOffset>
-    <BottomAnchorOffset>130</BottomAnchorOffset>
+    <LeftAnchorOffset>560</LeftAnchorOffset>
+    <RightAnchorOffset>584</RightAnchorOffset>
+    <TopAnchorOffset>236</TopAnchorOffset>
+    <BottomAnchorOffset>260</BottomAnchorOffset>
     <Style_VScroll>false</Style_VScroll>
     <Style_HScroll>false</Style_HScroll>
     <Style_Transparent>false</Style_Transparent>
@@ -748,10 +764,10 @@
     <BottomAnchorToTop>true</BottomAnchorToTop>
     <RightAnchorToLeft>true</RightAnchorToLeft>
     <LeftAnchorToLeft>true</LeftAnchorToLeft>
-    <LeftAnchorOffset>360</LeftAnchorOffset>
-    <RightAnchorOffset>372</RightAnchorOffset>
-    <TopAnchorOffset>70</TopAnchorOffset>
-    <BottomAnchorOffset>82</BottomAnchorOffset>
+    <LeftAnchorOffset>720</LeftAnchorOffset>
+    <RightAnchorOffset>744</RightAnchorOffset>
+    <TopAnchorOffset>140</TopAnchorOffset>
+    <BottomAnchorOffset>164</BottomAnchorOffset>
     <Style_VScroll>false</Style_VScroll>
     <Style_HScroll>false</Style_HScroll>
     <Style_Transparent>false</Style_Transparent>
@@ -774,10 +790,10 @@
     <BottomAnchorToTop>true</BottomAnchorToTop>
     <RightAnchorToLeft>true</RightAnchorToLeft>
     <LeftAnchorToLeft>true</LeftAnchorToLeft>
-    <LeftAnchorOffset>360</LeftAnchorOffset>
-    <RightAnchorOffset>372</RightAnchorOffset>
-    <TopAnchorOffset>86</TopAnchorOffset>
-    <BottomAnchorOffset>98</BottomAnchorOffset>
+    <LeftAnchorOffset>720</LeftAnchorOffset>
+    <RightAnchorOffset>744</RightAnchorOffset>
+    <TopAnchorOffset>172</TopAnchorOffset>
+    <BottomAnchorOffset>196</BottomAnchorOffset>
     <Style_VScroll>false</Style_VScroll>
     <Style_HScroll>false</Style_HScroll>
     <Style_Transparent>false</Style_Transparent>
@@ -800,10 +816,10 @@
     <BottomAnchorToTop>true</BottomAnchorToTop>
     <RightAnchorToLeft>true</RightAnchorToLeft>
     <LeftAnchorToLeft>true</LeftAnchorToLeft>
-    <LeftAnchorOffset>360</LeftAnchorOffset>
-    <RightAnchorOffset>372</RightAnchorOffset>
-    <TopAnchorOffset>102</TopAnchorOffset>
-    <BottomAnchorOffset>114</BottomAnchorOffset>
+    <LeftAnchorOffset>720</LeftAnchorOffset>
+    <RightAnchorOffset>744</RightAnchorOffset>
+    <TopAnchorOffset>204</TopAnchorOffset>
+    <BottomAnchorOffset>228</BottomAnchorOffset>
     <Style_VScroll>false</Style_VScroll>
     <Style_HScroll>false</Style_HScroll>
     <Style_Transparent>false</Style_Transparent>
@@ -826,10 +842,10 @@
     <BottomAnchorToTop>true</BottomAnchorToTop>
     <RightAnchorToLeft>true</RightAnchorToLeft>
     <LeftAnchorToLeft>true</LeftAnchorToLeft>
-    <LeftAnchorOffset>360</LeftAnchorOffset>
-    <RightAnchorOffset>372</RightAnchorOffset>
-    <TopAnchorOffset>118</TopAnchorOffset>
-    <BottomAnchorOffset>130</BottomAnchorOffset>
+    <LeftAnchorOffset>720</LeftAnchorOffset>
+    <RightAnchorOffset>744</RightAnchorOffset>
+    <TopAnchorOffset>236</TopAnchorOffset>
+    <BottomAnchorOffset>260</BottomAnchorOffset>
     <Style_VScroll>false</Style_VScroll>
     <Style_HScroll>false</Style_HScroll>
     <Style_Transparent>false</Style_Transparent>
@@ -852,11 +868,12 @@
     <BottomAnchorToTop>true</BottomAnchorToTop>
     <RightAnchorToLeft>true</RightAnchorToLeft>
     <LeftAnchorToLeft>true</LeftAnchorToLeft>
-    <LeftAnchorOffset>135</LeftAnchorOffset>
-    <RightAnchorOffset>195</RightAnchorOffset>
-    <TopAnchorOffset>68</TopAnchorOffset>
-    <BottomAnchorOffset>80</BottomAnchorOffset>
+    <LeftAnchorOffset>270</LeftAnchorOffset>
+    <RightAnchorOffset>390</RightAnchorOffset>
+    <TopAnchorOffset>136</TopAnchorOffset>
+    <BottomAnchorOffset>160</BottomAnchorOffset>
     <Text>BST</Text>
+    <Font>6</Font>
     <TextColor>
       <R>255</R>
       <G>255</G>
@@ -874,11 +891,12 @@
     <BottomAnchorToTop>true</BottomAnchorToTop>
     <RightAnchorToLeft>true</RightAnchorToLeft>
     <LeftAnchorToLeft>true</LeftAnchorToLeft>
-    <LeftAnchorOffset>135</LeftAnchorOffset>
-    <RightAnchorOffset>195</RightAnchorOffset>
-    <TopAnchorOffset>84</TopAnchorOffset>
-    <BottomAnchorOffset>96</BottomAnchorOffset>
+    <LeftAnchorOffset>270</LeftAnchorOffset>
+    <RightAnchorOffset>390</RightAnchorOffset>
+    <TopAnchorOffset>168</TopAnchorOffset>
+    <BottomAnchorOffset>192</BottomAnchorOffset>
     <Text>CLR</Text>
+    <Font>6</Font>
     <TextColor>
       <R>255</R>
       <G>255</G>
@@ -896,11 +914,12 @@
     <BottomAnchorToTop>true</BottomAnchorToTop>
     <RightAnchorToLeft>true</RightAnchorToLeft>
     <LeftAnchorToLeft>true</LeftAnchorToLeft>
-    <LeftAnchorOffset>135</LeftAnchorOffset>
-    <RightAnchorOffset>195</RightAnchorOffset>
-    <TopAnchorOffset>100</TopAnchorOffset>
-    <BottomAnchorOffset>112</BottomAnchorOffset>
+    <LeftAnchorOffset>270</LeftAnchorOffset>
+    <RightAnchorOffset>390</RightAnchorOffset>
+    <TopAnchorOffset>200</TopAnchorOffset>
+    <BottomAnchorOffset>224</BottomAnchorOffset>
     <Text>DRU</Text>
+    <Font>6</Font>
     <TextColor>
       <R>255</R>
       <G>255</G>
@@ -918,11 +937,12 @@
     <BottomAnchorToTop>true</BottomAnchorToTop>
     <RightAnchorToLeft>true</RightAnchorToLeft>
     <LeftAnchorToLeft>true</LeftAnchorToLeft>
-    <LeftAnchorOffset>135</LeftAnchorOffset>
-    <RightAnchorOffset>195</RightAnchorOffset>
-    <TopAnchorOffset>116</TopAnchorOffset>
-    <BottomAnchorOffset>128</BottomAnchorOffset>
+    <LeftAnchorOffset>270</LeftAnchorOffset>
+    <RightAnchorOffset>390</RightAnchorOffset>
+    <TopAnchorOffset>232</TopAnchorOffset>
+    <BottomAnchorOffset>256</BottomAnchorOffset>
     <Text>SHM</Text>
+    <Font>6</Font>
     <TextColor>
       <R>255</R>
       <G>255</G>
@@ -940,11 +960,12 @@
     <BottomAnchorToTop>true</BottomAnchorToTop>
     <RightAnchorToLeft>true</RightAnchorToLeft>
     <LeftAnchorToLeft>true</LeftAnchorToLeft>
-    <LeftAnchorOffset>215</LeftAnchorOffset>
-    <RightAnchorOffset>275</RightAnchorOffset>
-    <TopAnchorOffset>68</TopAnchorOffset>
-    <BottomAnchorOffset>80</BottomAnchorOffset>
+    <LeftAnchorOffset>430</LeftAnchorOffset>
+    <RightAnchorOffset>550</RightAnchorOffset>
+    <TopAnchorOffset>136</TopAnchorOffset>
+    <BottomAnchorOffset>160</BottomAnchorOffset>
     <Text>ENC</Text>
+    <Font>6</Font>
     <TextColor>
       <R>255</R>
       <G>255</G>
@@ -962,11 +983,12 @@
     <BottomAnchorToTop>true</BottomAnchorToTop>
     <RightAnchorToLeft>true</RightAnchorToLeft>
     <LeftAnchorToLeft>true</LeftAnchorToLeft>
-    <LeftAnchorOffset>215</LeftAnchorOffset>
-    <RightAnchorOffset>275</RightAnchorOffset>
-    <TopAnchorOffset>84</TopAnchorOffset>
-    <BottomAnchorOffset>96</BottomAnchorOffset>
+    <LeftAnchorOffset>430</LeftAnchorOffset>
+    <RightAnchorOffset>550</RightAnchorOffset>
+    <TopAnchorOffset>168</TopAnchorOffset>
+    <BottomAnchorOffset>192</BottomAnchorOffset>
     <Text>MAG</Text>
+    <Font>6</Font>
     <TextColor>
       <R>255</R>
       <G>255</G>
@@ -984,11 +1006,12 @@
     <BottomAnchorToTop>true</BottomAnchorToTop>
     <RightAnchorToLeft>true</RightAnchorToLeft>
     <LeftAnchorToLeft>true</LeftAnchorToLeft>
-    <LeftAnchorOffset>215</LeftAnchorOffset>
-    <RightAnchorOffset>275</RightAnchorOffset>
-    <TopAnchorOffset>100</TopAnchorOffset>
-    <BottomAnchorOffset>112</BottomAnchorOffset>
+    <LeftAnchorOffset>430</LeftAnchorOffset>
+    <RightAnchorOffset>550</RightAnchorOffset>
+    <TopAnchorOffset>200</TopAnchorOffset>
+    <BottomAnchorOffset>224</BottomAnchorOffset>
     <Text>NEC</Text>
+    <Font>6</Font>
     <TextColor>
       <R>255</R>
       <G>255</G>
@@ -1006,11 +1029,12 @@
     <BottomAnchorToTop>true</BottomAnchorToTop>
     <RightAnchorToLeft>true</RightAnchorToLeft>
     <LeftAnchorToLeft>true</LeftAnchorToLeft>
-    <LeftAnchorOffset>215</LeftAnchorOffset>
-    <RightAnchorOffset>275</RightAnchorOffset>
-    <TopAnchorOffset>116</TopAnchorOffset>
-    <BottomAnchorOffset>128</BottomAnchorOffset>
+    <LeftAnchorOffset>430</LeftAnchorOffset>
+    <RightAnchorOffset>550</RightAnchorOffset>
+    <TopAnchorOffset>232</TopAnchorOffset>
+    <BottomAnchorOffset>256</BottomAnchorOffset>
     <Text>WIZ</Text>
+    <Font>6</Font>
     <TextColor>
       <R>255</R>
       <G>255</G>
@@ -1028,11 +1052,12 @@
     <BottomAnchorToTop>true</BottomAnchorToTop>
     <RightAnchorToLeft>true</RightAnchorToLeft>
     <LeftAnchorToLeft>true</LeftAnchorToLeft>
-    <LeftAnchorOffset>295</LeftAnchorOffset>
-    <RightAnchorOffset>355</RightAnchorOffset>
-    <TopAnchorOffset>68</TopAnchorOffset>
-    <BottomAnchorOffset>80</BottomAnchorOffset>
+    <LeftAnchorOffset>590</LeftAnchorOffset>
+    <RightAnchorOffset>710</RightAnchorOffset>
+    <TopAnchorOffset>136</TopAnchorOffset>
+    <BottomAnchorOffset>160</BottomAnchorOffset>
     <Text>BER</Text>
+    <Font>6</Font>
     <TextColor>
       <R>255</R>
       <G>255</G>
@@ -1050,11 +1075,12 @@
     <BottomAnchorToTop>true</BottomAnchorToTop>
     <RightAnchorToLeft>true</RightAnchorToLeft>
     <LeftAnchorToLeft>true</LeftAnchorToLeft>
-    <LeftAnchorOffset>295</LeftAnchorOffset>
-    <RightAnchorOffset>355</RightAnchorOffset>
-    <TopAnchorOffset>84</TopAnchorOffset>
-    <BottomAnchorOffset>96</BottomAnchorOffset>
+    <LeftAnchorOffset>590</LeftAnchorOffset>
+    <RightAnchorOffset>710</RightAnchorOffset>
+    <TopAnchorOffset>168</TopAnchorOffset>
+    <BottomAnchorOffset>192</BottomAnchorOffset>
     <Text>MNK</Text>
+    <Font>6</Font>
     <TextColor>
       <R>255</R>
       <G>255</G>
@@ -1072,11 +1098,12 @@
     <BottomAnchorToTop>true</BottomAnchorToTop>
     <RightAnchorToLeft>true</RightAnchorToLeft>
     <LeftAnchorToLeft>true</LeftAnchorToLeft>
-    <LeftAnchorOffset>295</LeftAnchorOffset>
-    <RightAnchorOffset>355</RightAnchorOffset>
-    <TopAnchorOffset>100</TopAnchorOffset>
-    <BottomAnchorOffset>112</BottomAnchorOffset>
+    <LeftAnchorOffset>590</LeftAnchorOffset>
+    <RightAnchorOffset>710</RightAnchorOffset>
+    <TopAnchorOffset>200</TopAnchorOffset>
+    <BottomAnchorOffset>224</BottomAnchorOffset>
     <Text>ROG</Text>
+    <Font>6</Font>
     <TextColor>
       <R>255</R>
       <G>255</G>
@@ -1094,11 +1121,12 @@
     <BottomAnchorToTop>true</BottomAnchorToTop>
     <RightAnchorToLeft>true</RightAnchorToLeft>
     <LeftAnchorToLeft>true</LeftAnchorToLeft>
-    <LeftAnchorOffset>295</LeftAnchorOffset>
-    <RightAnchorOffset>355</RightAnchorOffset>
-    <TopAnchorOffset>116</TopAnchorOffset>
-    <BottomAnchorOffset>128</BottomAnchorOffset>
+    <LeftAnchorOffset>590</LeftAnchorOffset>
+    <RightAnchorOffset>710</RightAnchorOffset>
+    <TopAnchorOffset>232</TopAnchorOffset>
+    <BottomAnchorOffset>256</BottomAnchorOffset>
     <Text>WAR</Text>
+    <Font>6</Font>
     <TextColor>
       <R>255</R>
       <G>255</G>
@@ -1116,11 +1144,12 @@
     <BottomAnchorToTop>true</BottomAnchorToTop>
     <RightAnchorToLeft>true</RightAnchorToLeft>
     <LeftAnchorToLeft>true</LeftAnchorToLeft>
-    <LeftAnchorOffset>375</LeftAnchorOffset>
-    <RightAnchorOffset>435</RightAnchorOffset>
-    <TopAnchorOffset>68</TopAnchorOffset>
-    <BottomAnchorOffset>80</BottomAnchorOffset>
+    <LeftAnchorOffset>750</LeftAnchorOffset>
+    <RightAnchorOffset>870</RightAnchorOffset>
+    <TopAnchorOffset>136</TopAnchorOffset>
+    <BottomAnchorOffset>160</BottomAnchorOffset>
     <Text>BRD</Text>
+    <Font>6</Font>
     <TextColor>
       <R>255</R>
       <G>255</G>
@@ -1138,11 +1167,12 @@
     <BottomAnchorToTop>true</BottomAnchorToTop>
     <RightAnchorToLeft>true</RightAnchorToLeft>
     <LeftAnchorToLeft>true</LeftAnchorToLeft>
-    <LeftAnchorOffset>375</LeftAnchorOffset>
-    <RightAnchorOffset>435</RightAnchorOffset>
-    <TopAnchorOffset>84</TopAnchorOffset>
-    <BottomAnchorOffset>96</BottomAnchorOffset>
+    <LeftAnchorOffset>750</LeftAnchorOffset>
+    <RightAnchorOffset>870</RightAnchorOffset>
+    <TopAnchorOffset>168</TopAnchorOffset>
+    <BottomAnchorOffset>192</BottomAnchorOffset>
     <Text>PAL</Text>
+    <Font>6</Font>
     <TextColor>
       <R>255</R>
       <G>255</G>
@@ -1160,11 +1190,12 @@
     <BottomAnchorToTop>true</BottomAnchorToTop>
     <RightAnchorToLeft>true</RightAnchorToLeft>
     <LeftAnchorToLeft>true</LeftAnchorToLeft>
-    <LeftAnchorOffset>375</LeftAnchorOffset>
-    <RightAnchorOffset>435</RightAnchorOffset>
-    <TopAnchorOffset>100</TopAnchorOffset>
-    <BottomAnchorOffset>112</BottomAnchorOffset>
+    <LeftAnchorOffset>750</LeftAnchorOffset>
+    <RightAnchorOffset>870</RightAnchorOffset>
+    <TopAnchorOffset>200</TopAnchorOffset>
+    <BottomAnchorOffset>224</BottomAnchorOffset>
     <Text>RNG</Text>
+    <Font>6</Font>
     <TextColor>
       <R>255</R>
       <G>255</G>
@@ -1182,11 +1213,12 @@
     <BottomAnchorToTop>true</BottomAnchorToTop>
     <RightAnchorToLeft>true</RightAnchorToLeft>
     <LeftAnchorToLeft>true</LeftAnchorToLeft>
-    <LeftAnchorOffset>375</LeftAnchorOffset>
-    <RightAnchorOffset>435</RightAnchorOffset>
-    <TopAnchorOffset>116</TopAnchorOffset>
-    <BottomAnchorOffset>128</BottomAnchorOffset>
+    <LeftAnchorOffset>750</LeftAnchorOffset>
+    <RightAnchorOffset>870</RightAnchorOffset>
+    <TopAnchorOffset>232</TopAnchorOffset>
+    <BottomAnchorOffset>256</BottomAnchorOffset>
     <Text>SHD</Text>
+    <Font>6</Font>
     <TextColor>
       <R>255</R>
       <G>255</G>
@@ -1204,14 +1236,15 @@
     <BottomAnchorToTop>true</BottomAnchorToTop>
     <LeftAnchorToLeft>true</LeftAnchorToLeft>
     <RightAnchorToLeft>true</RightAnchorToLeft>
-    <LeftAnchorOffset>20</LeftAnchorOffset>
-    <RightAnchorOffset>110</RightAnchorOffset>
-    <TopAnchorOffset>87</TopAnchorOffset>
-    <BottomAnchorOffset>107</BottomAnchorOffset>
+    <LeftAnchorOffset>40</LeftAnchorOffset>
+    <RightAnchorOffset>220</RightAnchorOffset>
+    <TopAnchorOffset>174</TopAnchorOffset>
+    <BottomAnchorOffset>214</BottomAnchorOffset>
     <Style_VScroll>false</Style_VScroll>
     <Style_HScroll>false</Style_HScroll>
     <Style_Transparent>false</Style_Transparent>
     <Text>Select All</Text>
+    <Font>6</Font>
     <TextColor>
       <R>255</R>
       <G>255</G>
@@ -1233,14 +1266,15 @@
     <BottomAnchorToTop>true</BottomAnchorToTop>
     <LeftAnchorToLeft>true</LeftAnchorToLeft>
     <RightAnchorToLeft>true</RightAnchorToLeft>
-    <LeftAnchorOffset>20</LeftAnchorOffset>
-    <RightAnchorOffset>110</RightAnchorOffset>
-    <TopAnchorOffset>110</TopAnchorOffset>
-    <BottomAnchorOffset>130</BottomAnchorOffset>
+    <LeftAnchorOffset>40</LeftAnchorOffset>
+    <RightAnchorOffset>220</RightAnchorOffset>
+    <TopAnchorOffset>220</TopAnchorOffset>
+    <BottomAnchorOffset>260</BottomAnchorOffset>
     <Style_VScroll>false</Style_VScroll>
     <Style_HScroll>false</Style_HScroll>
     <Style_Transparent>false</Style_Transparent>
     <Text>Select None</Text>
+    <Font>6</Font>
     <TextColor>
       <R>255</R>
       <G>255</G>
@@ -1262,11 +1296,12 @@
     <BottomAnchorToTop>true</BottomAnchorToTop>
     <LeftAnchorToLeft>true</LeftAnchorToLeft>
     <RightAnchorToLeft>true</RightAnchorToLeft>
-    <TopAnchorOffset>140</TopAnchorOffset>
-    <BottomAnchorOffset>160</BottomAnchorOffset>
-    <LeftAnchorOffset>10</LeftAnchorOffset>
-    <RightAnchorOffset>130</RightAnchorOffset>
+    <TopAnchorOffset>286</TopAnchorOffset>
+    <BottomAnchorOffset>326</BottomAnchorOffset>
+    <LeftAnchorOffset>20</LeftAnchorOffset>
+    <RightAnchorOffset>260</RightAnchorOffset>
     <Text>Want player levels:</Text>
+    <Font>6</Font>
     <TextColor>
       <R>255</R>
       <G>255</G>
@@ -1278,6 +1313,7 @@
   </Label>
   <Editbox item="GIP_LevelRangeMinEditbox">
     <ScreenID>GIP_LevelRangeMinEditbox</ScreenID>
+    <Font>6</Font>
     <DrawTemplate>WDT_Inner</DrawTemplate>
     <RelativePosition>true</RelativePosition>
     <Style_Border>true</Style_Border>
@@ -1286,10 +1322,10 @@
     <BottomAnchorToTop>true</BottomAnchorToTop>
     <LeftAnchorToLeft>true</LeftAnchorToLeft>
     <RightAnchorToLeft>true</RightAnchorToLeft>
-    <TopAnchorOffset>140</TopAnchorOffset>
-    <BottomAnchorOffset>160</BottomAnchorOffset>
-    <LeftAnchorOffset>130</LeftAnchorOffset>
-    <RightAnchorOffset>160</RightAnchorOffset>
+    <TopAnchorOffset>280</TopAnchorOffset>
+    <BottomAnchorOffset>320</BottomAnchorOffset>
+    <LeftAnchorOffset>220</LeftAnchorOffset>
+    <RightAnchorOffset>270</RightAnchorOffset>
     <TextColor>
       <R>255</R>
       <G>255</G>
@@ -1304,11 +1340,12 @@
     <BottomAnchorToTop>true</BottomAnchorToTop>
     <LeftAnchorToLeft>true</LeftAnchorToLeft>
     <RightAnchorToLeft>true</RightAnchorToLeft>
-    <TopAnchorOffset>140</TopAnchorOffset>
-    <BottomAnchorOffset>160</BottomAnchorOffset>
-    <LeftAnchorOffset>161</LeftAnchorOffset>
-    <RightAnchorOffset>175</RightAnchorOffset>
+    <TopAnchorOffset>286</TopAnchorOffset>
+    <BottomAnchorOffset>326</BottomAnchorOffset>
+    <LeftAnchorOffset>272</LeftAnchorOffset>
+    <RightAnchorOffset>300</RightAnchorOffset>
     <Text>-</Text>
+    <Font>6</Font>
     <TextColor>
       <R>255</R>
       <G>255</G>
@@ -1320,6 +1357,7 @@
   </Label>
   <Editbox item="GIP_LevelRangeMaxEditbox">
     <ScreenID>GIP_LevelRangeMaxEditbox</ScreenID>
+    <Font>6</Font>
     <DrawTemplate>WDT_Inner</DrawTemplate>
     <RelativePosition>true</RelativePosition>
     <Style_Border>true</Style_Border>
@@ -1328,10 +1366,10 @@
     <BottomAnchorToTop>true</BottomAnchorToTop>
     <LeftAnchorToLeft>true</LeftAnchorToLeft>
     <RightAnchorToLeft>true</RightAnchorToLeft>
-    <TopAnchorOffset>140</TopAnchorOffset>
-    <BottomAnchorOffset>160</BottomAnchorOffset>
-    <LeftAnchorOffset>175</LeftAnchorOffset>
-    <RightAnchorOffset>205</RightAnchorOffset>
+    <TopAnchorOffset>280</TopAnchorOffset>
+    <BottomAnchorOffset>320</BottomAnchorOffset>
+    <LeftAnchorOffset>300</LeftAnchorOffset>
+    <RightAnchorOffset>350</RightAnchorOffset>
     <TextColor>
       <R>255</R>
       <G>255</G>
@@ -1347,14 +1385,15 @@
     <BottomAnchorToTop>true</BottomAnchorToTop>
     <LeftAnchorToLeft>false</LeftAnchorToLeft>
     <RightAnchorToLeft>false</RightAnchorToLeft>
-    <LeftAnchorOffset>220</LeftAnchorOffset>
-    <RightAnchorOffset>120</RightAnchorOffset>
-    <TopAnchorOffset>142</TopAnchorOffset>
-    <BottomAnchorOffset>162</BottomAnchorOffset>
+    <LeftAnchorOffset>440</LeftAnchorOffset>
+    <RightAnchorOffset>240</RightAnchorOffset>
+    <TopAnchorOffset>282</TopAnchorOffset>
+    <BottomAnchorOffset>322</BottomAnchorOffset>
     <Style_VScroll>false</Style_VScroll>
     <Style_HScroll>false</Style_HScroll>
     <Style_Transparent>false</Style_Transparent>
     <Text>LFP on</Text>
+    <Font>6</Font>
     <TooltipReference>Submit your group's information so players seeking groups may see it.</TooltipReference>
     <TextColor>
       <R>255</R>
@@ -1378,14 +1417,15 @@
     <BottomAnchorToTop>true</BottomAnchorToTop>
     <LeftAnchorToLeft>false</LeftAnchorToLeft>
     <RightAnchorToLeft>false</RightAnchorToLeft>
-    <LeftAnchorOffset>220</LeftAnchorOffset>
-    <RightAnchorOffset>120</RightAnchorOffset>
-    <TopAnchorOffset>142</TopAnchorOffset>
-    <BottomAnchorOffset>162</BottomAnchorOffset>
+    <LeftAnchorOffset>440</LeftAnchorOffset>
+    <RightAnchorOffset>240</RightAnchorOffset>
+    <TopAnchorOffset>282</TopAnchorOffset>
+    <BottomAnchorOffset>322</BottomAnchorOffset>
     <Style_VScroll>false</Style_VScroll>
     <Style_HScroll>false</Style_HScroll>
     <Style_Transparent>false</Style_Transparent>
     <Text>Update Info</Text>
+    <Font>6</Font>
     <TooltipReference>Update the information you have listed for players seeking groups.</TooltipReference>
     <TextColor>
       <R>255</R>
@@ -1408,14 +1448,15 @@
     <BottomAnchorToTop>true</BottomAnchorToTop>
     <LeftAnchorToLeft>false</LeftAnchorToLeft>
     <RightAnchorToLeft>false</RightAnchorToLeft>
-    <LeftAnchorOffset>110</LeftAnchorOffset>
-    <RightAnchorOffset>10</RightAnchorOffset>
-    <TopAnchorOffset>142</TopAnchorOffset>
-    <BottomAnchorOffset>162</BottomAnchorOffset>
+    <LeftAnchorOffset>220</LeftAnchorOffset>
+    <RightAnchorOffset>20</RightAnchorOffset>
+    <TopAnchorOffset>282</TopAnchorOffset>
+    <BottomAnchorOffset>322</BottomAnchorOffset>
     <Style_VScroll>false</Style_VScroll>
     <Style_HScroll>false</Style_HScroll>
     <Style_Transparent>false</Style_Transparent>
     <Text>LFP off</Text>
+    <Font>6</Font>
     <TooltipReference>Remove your listed information so players seeking groups may no longer see it.</TooltipReference>
     <TextColor>
       <R>255</R>
@@ -1439,6 +1480,8 @@
     <Style_HScroll>false</Style_HScroll>
     <Style_Transparent>false</Style_Transparent>
     <DrawTemplate>WDT_Def</DrawTemplate>
+    <TabIcon>A_4kPaddingTabIcon</TabIcon>
+    <TabIconActive>A_4kPaddingTabIcon</TabIconActive>
     <TabText>Group Looking For Players</TabText>
     <TabTextColor>
       <R>255</R>
@@ -1502,16 +1545,17 @@
   <!-- Tabbed subwindows for different search screens -->
   <TabBox item="GSW_InfoPages">
     <ScreenID>GSW_InfoPages</ScreenID>
+    <Font>6</Font>
     <RelativePosition>true</RelativePosition>
     <AutoStretch>true</AutoStretch>
     <TopAnchorToTop>true</TopAnchorToTop>
     <BottomAnchorToTop>true</BottomAnchorToTop>
     <LeftAnchorToLeft>true</LeftAnchorToLeft>
     <RightAnchorToLeft>false</RightAnchorToLeft>
-    <TopAnchorOffset>25</TopAnchorOffset>
-    <BottomAnchorOffset>220</BottomAnchorOffset>
-    <LeftAnchorOffset>5</LeftAnchorOffset>
-    <RightAnchorOffset>5</RightAnchorOffset>
+    <TopAnchorOffset>50</TopAnchorOffset>
+    <BottomAnchorOffset>440</BottomAnchorOffset>
+    <LeftAnchorOffset>10</LeftAnchorOffset>
+    <RightAnchorOffset>10</RightAnchorOffset>
     <TabBorderTemplate>FT_DefTabBorder</TabBorderTemplate>
     <PageBorderTemplate>FT_DefPageBorder</PageBorderTemplate>
     <Pages>PlayerInfoPage</Pages>
@@ -1521,16 +1565,17 @@
   <!-- Search results -->
   <Label item="PLP_NumSearchResultsLabel">
     <ScreenID>PLP_NumSearchResultsLabel</ScreenID>
+    <Font>6</Font>
     <RelativePosition>true</RelativePosition>
     <AutoStretch>true</AutoStretch>
     <TopAnchorToTop>true</TopAnchorToTop>
     <BottomAnchorToTop>true</BottomAnchorToTop>
     <RightAnchorToLeft>false</RightAnchorToLeft>
     <LeftAnchorToLeft>true</LeftAnchorToLeft>
-    <LeftAnchorOffset>10</LeftAnchorOffset>
-    <RightAnchorOffset>10</RightAnchorOffset>
-    <TopAnchorOffset>5</TopAnchorOffset>
-    <BottomAnchorOffset>25</BottomAnchorOffset>
+    <LeftAnchorOffset>20</LeftAnchorOffset>
+    <RightAnchorOffset>20</RightAnchorOffset>
+    <TopAnchorOffset>10</TopAnchorOffset>
+    <BottomAnchorOffset>50</BottomAnchorOffset>
     <TextColor>
       <R>255</R>
       <G>255</G>
@@ -1542,16 +1587,17 @@
   </Label>
   <Listbox item="PLP_PlayerSearchResultList">
     <ScreenID>PLP_PlayerSearchResultList</ScreenID>
+    <Font>5</Font>
     <DrawTemplate>WDT_Inner</DrawTemplate>
     <AutoStretch>true</AutoStretch>
     <TopAnchorToTop>true</TopAnchorToTop>
     <BottomAnchorToTop>false</BottomAnchorToTop>
     <LeftAnchorToLeft>true</LeftAnchorToLeft>
     <RightAnchorToLeft>false</RightAnchorToLeft>
-    <LeftAnchorOffset>5</LeftAnchorOffset>
-    <TopAnchorOffset>25</TopAnchorOffset>
-    <RightAnchorOffset>5</RightAnchorOffset>
-    <BottomAnchorOffset>35</BottomAnchorOffset>
+    <LeftAnchorOffset>10</LeftAnchorOffset>
+    <TopAnchorOffset>50</TopAnchorOffset>
+    <RightAnchorOffset>10</RightAnchorOffset>
+    <BottomAnchorOffset>70</BottomAnchorOffset>
     <TextColor>
       <R>255</R>
       <G>255</G>
@@ -1560,23 +1606,23 @@
     <Style_Border>true</Style_Border>
     <Style_VScroll>true</Style_VScroll>
     <Columns>
-      <Width>90</Width>
+      <Width>180</Width>
       <Heading>Name</Heading>
     </Columns>
     <Columns>
-      <Width>40</Width>
+      <Width>80</Width>
       <Heading>Level</Heading>
     </Columns>
     <Columns>
-      <Width>40</Width>
+      <Width>80</Width>
       <Heading>Class</Heading>
     </Columns>
     <Columns>
-      <Width>80</Width>
+      <Width>160</Width>
       <Heading>Zone</Heading>
     </Columns>
     <Columns>
-      <Width>400</Width>
+      <Width>800</Width>
       <Heading>Comments</Heading>
     </Columns>
   </Listbox>
@@ -1589,10 +1635,10 @@
     <BottomAnchorToTop>false</BottomAnchorToTop>
     <LeftAnchorToLeft>true</LeftAnchorToLeft>
     <RightAnchorToLeft>true</RightAnchorToLeft>
-    <TopAnchorOffset>21</TopAnchorOffset>
-    <BottomAnchorOffset>9</BottomAnchorOffset>
-    <LeftAnchorOffset>20</LeftAnchorOffset>
-    <RightAnchorOffset>32</RightAnchorOffset>
+    <TopAnchorOffset>42</TopAnchorOffset>
+    <BottomAnchorOffset>18</BottomAnchorOffset>
+    <LeftAnchorOffset>40</LeftAnchorOffset>
+    <RightAnchorOffset>64</RightAnchorOffset>
     <Style_VScroll>false</Style_VScroll>
     <Style_HScroll>false</Style_HScroll>
     <Style_Transparent>false</Style_Transparent>
@@ -1616,11 +1662,12 @@
     <BottomAnchorToTop>false</BottomAnchorToTop>
     <LeftAnchorToLeft>true</LeftAnchorToLeft>
     <RightAnchorToLeft>true</RightAnchorToLeft>
-    <TopAnchorOffset>23</TopAnchorOffset>
-    <BottomAnchorOffset>11</BottomAnchorOffset>
-    <LeftAnchorOffset>35</LeftAnchorOffset>
-    <RightAnchorOffset>135</RightAnchorOffset>
+    <TopAnchorOffset>46</TopAnchorOffset>
+    <BottomAnchorOffset>22</BottomAnchorOffset>
+    <LeftAnchorOffset>70</LeftAnchorOffset>
+    <RightAnchorOffset>270</RightAnchorOffset>
     <Text>Show Matches</Text>
+    <Font>6</Font>
     <TextColor>
       <R>255</R>
       <G>255</G>
@@ -1638,10 +1685,10 @@
     <BottomAnchorToTop>false</BottomAnchorToTop>
     <LeftAnchorToLeft>true</LeftAnchorToLeft>
     <RightAnchorToLeft>true</RightAnchorToLeft>
-    <TopAnchorOffset>21</TopAnchorOffset>
-    <BottomAnchorOffset>9</BottomAnchorOffset>
-    <LeftAnchorOffset>140</LeftAnchorOffset>
-    <RightAnchorOffset>152</RightAnchorOffset>
+    <TopAnchorOffset>42</TopAnchorOffset>
+    <BottomAnchorOffset>18</BottomAnchorOffset>
+    <LeftAnchorOffset>280</LeftAnchorOffset>
+    <RightAnchorOffset>304</RightAnchorOffset>
     <Style_VScroll>false</Style_VScroll>
     <Style_HScroll>false</Style_HScroll>
     <Style_Transparent>false</Style_Transparent>
@@ -1665,11 +1712,12 @@
     <BottomAnchorToTop>false</BottomAnchorToTop>
     <LeftAnchorToLeft>true</LeftAnchorToLeft>
     <RightAnchorToLeft>true</RightAnchorToLeft>
-    <TopAnchorOffset>23</TopAnchorOffset>
-    <BottomAnchorOffset>11</BottomAnchorOffset>
-    <LeftAnchorOffset>155</LeftAnchorOffset>
-    <RightAnchorOffset>255</RightAnchorOffset>
+    <TopAnchorOffset>46</TopAnchorOffset>
+    <BottomAnchorOffset>22</BottomAnchorOffset>
+    <LeftAnchorOffset>310</LeftAnchorOffset>
+    <RightAnchorOffset>510</RightAnchorOffset>
     <Text>Show All</Text>
+    <Font>6</Font>
     <TextColor>
       <R>255</R>
       <G>255</G>
@@ -1687,14 +1735,15 @@
     <BottomAnchorToTop>false</BottomAnchorToTop>
     <LeftAnchorToLeft>false</LeftAnchorToLeft>
     <RightAnchorToLeft>false</RightAnchorToLeft>
-    <TopAnchorOffset>25</TopAnchorOffset>
-    <BottomAnchorOffset>5</BottomAnchorOffset>
-    <LeftAnchorOffset>130</LeftAnchorOffset>
-    <RightAnchorOffset>10</RightAnchorOffset>
+    <TopAnchorOffset>50</TopAnchorOffset>
+    <BottomAnchorOffset>10</BottomAnchorOffset>
+    <LeftAnchorOffset>260</LeftAnchorOffset>
+    <RightAnchorOffset>20</RightAnchorOffset>
     <Style_VScroll>false</Style_VScroll>
     <Style_HScroll>false</Style_HScroll>
     <Style_Transparent>false</Style_Transparent>
     <Text>Get Matches</Text>
+    <Font>6</Font>
     <TooltipReference>This button updates your search result list with the latest information.</TooltipReference>
     <TextColor>
       <R>255</R>
@@ -1718,6 +1767,8 @@
     <Style_HScroll>false</Style_HScroll>
     <Style_Transparent>false</Style_Transparent>
     <DrawTemplate>WDT_Def</DrawTemplate>
+    <TabIcon>A_4kPaddingTabIcon</TabIcon>
+    <TabIconActive>A_4kPaddingTabIcon</TabIconActive>
     <TabText>Players Looking For A Group</TabText>
     <TabTextColor>
       <R>255</R>
@@ -1741,16 +1792,17 @@
   <!-- Search results -->
   <Label item="GLP_NumSearchResultsLabel">
     <ScreenID>GLP_NumSearchResultsLabel</ScreenID>
+    <Font>6</Font>
     <RelativePosition>true</RelativePosition>
     <AutoStretch>true</AutoStretch>
     <TopAnchorToTop>true</TopAnchorToTop>
     <BottomAnchorToTop>true</BottomAnchorToTop>
     <RightAnchorToLeft>false</RightAnchorToLeft>
     <LeftAnchorToLeft>true</LeftAnchorToLeft>
-    <LeftAnchorOffset>10</LeftAnchorOffset>
-    <RightAnchorOffset>10</RightAnchorOffset>
-    <TopAnchorOffset>5</TopAnchorOffset>
-    <BottomAnchorOffset>25</BottomAnchorOffset>
+    <LeftAnchorOffset>20</LeftAnchorOffset>
+    <RightAnchorOffset>20</RightAnchorOffset>
+    <TopAnchorOffset>10</TopAnchorOffset>
+    <BottomAnchorOffset>50</BottomAnchorOffset>
     <TextColor>
       <R>255</R>
       <G>255</G>
@@ -1762,16 +1814,17 @@
   </Label>
   <Listbox item="GLP_PlayerSearchResultList">
     <ScreenID>GLP_PlayerSearchResultList</ScreenID>
+    <Font>5</Font>
     <DrawTemplate>WDT_Inner</DrawTemplate>
     <AutoStretch>true</AutoStretch>
     <TopAnchorToTop>true</TopAnchorToTop>
     <BottomAnchorToTop>false</BottomAnchorToTop>
     <LeftAnchorToLeft>true</LeftAnchorToLeft>
     <RightAnchorToLeft>false</RightAnchorToLeft>
-    <LeftAnchorOffset>5</LeftAnchorOffset>
-    <TopAnchorOffset>25</TopAnchorOffset>
-    <RightAnchorOffset>5</RightAnchorOffset>
-    <BottomAnchorOffset>172</BottomAnchorOffset>
+    <LeftAnchorOffset>10</LeftAnchorOffset>
+    <TopAnchorOffset>50</TopAnchorOffset>
+    <RightAnchorOffset>10</RightAnchorOffset>
+    <BottomAnchorOffset>344</BottomAnchorOffset>
     <TextColor>
       <R>255</R>
       <G>255</G>
@@ -1780,38 +1833,39 @@
     <Style_Border>true</Style_Border>
     <Style_VScroll>true</Style_VScroll>
     <Columns>
-      <Width>90</Width>
+      <Width>180</Width>
       <Heading>Group Leader</Heading>
     </Columns>
     <Columns>
-      <Width>20</Width>
+      <Width>40</Width>
       <Heading>#</Heading>
     </Columns>
     <Columns>
-      <Width>40</Width>
+      <Width>80</Width>
       <Heading>Level</Heading>
     </Columns>
     <Columns>
-      <Width>80</Width>
+      <Width>160</Width>
       <Heading>Zone</Heading>
     </Columns>
     <Columns>
-      <Width>400</Width>
+      <Width>800</Width>
       <Heading>Comments</Heading>
     </Columns>
   </Listbox>
   <Listbox item="GLP_GroupDetailList">
     <ScreenID>GLP_GroupDetailList</ScreenID>
+    <Font>5</Font>
     <DrawTemplate>WDT_Inner</DrawTemplate>
     <AutoStretch>true</AutoStretch>
     <TopAnchorToTop>false</TopAnchorToTop>
     <BottomAnchorToTop>false</BottomAnchorToTop>
     <LeftAnchorToLeft>true</LeftAnchorToLeft>
     <RightAnchorToLeft>false</RightAnchorToLeft>
-    <TopAnchorOffset>171</TopAnchorOffset>
-    <BottomAnchorOffset>60</BottomAnchorOffset>
-    <LeftAnchorOffset>5</LeftAnchorOffset>
-    <RightAnchorOffset>5</RightAnchorOffset>
+    <TopAnchorOffset>342</TopAnchorOffset>
+    <BottomAnchorOffset>120</BottomAnchorOffset>
+    <LeftAnchorOffset>10</LeftAnchorOffset>
+    <RightAnchorOffset>10</RightAnchorOffset>
     <TextColor>
       <R>255</R>
       <G>255</G>
@@ -1820,30 +1874,31 @@
     <Style_Border>true</Style_Border>
     <Style_VScroll>true</Style_VScroll>
     <Columns>
-      <Width>150</Width>
+      <Width>300</Width>
       <Heading>Name</Heading>
     </Columns>
     <Columns>
-      <Width>150</Width>
+      <Width>300</Width>
       <Heading>Class</Heading>
     </Columns>
     <Columns>
-      <Width>400</Width>
+      <Width>800</Width>
       <Heading>Level</Heading>
     </Columns>
   </Listbox>
   <Listbox item="GLP_ClassesWantedList">
     <ScreenID>GLP_ClassesWantedList</ScreenID>
+    <Font>5</Font>
     <DrawTemplate>WDT_Inner</DrawTemplate>
     <AutoStretch>true</AutoStretch>
     <TopAnchorToTop>false</TopAnchorToTop>
     <BottomAnchorToTop>false</BottomAnchorToTop>
     <LeftAnchorToLeft>true</LeftAnchorToLeft>
     <RightAnchorToLeft>false</RightAnchorToLeft>
-    <TopAnchorOffset>59</TopAnchorOffset>
-    <BottomAnchorOffset>34</BottomAnchorOffset>
-    <LeftAnchorOffset>5</LeftAnchorOffset>
-    <RightAnchorOffset>5</RightAnchorOffset>
+    <TopAnchorOffset>118</TopAnchorOffset>
+    <BottomAnchorOffset>68</BottomAnchorOffset>
+    <LeftAnchorOffset>10</LeftAnchorOffset>
+    <RightAnchorOffset>10</RightAnchorOffset>
     <TextColor>
       <R>255</R>
       <G>255</G>
@@ -1852,7 +1907,7 @@
     <Style_Border>true</Style_Border>
     <Style_VScroll>true</Style_VScroll>
     <Columns>
-      <Width>400</Width>
+      <Width>800</Width>
       <Heading>Desired Classes</Heading>
     </Columns>
   </Listbox>
@@ -1865,10 +1920,10 @@
     <BottomAnchorToTop>false</BottomAnchorToTop>
     <LeftAnchorToLeft>true</LeftAnchorToLeft>
     <RightAnchorToLeft>true</RightAnchorToLeft>
-    <TopAnchorOffset>21</TopAnchorOffset>
-    <BottomAnchorOffset>9</BottomAnchorOffset>
-    <LeftAnchorOffset>20</LeftAnchorOffset>
-    <RightAnchorOffset>32</RightAnchorOffset>
+    <TopAnchorOffset>42</TopAnchorOffset>
+    <BottomAnchorOffset>18</BottomAnchorOffset>
+    <LeftAnchorOffset>40</LeftAnchorOffset>
+    <RightAnchorOffset>64</RightAnchorOffset>
     <Style_VScroll>false</Style_VScroll>
     <Style_HScroll>false</Style_HScroll>
     <Style_Transparent>false</Style_Transparent>
@@ -1892,11 +1947,12 @@
     <BottomAnchorToTop>false</BottomAnchorToTop>
     <LeftAnchorToLeft>true</LeftAnchorToLeft>
     <RightAnchorToLeft>true</RightAnchorToLeft>
-    <TopAnchorOffset>23</TopAnchorOffset>
-    <BottomAnchorOffset>11</BottomAnchorOffset>
-    <LeftAnchorOffset>35</LeftAnchorOffset>
-    <RightAnchorOffset>135</RightAnchorOffset>
+    <TopAnchorOffset>46</TopAnchorOffset>
+    <BottomAnchorOffset>22</BottomAnchorOffset>
+    <LeftAnchorOffset>70</LeftAnchorOffset>
+    <RightAnchorOffset>270</RightAnchorOffset>
     <Text>Show Matches</Text>
+    <Font>6</Font>
     <TextColor>
       <R>255</R>
       <G>255</G>
@@ -1914,10 +1970,10 @@
     <BottomAnchorToTop>false</BottomAnchorToTop>
     <LeftAnchorToLeft>true</LeftAnchorToLeft>
     <RightAnchorToLeft>true</RightAnchorToLeft>
-    <TopAnchorOffset>21</TopAnchorOffset>
-    <BottomAnchorOffset>9</BottomAnchorOffset>
-    <LeftAnchorOffset>140</LeftAnchorOffset>
-    <RightAnchorOffset>152</RightAnchorOffset>
+    <TopAnchorOffset>42</TopAnchorOffset>
+    <BottomAnchorOffset>18</BottomAnchorOffset>
+    <LeftAnchorOffset>280</LeftAnchorOffset>
+    <RightAnchorOffset>304</RightAnchorOffset>
     <Style_VScroll>false</Style_VScroll>
     <Style_HScroll>false</Style_HScroll>
     <Style_Transparent>false</Style_Transparent>
@@ -1941,12 +1997,13 @@
     <BottomAnchorToTop>false</BottomAnchorToTop>
     <LeftAnchorToLeft>true</LeftAnchorToLeft>
     <RightAnchorToLeft>true</RightAnchorToLeft>
-    <TopAnchorOffset>23</TopAnchorOffset>
-    <BottomAnchorOffset>11</BottomAnchorOffset>
-    <LeftAnchorOffset>155</LeftAnchorOffset>
-    <RightAnchorOffset>255</RightAnchorOffset>
+    <TopAnchorOffset>46</TopAnchorOffset>
+    <BottomAnchorOffset>22</BottomAnchorOffset>
+    <LeftAnchorOffset>310</LeftAnchorOffset>
+    <RightAnchorOffset>510</RightAnchorOffset>
     <RadioGroup>FilterGroupMatches</RadioGroup>
     <Text>Show All</Text>
+    <Font>6</Font>
     <TextColor>
       <R>255</R>
       <G>255</G>
@@ -1964,14 +2021,15 @@
     <BottomAnchorToTop>false</BottomAnchorToTop>
     <LeftAnchorToLeft>false</LeftAnchorToLeft>
     <RightAnchorToLeft>false</RightAnchorToLeft>
-    <TopAnchorOffset>25</TopAnchorOffset>
-    <BottomAnchorOffset>5</BottomAnchorOffset>
-    <LeftAnchorOffset>130</LeftAnchorOffset>
-    <RightAnchorOffset>10</RightAnchorOffset>
+    <TopAnchorOffset>50</TopAnchorOffset>
+    <BottomAnchorOffset>10</BottomAnchorOffset>
+    <LeftAnchorOffset>260</LeftAnchorOffset>
+    <RightAnchorOffset>20</RightAnchorOffset>
     <Style_VScroll>false</Style_VScroll>
     <Style_HScroll>false</Style_HScroll>
     <Style_Transparent>false</Style_Transparent>
     <Text>Get Matches</Text>
+    <Font>6</Font>
     <TooltipReference>This button updates your search result list with the latest information.</TooltipReference>
     <TextColor>
       <R>255</R>
@@ -2020,16 +2078,17 @@
   <!-- Tabbed subwindows for different search screens -->
   <TabBox item="GSW_SearchPages">
     <ScreenID>GSW_SearchPages</ScreenID>
+    <Font>6</Font>
     <RelativePosition>true</RelativePosition>
     <AutoStretch>true</AutoStretch>
     <TopAnchorToTop>true</TopAnchorToTop>
     <BottomAnchorToTop>false</BottomAnchorToTop>
     <LeftAnchorToLeft>true</LeftAnchorToLeft>
     <RightAnchorToLeft>false</RightAnchorToLeft>
-    <TopAnchorOffset>245</TopAnchorOffset>
-    <BottomAnchorOffset>5</BottomAnchorOffset>
-    <LeftAnchorOffset>5</LeftAnchorOffset>
-    <RightAnchorOffset>5</RightAnchorOffset>
+    <TopAnchorOffset>490</TopAnchorOffset>
+    <BottomAnchorOffset>10</BottomAnchorOffset>
+    <LeftAnchorOffset>10</LeftAnchorOffset>
+    <RightAnchorOffset>10</RightAnchorOffset>
     <TabBorderTemplate>FT_DefTabBorder</TabBorderTemplate>
     <PageBorderTemplate>FT_DefPageBorder</PageBorderTemplate>
     <Pages>PlayerListPage</Pages>
@@ -2044,11 +2103,12 @@
     <BottomAnchorToTop>true</BottomAnchorToTop>
     <LeftAnchorToLeft>true</LeftAnchorToLeft>
     <RightAnchorToLeft>false</RightAnchorToLeft>
-    <TopAnchorOffset>5</TopAnchorOffset>
-    <BottomAnchorOffset>25</BottomAnchorOffset>
-    <LeftAnchorOffset>10</LeftAnchorOffset>
+    <TopAnchorOffset>10</TopAnchorOffset>
+    <BottomAnchorOffset>50</BottomAnchorOffset>
+    <LeftAnchorOffset>20</LeftAnchorOffset>
     <RightAnchorOffset>0</RightAnchorOffset>
     <Text>I am a:</Text>
+    <Font>6</Font>
     <TextColor>
       <R>255</R>
       <G>255</G>
@@ -2066,11 +2126,12 @@
     <BottomAnchorToTop>true</BottomAnchorToTop>
     <LeftAnchorToLeft>true</LeftAnchorToLeft>
     <RightAnchorToLeft>false</RightAnchorToLeft>
-    <TopAnchorOffset>225</TopAnchorOffset>
-    <BottomAnchorOffset>245</BottomAnchorOffset>
-    <LeftAnchorOffset>10</LeftAnchorOffset>
+    <TopAnchorOffset>450</TopAnchorOffset>
+    <BottomAnchorOffset>490</BottomAnchorOffset>
+    <LeftAnchorOffset>20</LeftAnchorOffset>
     <RightAnchorOffset>0</RightAnchorOffset>
     <Text>Show me:</Text>
+    <Font>6</Font>
     <TextColor>
       <R>255</R>
       <G>255</G>
@@ -2087,13 +2148,14 @@
       <Y>0</Y>
     </Location>
     <Size>
-      <CX>490</CX>
-      <CY>600</CY>
+      <CX>980</CX>
+      <CY>1200</CY>
     </Size>
     <Style_VScroll>false</Style_VScroll>
     <Style_HScroll>false</Style_HScroll>
     <Style_Transparent>false</Style_Transparent>
     <Text>Group Search Window</Text>
+    <Font>6</Font>
     <DrawTemplate>WDT_Rounded</DrawTemplate>
     <Style_Titlebar>true</Style_Titlebar>
     <Style_Closebox>true</Style_Closebox>
@@ -2115,10 +2177,10 @@
     <BottomAnchorToTop>true</BottomAnchorToTop>
     <RightAnchorToLeft>true</RightAnchorToLeft>
     <LeftAnchorToLeft>true</LeftAnchorToLeft>
-    <LeftAnchorOffset>20</LeftAnchorOffset>
-    <RightAnchorOffset>32</RightAnchorOffset>
-    <TopAnchorOffset>10</TopAnchorOffset>
-    <BottomAnchorOffset>22</BottomAnchorOffset>
+    <LeftAnchorOffset>40</LeftAnchorOffset>
+    <RightAnchorOffset>64</RightAnchorOffset>
+    <TopAnchorOffset>20</TopAnchorOffset>
+    <BottomAnchorOffset>44</BottomAnchorOffset>
     <Style_VScroll>false</Style_VScroll>
     <Style_HScroll>false</Style_HScroll>
     <Style_Transparent>false</Style_Transparent>
@@ -2141,11 +2203,12 @@
     <BottomAnchorToTop>true</BottomAnchorToTop>
     <RightAnchorToLeft>false</RightAnchorToLeft>
     <LeftAnchorToLeft>true</LeftAnchorToLeft>
-    <LeftAnchorOffset>35</LeftAnchorOffset>
+    <LeftAnchorOffset>70</LeftAnchorOffset>
     <RightAnchorOffset>0</RightAnchorOffset>
-    <TopAnchorOffset>8</TopAnchorOffset>
-    <BottomAnchorOffset>22</BottomAnchorOffset>
+    <TopAnchorOffset>16</TopAnchorOffset>
+    <BottomAnchorOffset>44</BottomAnchorOffset>
     <Text>Use my ignore list</Text>
+    <Font>6</Font>
     <TextColor>
       <R>255</R>
       <G>255</G>
@@ -2163,10 +2226,10 @@
     <BottomAnchorToTop>true</BottomAnchorToTop>
     <RightAnchorToLeft>true</RightAnchorToLeft>
     <LeftAnchorToLeft>true</LeftAnchorToLeft>
-    <LeftAnchorOffset>20</LeftAnchorOffset>
-    <RightAnchorOffset>32</RightAnchorOffset>
-    <TopAnchorOffset>30</TopAnchorOffset>
-    <BottomAnchorOffset>42</BottomAnchorOffset>
+    <LeftAnchorOffset>40</LeftAnchorOffset>
+    <RightAnchorOffset>64</RightAnchorOffset>
+    <TopAnchorOffset>60</TopAnchorOffset>
+    <BottomAnchorOffset>84</BottomAnchorOffset>
     <Style_VScroll>false</Style_VScroll>
     <Style_HScroll>false</Style_HScroll>
     <Style_Transparent>false</Style_Transparent>
@@ -2189,11 +2252,12 @@
     <BottomAnchorToTop>true</BottomAnchorToTop>
     <RightAnchorToLeft>false</RightAnchorToLeft>
     <LeftAnchorToLeft>true</LeftAnchorToLeft>
-    <LeftAnchorOffset>35</LeftAnchorOffset>
+    <LeftAnchorOffset>70</LeftAnchorOffset>
     <RightAnchorOffset>0</RightAnchorOffset>
-    <TopAnchorOffset>28</TopAnchorOffset>
-    <BottomAnchorOffset>42</BottomAnchorOffset>
+    <TopAnchorOffset>56</TopAnchorOffset>
+    <BottomAnchorOffset>84</BottomAnchorOffset>
     <Text>Only show my friends (uses your friends list)</Text>
+    <Font>6</Font>
     <TextColor>
       <R>255</R>
       <G>255</G>
@@ -2212,10 +2276,10 @@
     <BottomAnchorToTop>true</BottomAnchorToTop>
     <RightAnchorToLeft>true</RightAnchorToLeft>
     <LeftAnchorToLeft>true</LeftAnchorToLeft>
-    <LeftAnchorOffset>20</LeftAnchorOffset>
-    <RightAnchorOffset>32</RightAnchorOffset>
-    <TopAnchorOffset>60</TopAnchorOffset>
-    <BottomAnchorOffset>72</BottomAnchorOffset>
+    <LeftAnchorOffset>40</LeftAnchorOffset>
+    <RightAnchorOffset>64</RightAnchorOffset>
+    <TopAnchorOffset>120</TopAnchorOffset>
+    <BottomAnchorOffset>144</BottomAnchorOffset>
     <Style_VScroll>false</Style_VScroll>
     <Style_HScroll>false</Style_HScroll>
     <Style_Transparent>false</Style_Transparent>
@@ -2238,11 +2302,12 @@
     <BottomAnchorToTop>true</BottomAnchorToTop>
     <RightAnchorToLeft>false</RightAnchorToLeft>
     <LeftAnchorToLeft>true</LeftAnchorToLeft>
-    <LeftAnchorOffset>35</LeftAnchorOffset>
+    <LeftAnchorOffset>70</LeftAnchorOffset>
     <RightAnchorOffset>0</RightAnchorOffset>
-    <TopAnchorOffset>58</TopAnchorOffset>
-    <BottomAnchorOffset>72</BottomAnchorOffset>
+    <TopAnchorOffset>116</TopAnchorOffset>
+    <BottomAnchorOffset>144</BottomAnchorOffset>
     <Text>Do not include these guilds in my search results</Text>
+    <Font>6</Font>
     <TextColor>
       <R>255</R>
       <G>255</G>
@@ -2254,23 +2319,24 @@
   </Label>
   <Listbox item="GSFW_ExcludedGuildsList">
     <ScreenID>GSFW_ExcludedGuildsList</ScreenID>
+    <Font>5</Font>
     <DrawTemplate>WDT_Inner</DrawTemplate>
     <AutoStretch>true</AutoStretch>
     <TopAnchorToTop>true</TopAnchorToTop>
     <BottomAnchorToTop>true</BottomAnchorToTop>
     <LeftAnchorToLeft>true</LeftAnchorToLeft>
     <RightAnchorToLeft>false</RightAnchorToLeft>
-    <LeftAnchorOffset>20</LeftAnchorOffset>
-    <RightAnchorOffset>120</RightAnchorOffset>
-    <TopAnchorOffset>75</TopAnchorOffset>
-    <BottomAnchorOffset>145</BottomAnchorOffset>
+    <LeftAnchorOffset>40</LeftAnchorOffset>
+    <RightAnchorOffset>240</RightAnchorOffset>
+    <TopAnchorOffset>150</TopAnchorOffset>
+    <BottomAnchorOffset>290</BottomAnchorOffset>
     <TextColor>
       <R>255</R>
       <G>255</G>
       <B>255</B>
     </TextColor>
     <Columns>
-      <Width>400</Width>
+      <Width>800</Width>
       <Heading>Guild Names</Heading>
     </Columns>
     <Style_Border>true</Style_Border>
@@ -2284,14 +2350,15 @@
     <BottomAnchorToTop>true</BottomAnchorToTop>
     <LeftAnchorToLeft>false</LeftAnchorToLeft>
     <RightAnchorToLeft>false</RightAnchorToLeft>
-    <LeftAnchorOffset>110</LeftAnchorOffset>
-    <RightAnchorOffset>20</RightAnchorOffset>
-    <TopAnchorOffset>80</TopAnchorOffset>
-    <BottomAnchorOffset>100</BottomAnchorOffset>
+    <LeftAnchorOffset>220</LeftAnchorOffset>
+    <RightAnchorOffset>40</RightAnchorOffset>
+    <TopAnchorOffset>160</TopAnchorOffset>
+    <BottomAnchorOffset>200</BottomAnchorOffset>
     <Style_VScroll>false</Style_VScroll>
     <Style_HScroll>false</Style_HScroll>
     <Style_Transparent>false</Style_Transparent>
     <Text>Remove</Text>
+    <Font>6</Font>
     <TooltipReference>Remove the currently selected guild</TooltipReference>
     <TextColor>
       <R>255</R>
@@ -2314,14 +2381,15 @@
     <BottomAnchorToTop>true</BottomAnchorToTop>
     <LeftAnchorToLeft>false</LeftAnchorToLeft>
     <RightAnchorToLeft>false</RightAnchorToLeft>
-    <LeftAnchorOffset>110</LeftAnchorOffset>
-    <RightAnchorOffset>20</RightAnchorOffset>
-    <TopAnchorOffset>110</TopAnchorOffset>
-    <BottomAnchorOffset>130</BottomAnchorOffset>
+    <LeftAnchorOffset>220</LeftAnchorOffset>
+    <RightAnchorOffset>40</RightAnchorOffset>
+    <TopAnchorOffset>220</TopAnchorOffset>
+    <BottomAnchorOffset>260</BottomAnchorOffset>
     <Style_VScroll>false</Style_VScroll>
     <Style_HScroll>false</Style_HScroll>
     <Style_Transparent>false</Style_Transparent>
     <Text>Remove All</Text>
+    <Font>6</Font>
     <TooltipReference>Clear this guild list</TooltipReference>
     <TextColor>
       <R>255</R>
@@ -2338,17 +2406,18 @@
   </Button>
   <Combobox item="GSFW_GuildNamesToExcludeSelectionCombo">
     <ScreenID>GSFW_GuildNamesToExcludeSelectionCombo</ScreenID>
+    <Font>5</Font>
     <DrawTemplate>WDT_Inner</DrawTemplate>
     <AutoStretch>true</AutoStretch>
     <TopAnchorToTop>true</TopAnchorToTop>
     <BottomAnchorToTop>true</BottomAnchorToTop>
     <LeftAnchorToLeft>true</LeftAnchorToLeft>
     <RightAnchorToLeft>false</RightAnchorToLeft>
-    <LeftAnchorOffset>25</LeftAnchorOffset>
-    <RightAnchorOffset>125</RightAnchorOffset>
-    <TopAnchorOffset>150</TopAnchorOffset>
-    <BottomAnchorOffset>174</BottomAnchorOffset>
-    <ListHeight>200</ListHeight>
+    <LeftAnchorOffset>50</LeftAnchorOffset>
+    <RightAnchorOffset>250</RightAnchorOffset>
+    <TopAnchorOffset>300</TopAnchorOffset>
+    <BottomAnchorOffset>348</BottomAnchorOffset>
+    <ListHeight>400</ListHeight>
     <Button>BDT_Combo</Button>
     <Style_Border>true</Style_Border>
   </Combobox>
@@ -2360,14 +2429,15 @@
     <BottomAnchorToTop>true</BottomAnchorToTop>
     <LeftAnchorToLeft>false</LeftAnchorToLeft>
     <RightAnchorToLeft>false</RightAnchorToLeft>
-    <LeftAnchorOffset>110</LeftAnchorOffset>
-    <RightAnchorOffset>20</RightAnchorOffset>
-    <TopAnchorOffset>154</TopAnchorOffset>
-    <BottomAnchorOffset>174</BottomAnchorOffset>
+    <LeftAnchorOffset>220</LeftAnchorOffset>
+    <RightAnchorOffset>40</RightAnchorOffset>
+    <TopAnchorOffset>308</TopAnchorOffset>
+    <BottomAnchorOffset>348</BottomAnchorOffset>
     <Style_VScroll>false</Style_VScroll>
     <Style_HScroll>false</Style_HScroll>
     <Style_Transparent>false</Style_Transparent>
     <Text>Add</Text>
+    <Font>6</Font>
     <TooltipReference>Add the selected guild to this list</TooltipReference>
     <TextColor>
       <R>255</R>
@@ -2390,10 +2460,10 @@
     <BottomAnchorToTop>true</BottomAnchorToTop>
     <RightAnchorToLeft>true</RightAnchorToLeft>
     <LeftAnchorToLeft>true</LeftAnchorToLeft>
-    <LeftAnchorOffset>20</LeftAnchorOffset>
-    <RightAnchorOffset>32</RightAnchorOffset>
-    <TopAnchorOffset>185</TopAnchorOffset>
-    <BottomAnchorOffset>197</BottomAnchorOffset>
+    <LeftAnchorOffset>40</LeftAnchorOffset>
+    <RightAnchorOffset>64</RightAnchorOffset>
+    <TopAnchorOffset>370</TopAnchorOffset>
+    <BottomAnchorOffset>394</BottomAnchorOffset>
     <Style_VScroll>false</Style_VScroll>
     <Style_HScroll>false</Style_HScroll>
     <Style_Transparent>false</Style_Transparent>
@@ -2416,11 +2486,12 @@
     <BottomAnchorToTop>true</BottomAnchorToTop>
     <RightAnchorToLeft>false</RightAnchorToLeft>
     <LeftAnchorToLeft>true</LeftAnchorToLeft>
-    <LeftAnchorOffset>35</LeftAnchorOffset>
+    <LeftAnchorOffset>70</LeftAnchorOffset>
     <RightAnchorOffset>0</RightAnchorOffset>
-    <TopAnchorOffset>183</TopAnchorOffset>
-    <BottomAnchorOffset>197</BottomAnchorOffset>
+    <TopAnchorOffset>366</TopAnchorOffset>
+    <BottomAnchorOffset>394</BottomAnchorOffset>
     <Text>Only include these guilds in my search results</Text>
+    <Font>6</Font>
     <TextColor>
       <R>255</R>
       <G>255</G>
@@ -2432,23 +2503,24 @@
   </Label>
   <Listbox item="GSFW_DesiredGuildsList">
     <ScreenID>GSFW_DesiredGuildsList</ScreenID>
+    <Font>5</Font>
     <DrawTemplate>WDT_Inner</DrawTemplate>
     <AutoStretch>true</AutoStretch>
     <TopAnchorToTop>true</TopAnchorToTop>
     <BottomAnchorToTop>true</BottomAnchorToTop>
     <LeftAnchorToLeft>true</LeftAnchorToLeft>
     <RightAnchorToLeft>false</RightAnchorToLeft>
-    <LeftAnchorOffset>20</LeftAnchorOffset>
-    <RightAnchorOffset>120</RightAnchorOffset>
-    <TopAnchorOffset>200</TopAnchorOffset>
-    <BottomAnchorOffset>270</BottomAnchorOffset>
+    <LeftAnchorOffset>40</LeftAnchorOffset>
+    <RightAnchorOffset>240</RightAnchorOffset>
+    <TopAnchorOffset>400</TopAnchorOffset>
+    <BottomAnchorOffset>540</BottomAnchorOffset>
     <TextColor>
       <R>255</R>
       <G>255</G>
       <B>255</B>
     </TextColor>
     <Columns>
-      <Width>400</Width>
+      <Width>800</Width>
       <Heading>Guild Names</Heading>
     </Columns>
     <Style_Border>true</Style_Border>
@@ -2462,14 +2534,15 @@
     <BottomAnchorToTop>true</BottomAnchorToTop>
     <LeftAnchorToLeft>false</LeftAnchorToLeft>
     <RightAnchorToLeft>false</RightAnchorToLeft>
-    <LeftAnchorOffset>110</LeftAnchorOffset>
-    <RightAnchorOffset>20</RightAnchorOffset>
-    <TopAnchorOffset>205</TopAnchorOffset>
-    <BottomAnchorOffset>225</BottomAnchorOffset>
+    <LeftAnchorOffset>220</LeftAnchorOffset>
+    <RightAnchorOffset>40</RightAnchorOffset>
+    <TopAnchorOffset>410</TopAnchorOffset>
+    <BottomAnchorOffset>450</BottomAnchorOffset>
     <Style_VScroll>false</Style_VScroll>
     <Style_HScroll>false</Style_HScroll>
     <Style_Transparent>false</Style_Transparent>
     <Text>Remove</Text>
+    <Font>6</Font>
     <TooltipReference>Remove the currently selected guild</TooltipReference>
     <TextColor>
       <R>255</R>
@@ -2492,14 +2565,15 @@
     <BottomAnchorToTop>true</BottomAnchorToTop>
     <LeftAnchorToLeft>false</LeftAnchorToLeft>
     <RightAnchorToLeft>false</RightAnchorToLeft>
-    <LeftAnchorOffset>110</LeftAnchorOffset>
-    <RightAnchorOffset>20</RightAnchorOffset>
-    <TopAnchorOffset>235</TopAnchorOffset>
-    <BottomAnchorOffset>255</BottomAnchorOffset>
+    <LeftAnchorOffset>220</LeftAnchorOffset>
+    <RightAnchorOffset>40</RightAnchorOffset>
+    <TopAnchorOffset>470</TopAnchorOffset>
+    <BottomAnchorOffset>510</BottomAnchorOffset>
     <Style_VScroll>false</Style_VScroll>
     <Style_HScroll>false</Style_HScroll>
     <Style_Transparent>false</Style_Transparent>
     <Text>Remove All</Text>
+    <Font>6</Font>
     <TooltipReference>Clear this guild list</TooltipReference>
     <TextColor>
       <R>255</R>
@@ -2516,17 +2590,18 @@
   </Button>
   <Combobox item="GSFW_GuildNamesToDesireSelectionCombo">
     <ScreenID>GSFW_GuildNamesToDesireSelectionCombo</ScreenID>
+    <Font>5</Font>
     <DrawTemplate>WDT_Inner</DrawTemplate>
     <AutoStretch>true</AutoStretch>
     <TopAnchorToTop>true</TopAnchorToTop>
     <BottomAnchorToTop>true</BottomAnchorToTop>
     <LeftAnchorToLeft>true</LeftAnchorToLeft>
     <RightAnchorToLeft>false</RightAnchorToLeft>
-    <LeftAnchorOffset>25</LeftAnchorOffset>
-    <RightAnchorOffset>125</RightAnchorOffset>
-    <TopAnchorOffset>275</TopAnchorOffset>
-    <BottomAnchorOffset>299</BottomAnchorOffset>
-    <ListHeight>200</ListHeight>
+    <LeftAnchorOffset>50</LeftAnchorOffset>
+    <RightAnchorOffset>250</RightAnchorOffset>
+    <TopAnchorOffset>550</TopAnchorOffset>
+    <BottomAnchorOffset>598</BottomAnchorOffset>
+    <ListHeight>400</ListHeight>
     <Button>BDT_Combo</Button>
     <Style_Border>true</Style_Border>
   </Combobox>
@@ -2538,14 +2613,15 @@
     <BottomAnchorToTop>true</BottomAnchorToTop>
     <LeftAnchorToLeft>false</LeftAnchorToLeft>
     <RightAnchorToLeft>false</RightAnchorToLeft>
-    <LeftAnchorOffset>110</LeftAnchorOffset>
-    <RightAnchorOffset>20</RightAnchorOffset>
-    <TopAnchorOffset>279</TopAnchorOffset>
-    <BottomAnchorOffset>299</BottomAnchorOffset>
+    <LeftAnchorOffset>220</LeftAnchorOffset>
+    <RightAnchorOffset>40</RightAnchorOffset>
+    <TopAnchorOffset>558</TopAnchorOffset>
+    <BottomAnchorOffset>598</BottomAnchorOffset>
     <Style_VScroll>false</Style_VScroll>
     <Style_HScroll>false</Style_HScroll>
     <Style_Transparent>false</Style_Transparent>
     <Text>Add</Text>
+    <Font>6</Font>
     <TooltipReference>Add the selected guild to this list</TooltipReference>
     <TextColor>
       <R>255</R>
@@ -2569,10 +2645,10 @@
     <BottomAnchorToTop>true</BottomAnchorToTop>
     <RightAnchorToLeft>true</RightAnchorToLeft>
     <LeftAnchorToLeft>true</LeftAnchorToLeft>
-    <LeftAnchorOffset>20</LeftAnchorOffset>
-    <RightAnchorOffset>32</RightAnchorOffset>
-    <TopAnchorOffset>310</TopAnchorOffset>
-    <BottomAnchorOffset>322</BottomAnchorOffset>
+    <LeftAnchorOffset>40</LeftAnchorOffset>
+    <RightAnchorOffset>64</RightAnchorOffset>
+    <TopAnchorOffset>620</TopAnchorOffset>
+    <BottomAnchorOffset>644</BottomAnchorOffset>
     <Style_VScroll>false</Style_VScroll>
     <Style_HScroll>false</Style_HScroll>
     <Style_Transparent>false</Style_Transparent>
@@ -2595,11 +2671,12 @@
     <BottomAnchorToTop>true</BottomAnchorToTop>
     <RightAnchorToLeft>false</RightAnchorToLeft>
     <LeftAnchorToLeft>true</LeftAnchorToLeft>
-    <LeftAnchorOffset>35</LeftAnchorOffset>
+    <LeftAnchorOffset>70</LeftAnchorOffset>
     <RightAnchorOffset>0</RightAnchorOffset>
-    <TopAnchorOffset>308</TopAnchorOffset>
-    <BottomAnchorOffset>322</BottomAnchorOffset>
+    <TopAnchorOffset>616</TopAnchorOffset>
+    <BottomAnchorOffset>644</BottomAnchorOffset>
     <Text>Only players who match my posted filters can query me.</Text>
+    <Font>6</Font>
     <TextColor>
       <R>255</R>
       <G>255</G>
@@ -2617,13 +2694,14 @@
       <Y>60</Y>
     </Location>
     <Size>
-      <CX>400</CX>
-      <CY>355</CY>
+      <CX>800</CX>
+      <CY>710</CY>
     </Size>
     <Style_VScroll>false</Style_VScroll>
     <Style_HScroll>false</Style_HScroll>
     <Style_Transparent>false</Style_Transparent>
     <Text>Group Search: Additional Filters</Text>
+    <Font>6</Font>
     <DrawTemplate>WDT_Rounded</DrawTemplate>
     <Style_Titlebar>true</Style_Titlebar>
     <Style_Closebox>true</Style_Closebox>

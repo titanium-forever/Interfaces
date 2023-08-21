@@ -9,8 +9,7 @@ EQUI_BazaarWnd.xml
 EQUI_BodyTintWnd.xml  
 EQUI_CombatAbilityWnd.xml  
 EQUI_CombatSkillsSelectWindow.xml  
-EQUI_FileSelectionWnd.xml  
-EQUI_GroupSearchWnd.xml  
+EQUI_FileSelectionWnd.xml    
 EQUI_GuildBankWnd.xml  
 EQUI_GuildManagementWnd.xml  
 EQUI_GuildTributeMasterWnd.xml  
