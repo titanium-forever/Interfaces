@@ -3,7 +3,7 @@
   <Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
   <Editbox item="TEW_Entry">
     <ScreenID>Entry</ScreenID>
-    <Font>5</Font>
+    <Font>6</Font>
     <DrawTemplate>WDT_Inner</DrawTemplate>
     <RelativePosition>true</RelativePosition>
     <Style_Border>true</Style_Border>
@@ -47,8 +47,8 @@
     <Font>6</Font>
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>60</X>
-      <Y>144</Y>
+      <X>54</X>
+      <Y>148</Y>
     </Location>
     <Size>
       <CX>128</CX>
@@ -73,8 +73,8 @@
     <Font>6</Font>
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>168</X>
-      <Y>144</Y>
+      <X>210</X>
+      <Y>148</Y>
     </Location>
     <Size>
       <CX>128</CX>

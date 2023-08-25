@@ -3,13 +3,14 @@
   <Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
   <Listbox item="CJCAT_CategoryList">
     <ScreenID>CategoryList</ScreenID>
+    <Font>5</Font>
     <DrawTemplate>WDT_Inner</DrawTemplate>
     <TooltipReference>List of categories for dialogs in the journal.</TooltipReference>
     <AutoStretch>true</AutoStretch>
-    <LeftAnchorOffset>4</LeftAnchorOffset>
-    <TopAnchorOffset>4</TopAnchorOffset>
-    <RightAnchorOffset>4</RightAnchorOffset>
-    <BottomAnchorOffset>94</BottomAnchorOffset>
+    <LeftAnchorOffset>8</LeftAnchorOffset>
+    <TopAnchorOffset>8</TopAnchorOffset>
+    <RightAnchorOffset>8</RightAnchorOffset>
+    <BottomAnchorOffset>188</BottomAnchorOffset>
     <TopAnchorToTop>true</TopAnchorToTop>
     <BottomAnchorToTop>false</BottomAnchorToTop>
     <LeftAnchorToLeft>true</LeftAnchorToLeft>
@@ -22,23 +23,23 @@
     <Style_Border>true</Style_Border>
     <Style_VScroll>true</Style_VScroll>
     <Columns>
-      <Width>100</Width>
+      <Width>200</Width>
       <Heading>Name</Heading>
     </Columns>
     <Columns>
-      <Width>250</Width>
+      <Width>500</Width>
       <Heading>Description</Heading>
     </Columns>
   </Listbox>
   <Button item="CJCAT_DeleteButton">
     <ScreenID>DeleteButton</ScreenID>
-    <!--<Font>3</Font>-->
+    <Font>6</Font>
     <RelativePosition>true</RelativePosition>
     <AutoStretch>true</AutoStretch>
-    <LeftAnchorOffset>4</LeftAnchorOffset>
-    <TopAnchorOffset>88</TopAnchorOffset>
-    <RightAnchorOffset>64</RightAnchorOffset>
-    <BottomAnchorOffset>64</BottomAnchorOffset>
+    <LeftAnchorOffset>8</LeftAnchorOffset>
+    <TopAnchorOffset>176</TopAnchorOffset>
+    <RightAnchorOffset>128</RightAnchorOffset>
+    <BottomAnchorOffset>128</BottomAnchorOffset>
     <TopAnchorToTop>false</TopAnchorToTop>
     <BottomAnchorToTop>false</BottomAnchorToTop>
     <LeftAnchorToLeft>true</LeftAnchorToLeft>
@@ -66,15 +67,16 @@
     <ScreenID />
     <RelativePosition>true</RelativePosition>
     <AutoStretch>true</AutoStretch>
-    <LeftAnchorOffset>232</LeftAnchorOffset>
-    <TopAnchorOffset>86</TopAnchorOffset>
-    <RightAnchorOffset>152</RightAnchorOffset>
-    <BottomAnchorOffset>64</BottomAnchorOffset>
+    <LeftAnchorOffset>464</LeftAnchorOffset>
+    <TopAnchorOffset>168</TopAnchorOffset>
+    <RightAnchorOffset>304</RightAnchorOffset>
+    <BottomAnchorOffset>124</BottomAnchorOffset>
     <TopAnchorToTop>false</TopAnchorToTop>
     <BottomAnchorToTop>false</BottomAnchorToTop>
     <LeftAnchorToLeft>false</LeftAnchorToLeft>
     <RightAnchorToLeft>false</RightAnchorToLeft>
     <Text>Default:</Text>
+    <Font>6</Font>
     <TextColor>
       <R>255</R>
       <G>255</G>
@@ -86,17 +88,18 @@
   </Label>
   <Combobox item="CJCAT_DefaultChooser">
     <ScreenID>DefaultChooser</ScreenID>
+    <Font>6</Font>
     <DrawTemplate>WDT_Inner</DrawTemplate>
     <AutoStretch>true</AutoStretch>
-    <LeftAnchorOffset>150</LeftAnchorOffset>
-    <TopAnchorOffset>90</TopAnchorOffset>
-    <RightAnchorOffset>4</RightAnchorOffset>
-    <BottomAnchorOffset>64</BottomAnchorOffset>
+    <LeftAnchorOffset>300</LeftAnchorOffset>
+    <TopAnchorOffset>180</TopAnchorOffset>
+    <RightAnchorOffset>8</RightAnchorOffset>
+    <BottomAnchorOffset>128</BottomAnchorOffset>
     <TopAnchorToTop>false</TopAnchorToTop>
     <BottomAnchorToTop>false</BottomAnchorToTop>
     <LeftAnchorToLeft>false</LeftAnchorToLeft>
     <RightAnchorToLeft>false</RightAnchorToLeft>
-    <ListHeight>80</ListHeight>
+    <ListHeight>160</ListHeight>
     <TextColor>
       <R>255</R>
       <G>255</G>
@@ -111,15 +114,16 @@
     <ScreenID />
     <RelativePosition>true</RelativePosition>
     <AutoStretch>true</AutoStretch>
-    <LeftAnchorOffset>4</LeftAnchorOffset>
-    <TopAnchorOffset>58</TopAnchorOffset>
-    <RightAnchorOffset>94</RightAnchorOffset>
-    <BottomAnchorOffset>34</BottomAnchorOffset>
+    <LeftAnchorOffset>8</LeftAnchorOffset>
+    <TopAnchorOffset>108</TopAnchorOffset>
+    <RightAnchorOffset>188</RightAnchorOffset>
+    <BottomAnchorOffset>60</BottomAnchorOffset>
     <TopAnchorToTop>false</TopAnchorToTop>
     <BottomAnchorToTop>false</BottomAnchorToTop>
     <LeftAnchorToLeft>true</LeftAnchorToLeft>
     <RightAnchorToLeft>true</RightAnchorToLeft>
     <Text>Name:</Text>
+    <Font>6</Font>
     <TextColor>
       <R>255</R>
       <G>255</G>
@@ -131,13 +135,14 @@
   </Label>
   <Editbox item="CJCAT_NameInput">
     <ScreenID>NameInput</ScreenID>
+    <Font>6</Font>
     <DrawTemplate>WDT_Inner</DrawTemplate>
     <RelativePosition>true</RelativePosition>
     <AutoStretch>true</AutoStretch>
-    <LeftAnchorOffset>96</LeftAnchorOffset>
-    <TopAnchorOffset>60</TopAnchorOffset>
-    <RightAnchorOffset>68</RightAnchorOffset>
-    <BottomAnchorOffset>34</BottomAnchorOffset>
+    <LeftAnchorOffset>192</LeftAnchorOffset>
+    <TopAnchorOffset>120</TopAnchorOffset>
+    <RightAnchorOffset>136</RightAnchorOffset>
+    <BottomAnchorOffset>68</BottomAnchorOffset>
     <TopAnchorToTop>false</TopAnchorToTop>
     <BottomAnchorToTop>false</BottomAnchorToTop>
     <LeftAnchorToLeft>true</LeftAnchorToLeft>
@@ -151,13 +156,13 @@
   </Editbox>
   <Button item="CJCAT_AddButton">
     <ScreenID>AddButton</ScreenID>
-    <!--<Font>3</Font>-->
+    <Font>6</Font>
     <RelativePosition>true</RelativePosition>
     <AutoStretch>true</AutoStretch>
-    <LeftAnchorOffset>64</LeftAnchorOffset>
-    <TopAnchorOffset>60</TopAnchorOffset>
-    <RightAnchorOffset>4</RightAnchorOffset>
-    <BottomAnchorOffset>34</BottomAnchorOffset>
+    <LeftAnchorOffset>128</LeftAnchorOffset>
+    <TopAnchorOffset>120</TopAnchorOffset>
+    <RightAnchorOffset>8</RightAnchorOffset>
+    <BottomAnchorOffset>68</BottomAnchorOffset>
     <TopAnchorToTop>false</TopAnchorToTop>
     <BottomAnchorToTop>false</BottomAnchorToTop>
     <LeftAnchorToLeft>false</LeftAnchorToLeft>
@@ -185,15 +190,16 @@
     <ScreenID />
     <RelativePosition>true</RelativePosition>
     <AutoStretch>true</AutoStretch>
-    <LeftAnchorOffset>4</LeftAnchorOffset>
-    <TopAnchorOffset>28</TopAnchorOffset>
-    <RightAnchorOffset>94</RightAnchorOffset>
+    <LeftAnchorOffset>8</LeftAnchorOffset>
+    <TopAnchorOffset>52</TopAnchorOffset>
+    <RightAnchorOffset>188</RightAnchorOffset>
     <BottomAnchorOffset>4</BottomAnchorOffset>
     <TopAnchorToTop>false</TopAnchorToTop>
     <BottomAnchorToTop>false</BottomAnchorToTop>
     <LeftAnchorToLeft>true</LeftAnchorToLeft>
     <RightAnchorToLeft>true</RightAnchorToLeft>
     <Text>Description:</Text>
+    <Font>6</Font>
     <TextColor>
       <R>255</R>
       <G>255</G>
@@ -205,13 +211,14 @@
   </Label>
   <Editbox item="CJCAT_DescInput">
     <ScreenID>DescInput</ScreenID>
+    <Font>6</Font>
     <DrawTemplate>WDT_Inner</DrawTemplate>
     <RelativePosition>true</RelativePosition>
     <AutoStretch>true</AutoStretch>
-    <LeftAnchorOffset>96</LeftAnchorOffset>
-    <TopAnchorOffset>30</TopAnchorOffset>
-    <RightAnchorOffset>68</RightAnchorOffset>
-    <BottomAnchorOffset>4</BottomAnchorOffset>
+    <LeftAnchorOffset>192</LeftAnchorOffset>
+    <TopAnchorOffset>60</TopAnchorOffset>
+    <RightAnchorOffset>136</RightAnchorOffset>
+    <BottomAnchorOffset>8</BottomAnchorOffset>
     <TopAnchorToTop>false</TopAnchorToTop>
     <BottomAnchorToTop>false</BottomAnchorToTop>
     <LeftAnchorToLeft>true</LeftAnchorToLeft>
@@ -225,13 +232,13 @@
   </Editbox>
   <Button item="CJCAT_UpdateButton">
     <ScreenID>UpdateButton</ScreenID>
-    <!--<Font>3</Font>-->
+    <Font>6</Font>
     <RelativePosition>true</RelativePosition>
     <AutoStretch>true</AutoStretch>
-    <LeftAnchorOffset>64</LeftAnchorOffset>
-    <TopAnchorOffset>30</TopAnchorOffset>
-    <RightAnchorOffset>4</RightAnchorOffset>
-    <BottomAnchorOffset>4</BottomAnchorOffset>
+    <LeftAnchorOffset>128</LeftAnchorOffset>
+    <TopAnchorOffset>60</TopAnchorOffset>
+    <RightAnchorOffset>8</RightAnchorOffset>
+    <BottomAnchorOffset>8</BottomAnchorOffset>
     <TopAnchorToTop>false</TopAnchorToTop>
     <BottomAnchorToTop>false</BottomAnchorToTop>
     <LeftAnchorToLeft>false</LeftAnchorToLeft>
@@ -263,10 +270,11 @@
       <Y>240</Y>
     </Location>
     <Size>
-      <CX>282</CX>
-      <CY>234</CY>
+      <CX>864</CX>
+      <CY>468</CY>
     </Size>
     <Text>Journal Category Window</Text>
+    <Font>6</Font>
     <Style_VScroll>false</Style_VScroll>
     <Style_HScroll>false</Style_HScroll>
     <Style_Transparent>false</Style_Transparent>

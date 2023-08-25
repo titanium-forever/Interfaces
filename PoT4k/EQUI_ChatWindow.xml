@@ -32,6 +32,7 @@
 		<BottomAnchorToTop>false</BottomAnchorToTop>
 		<Style_Border>true</Style_Border>
 		<Style_Transparent>true</Style_Transparent>
+		<Font>6</Font>
 	</STMLbox>
     
 	<Screen item = "ChatWindow">
@@ -50,7 +51,7 @@
 		<DrawTemplate>WDT_Rounded_DarkNoTitle</DrawTemplate>
 		<Style_Titlebar>true</Style_Titlebar>
 		<Font>6</Font>
-		<Style_Closebox>false</Style_Closebox>
+		<Style_Closebox>true</Style_Closebox>
 		<Style_Minimizebox>false</Style_Minimizebox>
 		<Style_Border>true</Style_Border>
 		<Style_Sizable>true</Style_Sizable>
