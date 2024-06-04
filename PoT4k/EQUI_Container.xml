@@ -1,7 +1,6 @@
 <?xml version = "1.0"?>
 <XML ID = "EQInterfaceDefinitionLanguage">
 	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
-
 	<Label item ="Container_Label">
 		<ScreenID>Container_Label</ScreenID>
 		<Font>6</Font>
@@ -24,7 +23,6 @@
 		<AlignCenter>true</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-
 	<Button item = "Container_Icon">
 		<ScreenID>Container_Icon</ScreenID>
 		<!--<Font>3</Font>-->
@@ -62,7 +60,6 @@
 			<CY>80</CY>
 		</DecalSize>
 	</Button>
-
 	<InvSlot item = "ContainerSlot1">
 		<ScreenID>ContainerSlot1</ScreenID>
 		<!--<Font>3</Font>-->
@@ -82,7 +79,6 @@
 		<Style_Transparent>false</Style_Transparent>
 		<TooltipReference/>
 	</InvSlot>
-
 	<InvSlot item = "ContainerSlot2">
 		<ScreenID>ContainerSlot2</ScreenID>
 		<!--<Font>3</Font>-->
@@ -102,7 +98,6 @@
 		<Style_Transparent>false</Style_Transparent>
 		<TooltipReference/>
 	</InvSlot>
-
 	<InvSlot item = "ContainerSlot3">
 		<ScreenID>ContainerSlot3</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -121,7 +116,6 @@
 		<Style_Transparent>false</Style_Transparent>
 		<TooltipReference/>
 	</InvSlot>
-
 	<InvSlot item = "ContainerSlot4">
 		<ScreenID>ContainerSlot4</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -140,7 +134,6 @@
 		<Style_Transparent>false</Style_Transparent>
 		<TooltipReference/>
 	</InvSlot>
-
 	<InvSlot item = "ContainerSlot5">
 		<ScreenID>ContainerSlot5</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -159,7 +152,6 @@
 		<Style_Transparent>false</Style_Transparent>
 		<TooltipReference/>
 	</InvSlot>
-
 	<InvSlot item = "ContainerSlot6">
 		<ScreenID>ContainerSlot6</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -178,7 +170,6 @@
 		<Style_Transparent>false</Style_Transparent>
 		<TooltipReference/>
 	</InvSlot>
-
 	<InvSlot item = "ContainerSlot7">
 		<ScreenID>ContainerSlot7</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -197,7 +188,6 @@
 		<Style_Transparent>false</Style_Transparent>
 		<TooltipReference/>
 	</InvSlot>
-
 	<InvSlot item = "ContainerSlot8">
 		<ScreenID>ContainerSlot8</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -216,7 +206,6 @@
 		<Style_Transparent>false</Style_Transparent>
 		<TooltipReference/>
 	</InvSlot>
-
 	<InvSlot item = "ContainerSlot9">
 		<ScreenID>ContainerSlot9</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -235,7 +224,6 @@
 		<Style_Transparent>false</Style_Transparent>
 		<TooltipReference/>
 	</InvSlot>
-
 	<InvSlot item = "ContainerSlot10">
 		<ScreenID>ContainerSlot10</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -254,7 +242,6 @@
 		<Style_Transparent>false</Style_Transparent>
 		<TooltipReference/>
 	</InvSlot>
-
 	<Button item = "Container_Combine">
 		<ScreenID>Container_Combine</ScreenID>
 		<Font>6</Font>
@@ -287,7 +274,6 @@
 			<PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
-
 	<Button item = "Container_DoneButton">
 		<ScreenID>DoneButton</ScreenID>
 		<Font>6</Font>
@@ -319,6 +305,158 @@
 			<PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
+	<Label item="Augment_Label">
+		<ScreenID>Augment_Label</ScreenID>
+		<Font>6</Font>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>190</X>
+			<Y>5</Y>
+		</Location>
+		<Size>
+			<CX>88</CX>
+			<CY>25</CY>
+		</Size>
+		<Text>Augments</Text>
+		<TextColor>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
+		</TextColor>
+		<NoWrap>false</NoWrap>
+		<AlignCenter>false</AlignCenter>
+		<AlignRight>false</AlignRight>
+	</Label>
+	<Listbox item="AugmentList">
+		<ScreenID>AugmentList</ScreenID>
+		<Font>5</Font>
+		<DrawTemplate>WDT_Inner</DrawTemplate>
+		<Location>
+			<X>190</X>
+			<Y>60</Y>
+		</Location>
+		<Size>
+			<CX>440</CX>
+			<CY>81</CY>
+		</Size>
+		<Columns>
+			<Width>150</Width>
+		</Columns>
+		<Style_Border>true</Style_Border>
+		<Style_VScroll>false</Style_VScroll>
+	</Listbox>
+	<Button item="InsertButton">
+		<ScreenID>InsertButton</ScreenID>
+		<Font>6</Font>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>190</X>
+			<Y>144</Y>
+		</Location>
+		<Size>
+			<CX>154</CX>
+			<CY>40</CY>
+		</Size>
+		<Style_Transparent>false</Style_Transparent>
+		<!--<TooltipReference/>-->
+		<Style_Checkbox>false</Style_Checkbox>
+		<!--<RadioGroup/>-->
+		<Text>Insert</Text>
+		<TextColor>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>A_BtnNormal</Normal>
+			<Pressed>A_BtnPressed</Pressed>
+			<Flyby>A_BtnFlyby</Flyby>
+			<Disabled>A_BtnDisabled</Disabled>
+			<PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+	<Button item="RemoveButton">
+		<ScreenID>RemoveButton</ScreenID>
+		<Font>6</Font>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>190</X>
+			<Y>144</Y>
+		</Location>
+		<Size>
+			<CX>154</CX>
+			<CY>40</CY>
+		</Size>
+		<Style_Transparent>false</Style_Transparent>
+		<!--<TooltipReference/>-->
+		<Style_Checkbox>false</Style_Checkbox>
+		<!--<RadioGroup/>-->
+		<Text>Remove</Text>
+		<TextColor>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>A_BtnNormal</Normal>
+			<Pressed>A_BtnPressed</Pressed>
+			<Flyby>A_BtnFlyby</Flyby>
+			<Disabled>A_BtnDisabled</Disabled>
+			<PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+	<Button item="DeleteButton">
+		<ScreenID>DeleteButton</ScreenID>
+		<Font>6</Font>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>190</X>
+			<Y>144</Y>
+		</Location>
+		<Size>
+			<CX>154</CX>
+			<CY>40</CY>
+		</Size>
+		<Style_Transparent>false</Style_Transparent>
+		<!--<TooltipReference/>-->
+		<Style_Checkbox>false</Style_Checkbox>
+		<!--<RadioGroup/>-->
+		<Text>Delete</Text>
+		<TextColor>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>A_BtnNormal</Normal>
+			<Pressed>A_BtnPressed</Pressed>
+			<Flyby>A_BtnFlyby</Flyby>
+			<Disabled>A_BtnDisabled</Disabled>
+			<PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+	<Label item="AugmentInfoLabel">
+		<ScreenID>AugmentInfoLabel</ScreenID>
+		<Font>6</Font>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>190</X>
+			<Y>5</Y>
+		</Location>
+		<Size>
+			<CX>440</CX>
+			<CY>60</CY>
+		</Size>
+		<Text>None</Text>
+		<TextColor>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
+		</TextColor>
+		<NoWrap>false</NoWrap>
+		<AlignCenter>false</AlignCenter>
+		<AlignRight>false</AlignRight>
+	</Label>
 
 	<Screen item = "ContainerWindow">
 		<!--<ScreenID/>-->
@@ -357,6 +495,12 @@
 		<Pieces>ContainerSlot10</Pieces>
 		<Pieces>Container_Combine</Pieces>
 		<Pieces>Container_DoneButton</Pieces>
+		<!--Pieces>Augment_Label</Pieces-->
+		<Pieces>AugmentList</Pieces>
+		<Pieces>InsertButton</Pieces>
+		<Pieces>RemoveButton</Pieces>
+		<Pieces>DeleteButton</Pieces>
+		<Pieces>AugmentInfoLabel</Pieces>
 	</Screen>
 
 </XML>

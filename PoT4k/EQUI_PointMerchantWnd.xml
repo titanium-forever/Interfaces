@@ -2,13 +2,14 @@
 <XML ID="EQInterfaceDefinitionLanguage">
   <Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
   <Label item="PointMerchant_NameLabel">
+    <Font>6</Font>
     <ScreenID>PointMerchant_NameLabel</ScreenID>
     <RelativePosition>true</RelativePosition>
     <AutoStretch>true</AutoStretch>
-    <LeftAnchorOffset>4</LeftAnchorOffset>
-    <TopAnchorOffset>4</TopAnchorOffset>
-    <RightAnchorOffset>4</RightAnchorOffset>
-    <BottomAnchorOffset>18</BottomAnchorOffset>
+    <LeftAnchorOffset>8</LeftAnchorOffset>
+    <TopAnchorOffset>8</TopAnchorOffset>
+    <RightAnchorOffset>8</RightAnchorOffset>
+    <BottomAnchorOffset>36</BottomAnchorOffset>
     <TopAnchorToTop>true</TopAnchorToTop>
     <BottomAnchorToTop>true</BottomAnchorToTop>
     <LeftAnchorToLeft>true</LeftAnchorToLeft>
@@ -28,14 +29,15 @@
     <DrawTemplate>WDT_Inner</DrawTemplate>
     <TooltipReference>Items this merchant has for sale</TooltipReference>
     <AutoStretch>true</AutoStretch>
-    <LeftAnchorOffset>160</LeftAnchorOffset>
-    <TopAnchorOffset>28</TopAnchorOffset>
-    <RightAnchorOffset>4</RightAnchorOffset>
-    <BottomAnchorOffset>36</BottomAnchorOffset>
+    <LeftAnchorOffset>320</LeftAnchorOffset>
+    <TopAnchorOffset>56</TopAnchorOffset>
+    <RightAnchorOffset>8</RightAnchorOffset>
+    <BottomAnchorOffset>72</BottomAnchorOffset>
     <TopAnchorToTop>true</TopAnchorToTop>
     <BottomAnchorToTop>false</BottomAnchorToTop>
     <LeftAnchorToLeft>true</LeftAnchorToLeft>
     <RightAnchorToLeft>false</RightAnchorToLeft>
+    <Font>5</Font>
     <TextColor>
       <R>255</R>
       <G>255</G>
@@ -44,15 +46,15 @@
     <Style_Border>true</Style_Border>
     <Style_VScroll>true</Style_VScroll>
     <Columns>
-      <Width>180</Width>
+      <Width>360</Width>
       <Heading>Item</Heading>
     </Columns>
     <Columns>
-      <Width>60</Width>
+      <Width>80</Width>
       <Heading>Theme</Heading>
     </Columns>
     <Columns>
-      <Width>40</Width>
+      <Width>100</Width>
       <Heading>Price</Heading>
     </Columns>
   </Listbox>
@@ -60,15 +62,16 @@
     <ScreenID>PointMerchant_PointsAvailableLabel</ScreenID>
     <RelativePosition>true</RelativePosition>
     <AutoStretch>true</AutoStretch>
-    <LeftAnchorOffset>4</LeftAnchorOffset>
-    <TopAnchorOffset>96</TopAnchorOffset>
-    <RightAnchorOffset>150</RightAnchorOffset>
-    <BottomAnchorOffset>110</BottomAnchorOffset>
+    <LeftAnchorOffset>8</LeftAnchorOffset>
+    <TopAnchorOffset>192</TopAnchorOffset>
+    <RightAnchorOffset>300</RightAnchorOffset>
+    <BottomAnchorOffset>220</BottomAnchorOffset>
     <TopAnchorToTop>true</TopAnchorToTop>
     <BottomAnchorToTop>true</BottomAnchorToTop>
     <LeftAnchorToLeft>true</LeftAnchorToLeft>
     <RightAnchorToLeft>true</RightAnchorToLeft>
     <Text>Points Available</Text>
+    <Font>6</Font>
     <TextColor>
       <R>255</R>
       <G>255</G>
@@ -83,15 +86,16 @@
     <RelativePosition>true</RelativePosition>
     <TooltipReference>Points available to spend for this merchant</TooltipReference>
     <AutoStretch>true</AutoStretch>
-    <LeftAnchorOffset>4</LeftAnchorOffset>
-    <TopAnchorOffset>115</TopAnchorOffset>
-    <RightAnchorOffset>140</RightAnchorOffset>
-    <BottomAnchorOffset>129</BottomAnchorOffset>
+    <LeftAnchorOffset>8</LeftAnchorOffset>
+    <TopAnchorOffset>230</TopAnchorOffset>
+    <RightAnchorOffset>280</RightAnchorOffset>
+    <BottomAnchorOffset>258</BottomAnchorOffset>
     <TopAnchorToTop>true</TopAnchorToTop>
     <BottomAnchorToTop>true</BottomAnchorToTop>
     <LeftAnchorToLeft>true</LeftAnchorToLeft>
     <RightAnchorToLeft>true</RightAnchorToLeft>
     <Text />
+    <Font>6</Font>
     <TextColor>
       <R>0</R>
       <G>255</G>
@@ -106,14 +110,15 @@
     <DrawTemplate>WDT_Inner</DrawTemplate>
     <TooltipReference>Theme points for this merchant</TooltipReference>
     <AutoStretch>true</AutoStretch>
-    <LeftAnchorOffset>4</LeftAnchorOffset>
-    <TopAnchorOffset>154</TopAnchorOffset>
-    <RightAnchorOffset>152</RightAnchorOffset>
-    <BottomAnchorOffset>36</BottomAnchorOffset>
+    <LeftAnchorOffset>8</LeftAnchorOffset>
+    <TopAnchorOffset>308</TopAnchorOffset>
+    <RightAnchorOffset>304</RightAnchorOffset>
+    <BottomAnchorOffset>72</BottomAnchorOffset>
     <TopAnchorToTop>true</TopAnchorToTop>
     <BottomAnchorToTop>false</BottomAnchorToTop>
     <LeftAnchorToLeft>true</LeftAnchorToLeft>
     <RightAnchorToLeft>true</RightAnchorToLeft>
+    <Font>5</Font>
     <TextColor>
       <R>255</R>
       <G>255</G>
@@ -122,11 +127,11 @@
     <Style_Border>true</Style_Border>
     <Style_VScroll>false</Style_VScroll>
     <Columns>
-      <Width>80</Width>
+      <Width>160</Width>
       <Heading>Theme</Heading>
     </Columns>
     <Columns>
-      <Width>60</Width>
+      <Width>120</Width>
       <Heading>Points</Heading>
     </Columns>
   </Listbox>
@@ -134,10 +139,10 @@
     <ScreenID>PointMerchant_EquipButton</ScreenID>
     <RelativePosition>true</RelativePosition>
     <AutoStretch>true</AutoStretch>
-    <LeftAnchorOffset>5</LeftAnchorOffset>
-    <TopAnchorOffset>24</TopAnchorOffset>
-    <RightAnchorOffset>21</RightAnchorOffset>
-    <BottomAnchorOffset>8</BottomAnchorOffset>
+    <LeftAnchorOffset>10</LeftAnchorOffset>
+    <TopAnchorOffset>48</TopAnchorOffset>
+    <RightAnchorOffset>42</RightAnchorOffset>
+    <BottomAnchorOffset>16</BottomAnchorOffset>
     <TopAnchorToTop>false</TopAnchorToTop>
     <BottomAnchorToTop>false</BottomAnchorToTop>
     <LeftAnchorToLeft>true</LeftAnchorToLeft>
@@ -145,6 +150,7 @@
     <Style_Transparent>false</Style_Transparent>
     <Style_Checkbox>true</Style_Checkbox>
     <Text />
+    <Font>6</Font>
     <TextColor>
       <R>255</R>
       <G>255</G>
@@ -159,15 +165,16 @@
     <ScreenID>PointMerchant_EquipLabel</ScreenID>
     <RelativePosition>true</RelativePosition>
     <AutoStretch>true</AutoStretch>
-    <LeftAnchorOffset>26</LeftAnchorOffset>
-    <TopAnchorOffset>24</TopAnchorOffset>
-    <RightAnchorOffset>218</RightAnchorOffset>
-    <BottomAnchorOffset>4</BottomAnchorOffset>
+    <LeftAnchorOffset>52</LeftAnchorOffset>
+    <TopAnchorOffset>48</TopAnchorOffset>
+    <RightAnchorOffset>436</RightAnchorOffset>
+    <BottomAnchorOffset>8</BottomAnchorOffset>
     <TopAnchorToTop>false</TopAnchorToTop>
     <BottomAnchorToTop>false</BottomAnchorToTop>
     <LeftAnchorToLeft>true</LeftAnchorToLeft>
     <RightAnchorToLeft>true</RightAnchorToLeft>
     <Text>Show only items I can use</Text>
+    <Font>6</Font>
     <TextColor>
       <R>255</R>
       <G>255</G>
@@ -181,10 +188,10 @@
     <ScreenID>PointMerchant_PurchaseButton</ScreenID>
     <RelativePosition>true</RelativePosition>
     <AutoStretch>true</AutoStretch>
-    <LeftAnchorOffset>195</LeftAnchorOffset>
-    <TopAnchorOffset>28</TopAnchorOffset>
-    <RightAnchorOffset>285</RightAnchorOffset>
-    <BottomAnchorOffset>4</BottomAnchorOffset>
+    <LeftAnchorOffset>390</LeftAnchorOffset>
+    <TopAnchorOffset>56</TopAnchorOffset>
+    <RightAnchorOffset>570</RightAnchorOffset>
+    <BottomAnchorOffset>8</BottomAnchorOffset>
     <TopAnchorToTop>false</TopAnchorToTop>
     <BottomAnchorToTop>false</BottomAnchorToTop>
     <LeftAnchorToLeft>true</LeftAnchorToLeft>
@@ -193,6 +200,7 @@
     <Style_Checkbox>false</Style_Checkbox>
     <TooltipReference>Purchase the selected item.</TooltipReference>
     <Text>Purchase</Text>
+    <Font>6</Font>
     <TextColor>
       <R>255</R>
       <G>255</G>
@@ -210,10 +218,10 @@
     <ScreenID>PointMerchant_SellButton</ScreenID>
     <RelativePosition>true</RelativePosition>
     <AutoStretch>true</AutoStretch>
-    <LeftAnchorOffset>290</LeftAnchorOffset>
-    <TopAnchorOffset>28</TopAnchorOffset>
-    <RightAnchorOffset>380</RightAnchorOffset>
-    <BottomAnchorOffset>4</BottomAnchorOffset>
+    <LeftAnchorOffset>580</LeftAnchorOffset>
+    <TopAnchorOffset>56</TopAnchorOffset>
+    <RightAnchorOffset>760</RightAnchorOffset>
+    <BottomAnchorOffset>8</BottomAnchorOffset>
     <TopAnchorToTop>false</TopAnchorToTop>
     <BottomAnchorToTop>false</BottomAnchorToTop>
     <LeftAnchorToLeft>true</LeftAnchorToLeft>
@@ -222,6 +230,7 @@
     <Style_Checkbox>false</Style_Checkbox>
     <TooltipReference>Sell back the selected item.</TooltipReference>
     <Text>Sell</Text>
+    <Font>6</Font>
     <TextColor>
       <R>255</R>
       <G>255</G>
@@ -239,10 +248,10 @@
     <ScreenID>PointMerchant_DoneButton</ScreenID>
     <RelativePosition>true</RelativePosition>
     <AutoStretch>true</AutoStretch>
-    <LeftAnchorOffset>94</LeftAnchorOffset>
-    <TopAnchorOffset>28</TopAnchorOffset>
-    <RightAnchorOffset>4</RightAnchorOffset>
-    <BottomAnchorOffset>4</BottomAnchorOffset>
+    <LeftAnchorOffset>188</LeftAnchorOffset>
+    <TopAnchorOffset>56</TopAnchorOffset>
+    <RightAnchorOffset>8</RightAnchorOffset>
+    <BottomAnchorOffset>8</BottomAnchorOffset>
     <TopAnchorToTop>false</TopAnchorToTop>
     <BottomAnchorToTop>false</BottomAnchorToTop>
     <LeftAnchorToLeft>false</LeftAnchorToLeft>
@@ -250,6 +259,7 @@
     <Style_Transparent>false</Style_Transparent>
     <Style_Checkbox>false</Style_Checkbox>
     <Text>Done</Text>
+    <Font>6</Font>
     <TextColor>
       <R>255</R>
       <G>255</G>
@@ -267,15 +277,16 @@
     <ScreenID>PointMerchant_PointsEverLabel</ScreenID>
     <RelativePosition>true</RelativePosition>
     <AutoStretch>true</AutoStretch>
-    <LeftAnchorOffset>7</LeftAnchorOffset>
-    <TopAnchorOffset>134</TopAnchorOffset>
-    <RightAnchorOffset>143</RightAnchorOffset>
-    <BottomAnchorOffset>151</BottomAnchorOffset>
+    <LeftAnchorOffset>14</LeftAnchorOffset>
+    <TopAnchorOffset>268</TopAnchorOffset>
+    <RightAnchorOffset>286</RightAnchorOffset>
+    <BottomAnchorOffset>302</BottomAnchorOffset>
     <TopAnchorToTop>true</TopAnchorToTop>
     <BottomAnchorToTop>true</BottomAnchorToTop>
     <LeftAnchorToLeft>true</LeftAnchorToLeft>
     <RightAnchorToLeft>true</RightAnchorToLeft>
     <Text>Points Ever Earned</Text>
+    <Font>6</Font>
     <TextColor>
       <R>255</R>
       <G>255</G>
@@ -289,17 +300,18 @@
   <Screen item="PointMerchantWnd">
     <RelativePosition>false</RelativePosition>
     <Location>
-      <X>100</X>
-      <Y>60</Y>
+      <X>200</X>
+      <Y>120</Y>
     </Location>
     <Size>
-      <CX>510</CX>
-      <CY>320</CY>
+      <CX>1020</CX>
+      <CY>640</CY>
     </Size>
     <Style_VScroll>false</Style_VScroll>
     <Style_HScroll>false</Style_HScroll>
     <Style_Transparent>false</Style_Transparent>
     <Text>Merchant</Text>
+    <Font>6</Font>
     <DrawTemplate>WDT_Rounded</DrawTemplate>
     <Style_Titlebar>true</Style_Titlebar>
     <Style_Closebox>true</Style_Closebox>

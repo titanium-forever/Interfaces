@@ -24,7 +24,6 @@ EQUI_MailCompositionWindow.xml
 EQUI_MailWindow.xml  
 EQUI_NoteWindow.xml  
 EQUI_PlayerNotesWindow.xml  
-EQUI_PointMerchantWnd.xml  
 EQUI_PotionBeltWnd.xml  
 EQUI_ProgressionSelectionWnd.xml  
 EQUI_PvPLeaderBoardWnd.xml  
