@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+  <Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+  <!-- NPC Label -->
+  <Label item="AdvRqst_NPCLabel">
+    <ScreenID>AdvRqst_NPCLabel</ScreenID>
+    <RelativePosition>true</RelativePosition>
+    <AutoStretch>true</AutoStretch>
+    <LeftAnchorOffset>8</LeftAnchorOffset>
+    <TopAnchorOffset>8</TopAnchorOffset>
+    <RightAnchorOffset>8</RightAnchorOffset>
+    <BottomAnchorOffset>36</BottomAnchorOffset>
+    <TopAnchorToTop>true</TopAnchorToTop>
+    <BottomAnchorToTop>true</BottomAnchorToTop>
+    <LeftAnchorToLeft>true</LeftAnchorToLeft>
+    <RightAnchorToLeft>false</RightAnchorToLeft>
+    <Text>NPC Name</Text>
+    <Font>6</Font>
+    <TextColor>
+      <R>255</R>
+      <G>255</G>
+      <B>255</B>
+    </TextColor>
+    <NoWrap>true</NoWrap>
+    <AlignCenter>true</AlignCenter>
+    <AlignRight>false</AlignRight>
+  </Label>
+  <!-- NPC Text -->
+  <STMLbox item="AdvRqst_NPCText">
+    <ScreenID>AdvRqst_NPCText</ScreenID>
+    <DrawTemplate>WDT_Inner</DrawTemplate>
+    <AutoStretch>true</AutoStretch>
+    <LeftAnchorOffset>10</LeftAnchorOffset>
+    <TopAnchorOffset>44</TopAnchorOffset>
+    <RightAnchorOffset>10</RightAnchorOffset>
+    <BottomAnchorOffset>308</BottomAnchorOffset>
+    <TopAnchorToTop>true</TopAnchorToTop>
+    <BottomAnchorToTop>false</BottomAnchorToTop>
+    <LeftAnchorToLeft>true</LeftAnchorToLeft>
+    <RightAnchorToLeft>false</RightAnchorToLeft>
+    <TextColor>
+      <R>255</R>
+      <G>255</G>
+      <B>255</B>
+    </TextColor>
+    <Font>6</Font>
+    <Style_Border>true</Style_Border>
+    <Style_VScroll>true</Style_VScroll>
+  </STMLbox>
+  <!-- Risk Options -->
+  <Label item="AdvRqst_RiskLabel">
+    <ScreenID>AdvRqst_RiskLabel</ScreenID>
+    <RelativePosition>true</RelativePosition>
+    <AutoStretch>true</AutoStretch>
+    <LeftAnchorOffset>20</LeftAnchorOffset>
+    <TopAnchorOffset>248</TopAnchorOffset>
+    <RightAnchorOffset>100</RightAnchorOffset>
+    <BottomAnchorOffset>248</BottomAnchorOffset>
+    <TopAnchorToTop>false</TopAnchorToTop>
+    <BottomAnchorToTop>false</BottomAnchorToTop>
+    <LeftAnchorToLeft>true</LeftAnchorToLeft>
+    <RightAnchorToLeft>true</RightAnchorToLeft>
+    <Text>Risk:</Text>
+    <Font>6</Font>
+    <TextColor>
+      <R>255</R>
+      <G>255</G>
+      <B>255</B>
+    </TextColor>
+    <NoWrap>true</NoWrap>
+    <AlignCenter>false</AlignCenter>
+    <AlignRight>false</AlignRight>
+  </Label>
+  <!-- Risk Combobox -->
+  <Combobox item="AdvRqst_RiskCombobox">
+    <ScreenID>AdvRqst_RiskCombobox</ScreenID>
+    <DrawTemplate>WDT_Inner</DrawTemplate>
+    <AutoStretch>true</AutoStretch>
+    <LeftAnchorOffset>100</LeftAnchorOffset>
+    <TopAnchorOffset>290</TopAnchorOffset>
+    <RightAnchorOffset>300</RightAnchorOffset>
+    <BottomAnchorOffset>242</BottomAnchorOffset>
+    <TopAnchorToTop>false</TopAnchorToTop>
+    <BottomAnchorToTop>false</BottomAnchorToTop>
+    <LeftAnchorToLeft>true</LeftAnchorToLeft>
+    <RightAnchorToLeft>true</RightAnchorToLeft>
+    <ListHeight>96</ListHeight>
+    <Button>BDT_Combo</Button>
+    <Style_Border>true</Style_Border>
+    <Choices>Normal</Choices>
+    <Choices>High</Choices>
+    <Font>6</Font>
+  </Combobox>
+  <!-- View Stats Button -->
+  <Button item="AdvRqst_ViewStatsButton">
+    <ScreenID>AdvRqst_ViewStatsButton</ScreenID>
+    <RelativePosition>true</RelativePosition>
+    <AutoStretch>true</AutoStretch>
+    <LeftAnchorOffset>290</LeftAnchorOffset>
+    <TopAnchorOffset>290</TopAnchorOffset>
+    <RightAnchorOffset>30</RightAnchorOffset>
+    <BottomAnchorOffset>242</BottomAnchorOffset>
+    <TopAnchorToTop>false</TopAnchorToTop>
+    <BottomAnchorToTop>false</BottomAnchorToTop>
+    <LeftAnchorToLeft>false</LeftAnchorToLeft>
+    <RightAnchorToLeft>false</RightAnchorToLeft>
+    <Style_Transparent>false</Style_Transparent>
+    <Style_Checkbox>false</Style_Checkbox>
+    <Text>View Stats</Text>
+    <Font>6</Font>
+    <TextColor>
+      <R>255</R>
+      <G>255</G>
+      <B>255</B>
+    </TextColor>
+    <ButtonDrawTemplate>
+      <Normal>A_BtnNormal</Normal>
+      <Pressed>A_BtnPressed</Pressed>
+      <Flyby>A_BtnFlyby</Flyby>
+      <Disabled>A_BtnDisabled</Disabled>
+      <PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
+    </ButtonDrawTemplate>
+  </Button>
+  <!-- Type Combobox -->
+  <Label item="AdvRqst_TypeLabel">
+    <ScreenID>AdvRqst_TypeLabel</ScreenID>
+    <RelativePosition>true</RelativePosition>
+    <AutoStretch>true</AutoStretch>
+    <LeftAnchorOffset>20</LeftAnchorOffset>
+    <TopAnchorOffset>210</TopAnchorOffset>
+    <RightAnchorOffset>100</RightAnchorOffset>
+    <BottomAnchorOffset>174</BottomAnchorOffset>
+    <TopAnchorToTop>false</TopAnchorToTop>
+    <BottomAnchorToTop>false</BottomAnchorToTop>
+    <LeftAnchorToLeft>true</LeftAnchorToLeft>
+    <RightAnchorToLeft>true</RightAnchorToLeft>
+    <Text>Type:</Text>
+    <Font>6</Font>
+    <TextColor>
+      <R>255</R>
+      <G>255</G>
+      <B>255</B>
+    </TextColor>
+    <NoWrap>true</NoWrap>
+    <AlignCenter>false</AlignCenter>
+    <AlignRight>false</AlignRight>
+  </Label>
+  <Combobox item="AdvRqst_TypeCombobox">
+    <ScreenID>AdvRqst_TypeCombobox</ScreenID>
+    <DrawTemplate>WDT_Inner</DrawTemplate>
+    <AutoStretch>true</AutoStretch>
+    <LeftAnchorOffset>100</LeftAnchorOffset>
+    <TopAnchorOffset>216</TopAnchorOffset>
+    <RightAnchorOffset>300</RightAnchorOffset>
+    <BottomAnchorOffset>168</BottomAnchorOffset>
+    <TopAnchorToTop>false</TopAnchorToTop>
+    <BottomAnchorToTop>false</BottomAnchorToTop>
+    <LeftAnchorToLeft>true</LeftAnchorToLeft>
+    <RightAnchorToLeft>true</RightAnchorToLeft>
+    <ListHeight>160</ListHeight>
+    <Button>BDT_Combo</Button>
+    <Style_Border>true</Style_Border>
+    <Choices>Random</Choices>
+    <Choices>Single Boss</Choices>
+    <Choices>Mob count</Choices>
+    <Choices>Collection</Choices>
+    <Choices>Rescue</Choices>
+  </Combobox>
+  <!-- Request Adventure Button -->
+  <Button item="AdvRqst_RequestButton">
+    <ScreenID>AdvRqst_RequestButton</ScreenID>
+    <RelativePosition>true</RelativePosition>
+    <AutoStretch>true</AutoStretch>
+    <LeftAnchorOffset>290</LeftAnchorOffset>
+    <TopAnchorOffset>220</TopAnchorOffset>
+    <RightAnchorOffset>30</RightAnchorOffset>
+    <BottomAnchorOffset>160</BottomAnchorOffset>
+    <TopAnchorToTop>false</TopAnchorToTop>
+    <BottomAnchorToTop>false</BottomAnchorToTop>
+    <LeftAnchorToLeft>false</LeftAnchorToLeft>
+    <RightAnchorToLeft>false</RightAnchorToLeft>
+    <Style_Transparent>false</Style_Transparent>
+    <Style_Checkbox>false</Style_Checkbox>
+    <Text>Request Adventure</Text>
+    <Font>6</Font>
+    <TextColor>
+      <R>255</R>
+      <G>255</G>
+      <B>255</B>
+    </TextColor>
+    <ButtonDrawTemplate>
+      <Normal>A_BtnNormal</Normal>
+      <Pressed>A_BtnPressed</Pressed>
+      <Flyby>A_BtnFlyby</Flyby>
+      <Disabled>A_BtnDisabled</Disabled>
+      <PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
+    </ButtonDrawTemplate>
+  </Button>
+  <!-- Time to Enter Label -->
+  <Label item="AdvRqst_EnterTimeLabel">
+    <ScreenID>AdvRqst_EnterTimeLabel</ScreenID>
+    <RelativePosition>true</RelativePosition>
+    <AutoStretch>true</AutoStretch>
+    <LeftAnchorOffset>10</LeftAnchorOffset>
+    <TopAnchorOffset>138</TopAnchorOffset>
+    <RightAnchorOffset>250</RightAnchorOffset>
+    <BottomAnchorOffset>110</BottomAnchorOffset>
+    <TopAnchorToTop>false</TopAnchorToTop>
+    <BottomAnchorToTop>false</BottomAnchorToTop>
+    <LeftAnchorToLeft>true</LeftAnchorToLeft>
+    <RightAnchorToLeft>true</RightAnchorToLeft>
+    <Text>Time to Enter:</Text>
+    <Font>6</Font>
+    <TextColor>
+      <R>255</R>
+      <G>255</G>
+      <B>255</B>
+    </TextColor>
+    <NoWrap>false</NoWrap>
+    <AlignCenter>false</AlignCenter>
+    <AlignRight>false</AlignRight>
+  </Label>
+  <!-- Time to Enter Timer Label -->
+  <Label item="AdvRqst_EnterTimeLeftLabel">
+    <ScreenID>AdvRqst_EnterTimeLeftLabel</ScreenID>
+    <RelativePosition>true</RelativePosition>
+    <AutoStretch>true</AutoStretch>
+    <LeftAnchorOffset>250</LeftAnchorOffset>
+    <TopAnchorOffset>138</TopAnchorOffset>
+    <RightAnchorOffset>450</RightAnchorOffset>
+    <BottomAnchorOffset>110</BottomAnchorOffset>
+    <TopAnchorToTop>false</TopAnchorToTop>
+    <BottomAnchorToTop>false</BottomAnchorToTop>
+    <LeftAnchorToLeft>true</LeftAnchorToLeft>
+    <RightAnchorToLeft>true</RightAnchorToLeft>
+    <Text />
+    <Font>6</Font>
+    <TextColor>
+      <R>255</R>
+      <G>255</G>
+      <B>255</B>
+    </TextColor>
+    <NoWrap>true</NoWrap>
+    <AlignCenter>false</AlignCenter>
+    <AlignRight>false</AlignRight>
+  </Label>
+  <!-- Time to Complete Label -->
+  <Label item="AdvRqst_CompleteTimeLabel">
+    <ScreenID>AdvRqst_CompleteTimeLabel</ScreenID>
+    <RelativePosition>true</RelativePosition>
+    <AutoStretch>true</AutoStretch>
+    <LeftAnchorOffset>10</LeftAnchorOffset>
+    <TopAnchorOffset>108</TopAnchorOffset>
+    <RightAnchorOffset>250</RightAnchorOffset>
+    <BottomAnchorOffset>80</BottomAnchorOffset>
+    <TopAnchorToTop>false</TopAnchorToTop>
+    <BottomAnchorToTop>false</BottomAnchorToTop>
+    <LeftAnchorToLeft>true</LeftAnchorToLeft>
+    <RightAnchorToLeft>true</RightAnchorToLeft>
+    <Text>Time to Complete:</Text>
+    <Font>6</Font>
+    <TextColor>
+      <R>255</R>
+      <G>255</G>
+      <B>255</B>
+    </TextColor>
+    <NoWrap>false</NoWrap>
+    <AlignCenter>false</AlignCenter>
+    <AlignRight>false</AlignRight>
+  </Label>
+  <!-- Time to Complete Timer Label -->
+  <Label item="AdvRqst_CompleteTimeLeftLabel">
+    <ScreenID>AdvRqst_CompleteTimeLeftLabel</ScreenID>
+    <RelativePosition>true</RelativePosition>
+    <AutoStretch>true</AutoStretch>
+    <LeftAnchorOffset>250</LeftAnchorOffset>
+    <TopAnchorOffset>108</TopAnchorOffset>
+    <RightAnchorOffset>450</RightAnchorOffset>
+    <BottomAnchorOffset>80</BottomAnchorOffset>
+    <TopAnchorToTop>false</TopAnchorToTop>
+    <BottomAnchorToTop>false</BottomAnchorToTop>
+    <LeftAnchorToLeft>true</LeftAnchorToLeft>
+    <RightAnchorToLeft>true</RightAnchorToLeft>
+    <Text />
+    <Font>6</Font>
+    <TextColor>
+      <R>255</R>
+      <G>255</G>
+      <B>255</B>
+    </TextColor>
+    <NoWrap>true</NoWrap>
+    <AlignCenter>false</AlignCenter>
+    <AlignRight>false</AlignRight>
+  </Label>
+  <!-- Progress Label -->
+  <Label item="AdvRqst_ProgressLabel">
+    <ScreenID>AdvRqst_ProgressLabel</ScreenID>
+    <RelativePosition>true</RelativePosition>
+    <AutoStretch>true</AutoStretch>
+    <LeftAnchorOffset>340</LeftAnchorOffset>
+    <TopAnchorOffset>138</TopAnchorOffset>
+    <RightAnchorOffset>20</RightAnchorOffset>
+    <BottomAnchorOffset>110</BottomAnchorOffset>
+    <TopAnchorToTop>false</TopAnchorToTop>
+    <BottomAnchorToTop>false</BottomAnchorToTop>
+    <LeftAnchorToLeft>false</LeftAnchorToLeft>
+    <RightAnchorToLeft>false</RightAnchorToLeft>
+    <Text>Progress:</Text>
+    <Font>6</Font>
+    <TextColor>
+      <R>255</R>
+      <G>255</G>
+      <B>255</B>
+    </TextColor>
+    <NoWrap>false</NoWrap>
+    <AlignCenter>true</AlignCenter>
+    <AlignRight>false</AlignRight>
+  </Label>
+  <!-- Progress Text Label -->
+  <Label item="AdvRqst_ProgressTextLabel">
+    <ScreenID>AdvRqst_ProgressTextLabel</ScreenID>
+    <RelativePosition>true</RelativePosition>
+    <AutoStretch>true</AutoStretch>
+    <LeftAnchorOffset>340</LeftAnchorOffset>
+    <TopAnchorOffset>108</TopAnchorOffset>
+    <RightAnchorOffset>20</RightAnchorOffset>
+    <BottomAnchorOffset>80</BottomAnchorOffset>
+    <TopAnchorToTop>false</TopAnchorToTop>
+    <BottomAnchorToTop>false</BottomAnchorToTop>
+    <LeftAnchorToLeft>false</LeftAnchorToLeft>
+    <RightAnchorToLeft>false</RightAnchorToLeft>
+    <Text />
+    <Font>6</Font>
+    <TextColor>
+      <R>255</R>
+      <G>255</G>
+      <B>255</B>
+    </TextColor>
+    <NoWrap>false</NoWrap>
+    <AlignCenter>true</AlignCenter>
+    <AlignRight>false</AlignRight>
+  </Label>
+  <!-- Accept Button -->
+  <Button item="AdvRqst_AcceptButton">
+    <ScreenID>AdvRqst_AcceptButton</ScreenID>
+    <RelativePosition>true</RelativePosition>
+    <AutoStretch>true</AutoStretch>
+    <LeftAnchorOffset>10</LeftAnchorOffset>
+    <TopAnchorOffset>58</TopAnchorOffset>
+    <RightAnchorOffset>270</RightAnchorOffset>
+    <BottomAnchorOffset>10</BottomAnchorOffset>
+    <TopAnchorToTop>false</TopAnchorToTop>
+    <BottomAnchorToTop>false</BottomAnchorToTop>
+    <LeftAnchorToLeft>true</LeftAnchorToLeft>
+    <RightAnchorToLeft>true</RightAnchorToLeft>
+    <Style_Transparent>false</Style_Transparent>
+    <Style_Checkbox>false</Style_Checkbox>
+    <Text>Accept</Text>
+    <Font>6</Font>
+    <TextColor>
+      <R>255</R>
+      <G>255</G>
+      <B>255</B>
+    </TextColor>
+    <ButtonDrawTemplate>
+      <Normal>A_BtnNormal</Normal>
+      <Pressed>A_BtnPressed</Pressed>
+      <Flyby>A_BtnFlyby</Flyby>
+      <Disabled>A_BtnDisabled</Disabled>
+      <PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
+    </ButtonDrawTemplate>
+  </Button>
+  <!-- Decline Button -->
+  <Button item="AdvRqst_DeclineButton">
+    <ScreenID>AdvRqst_DeclineButton</ScreenID>
+    <RelativePosition>true</RelativePosition>
+    <AutoStretch>true</AutoStretch>
+    <LeftAnchorOffset>290</LeftAnchorOffset>
+    <TopAnchorOffset>58</TopAnchorOffset>
+    <RightAnchorOffset>30</RightAnchorOffset>
+    <BottomAnchorOffset>10</BottomAnchorOffset>
+    <TopAnchorToTop>false</TopAnchorToTop>
+    <BottomAnchorToTop>false</BottomAnchorToTop>
+    <LeftAnchorToLeft>false</LeftAnchorToLeft>
+    <RightAnchorToLeft>false</RightAnchorToLeft>
+    <Style_Transparent>false</Style_Transparent>
+    <Style_Checkbox>false</Style_Checkbox>
+    <Text>Decline</Text>
+    <Font>6</Font>
+    <TextColor>
+      <R>255</R>
+      <G>255</G>
+      <B>255</B>
+    </TextColor>
+    <ButtonDrawTemplate>
+      <Normal>A_BtnNormal</Normal>
+      <Pressed>A_BtnPressed</Pressed>
+      <Flyby>A_BtnFlyby</Flyby>
+      <Disabled>A_BtnDisabled</Disabled>
+      <PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
+    </ButtonDrawTemplate>
+  </Button>
+  <!-- The Adventure Request Window -->
+  <Screen item="AdventureRequestWnd">
+    <RelativePosition>false</RelativePosition>
+    <Location>
+      <X>100</X>
+      <Y>60</Y>
+    </Location>
+    <Size>
+      <CX>740</CX>
+      <CY>786</CY>
+    </Size>
+    <Style_VScroll>false</Style_VScroll>
+    <Style_HScroll>false</Style_HScroll>
+    <Style_Transparent>false</Style_Transparent>
+    <Text>Adventure Window</Text>
+    <Font>6</Font>
+    <DrawTemplate>WDT_Rounded</DrawTemplate>
+    <Style_Titlebar>true</Style_Titlebar>
+    <Style_Closebox>true</Style_Closebox>
+    <Style_Minimizebox>true</Style_Minimizebox>
+    <Style_Border>true</Style_Border>
+    <Style_Sizable>false</Style_Sizable>
+    <Pieces>AdvRqst_NPCLabel</Pieces>
+    <Pieces>AdvRqst_NPCText</Pieces>
+    <Pieces>AdvRqst_RiskLabel</Pieces>
+    <Pieces>AdvRqst_TypeLabel</Pieces>
+    <Pieces>AdvRqst_RequestButton</Pieces>
+    <Pieces>AdvRqst_ViewStatsButton</Pieces>
+    <Pieces>AdvRqst_EnterTimeLabel</Pieces>
+    <Pieces>AdvRqst_EnterTimeLeftLabel</Pieces>
+    <Pieces>AdvRqst_CompleteTimeLabel</Pieces>
+    <Pieces>AdvRqst_CompleteTimeLeftLabel</Pieces>
+    <Pieces>AdvRqst_ProgressLabel</Pieces>
+    <Pieces>AdvRqst_ProgressTextLabel</Pieces>
+    <Pieces>AdvRqst_AcceptButton</Pieces>
+    <Pieces>AdvRqst_DeclineButton</Pieces>
+    <Pieces>AdvRqst_TypeCombobox</Pieces>
+    <Pieces>AdvRqst_RiskCombobox</Pieces>
+  </Screen>
+</XML>
