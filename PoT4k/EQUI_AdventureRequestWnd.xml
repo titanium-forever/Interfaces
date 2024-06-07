@@ -165,6 +165,7 @@
     <Choices>Mob count</Choices>
     <Choices>Collection</Choices>
     <Choices>Rescue</Choices>
+    <Font>6</Font>
   </Combobox>
   <!-- Request Adventure Button -->
   <Button item="AdvRqst_RequestButton">
