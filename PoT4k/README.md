@@ -47,7 +47,7 @@ Tooltip sizes
 # Issues  
 
 ### EQUI_AdventureRequestWnd.xml
-- Type font size
+- Type font size (maybe not possible)
 
 ### EQUI_GroupWindow.xml
 - Clicking gauge with pet targets only pet
