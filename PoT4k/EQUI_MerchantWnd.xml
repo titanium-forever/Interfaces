@@ -33,10 +33,10 @@
     <BottomAnchorToTop>false</BottomAnchorToTop>
     <LeftAnchorToLeft>true</LeftAnchorToLeft>
     <RightAnchorToLeft>false</RightAnchorToLeft>
-    <LeftAnchorOffset>4</LeftAnchorOffset>
+    <LeftAnchorOffset>5</LeftAnchorOffset>
     <TopAnchorOffset>28</TopAnchorOffset>
-    <RightAnchorOffset>4</RightAnchorOffset>
-    <BottomAnchorOffset>50</BottomAnchorOffset>
+    <RightAnchorOffset>5</RightAnchorOffset>
+    <BottomAnchorOffset>90</BottomAnchorOffset>
     <TextColor>
       <R>255</R>
       <G>255</G>
@@ -82,10 +82,10 @@
     <BottomAnchorToTop>false</BottomAnchorToTop>
     <LeftAnchorToLeft>true</LeftAnchorToLeft>
     <RightAnchorToLeft>true</RightAnchorToLeft>
-    <LeftAnchorOffset>84</LeftAnchorOffset>
-    <TopAnchorOffset>46</TopAnchorOffset>
-    <RightAnchorOffset>126</RightAnchorOffset>
-    <BottomAnchorOffset>4</BottomAnchorOffset>
+    <LeftAnchorOffset>95</LeftAnchorOffset>
+    <TopAnchorOffset>85</TopAnchorOffset>
+    <RightAnchorOffset>175</RightAnchorOffset>
+    <BottomAnchorOffset>5</BottomAnchorOffset>
     <Style_Transparent>false</Style_Transparent>
     <Style_Checkbox>false</Style_Checkbox>
     <ButtonDrawTemplate>
@@ -93,8 +93,8 @@
       <NormalDecal>A_DragItem</NormalDecal>
     </ButtonDrawTemplate>
     <DecalOffset>
-      <X>4</X>
-      <Y>4</Y>
+      <X>0</X>
+      <Y>0</Y>
     </DecalOffset>
     <DecalSize>
       <CX>80</CX>
@@ -103,17 +103,17 @@
   </Button>
   <Label item="MW_SelectedItemLabel">
     <ScreenID>MW_SelectedItemLabel</ScreenID>
-    <Font>5</Font>
+    <Font>6</Font>
     <RelativePosition>true</RelativePosition>
     <AutoStretch>true</AutoStretch>
     <TopAnchorToTop>false</TopAnchorToTop>
     <BottomAnchorToTop>false</BottomAnchorToTop>
     <LeftAnchorToLeft>true</LeftAnchorToLeft>
     <RightAnchorToLeft>false</RightAnchorToLeft>
-    <LeftAnchorOffset>130</LeftAnchorOffset>
-    <TopAnchorOffset>44</TopAnchorOffset>
+    <LeftAnchorOffset>178</LeftAnchorOffset>
+    <TopAnchorOffset>74</TopAnchorOffset>
     <RightAnchorOffset>90</RightAnchorOffset>
-    <BottomAnchorOffset>28</BottomAnchorOffset>
+    <BottomAnchorOffset>50</BottomAnchorOffset>
     <Text>Item Being Considered</Text>
     <TextColor>
       <R>255</R>
@@ -126,17 +126,17 @@
   </Label>
   <Label item="MW_SelectedPriceLabel">
     <ScreenID>MW_SelectedPriceLabel</ScreenID>
-    <Font>5</Font>
+    <Font>6</Font>
     <RelativePosition>true</RelativePosition>
     <AutoStretch>true</AutoStretch>
     <TopAnchorToTop>false</TopAnchorToTop>
     <BottomAnchorToTop>false</BottomAnchorToTop>
     <LeftAnchorToLeft>true</LeftAnchorToLeft>
     <RightAnchorToLeft>false</RightAnchorToLeft>
-    <LeftAnchorOffset>130</LeftAnchorOffset>
-    <TopAnchorOffset>26</TopAnchorOffset>
+    <LeftAnchorOffset>178</LeftAnchorOffset>
+    <TopAnchorOffset>44</TopAnchorOffset>
     <RightAnchorOffset>90</RightAnchorOffset>
-    <BottomAnchorOffset>6</BottomAnchorOffset>
+    <BottomAnchorOffset>20</BottomAnchorOffset>
     <Text>Price</Text>
     <TextColor>
       <R>255</R>
@@ -157,9 +157,9 @@
     <LeftAnchorToLeft>true</LeftAnchorToLeft>
     <RightAnchorToLeft>true</RightAnchorToLeft>
     <LeftAnchorOffset>10</LeftAnchorOffset>
-    <TopAnchorOffset>44</TopAnchorOffset>
-    <RightAnchorOffset>74</RightAnchorOffset>
-    <BottomAnchorOffset>6</BottomAnchorOffset>
+    <TopAnchorOffset>85</TopAnchorOffset>
+    <RightAnchorOffset>90</RightAnchorOffset>
+    <BottomAnchorOffset>5</BottomAnchorOffset>
     <Style_Transparent>false</Style_Transparent>
     <TooltipReference>Click here to buy the selected item</TooltipReference>
     <Style_Checkbox>false</Style_Checkbox>
@@ -186,10 +186,10 @@
     <BottomAnchorToTop>false</BottomAnchorToTop>
     <LeftAnchorToLeft>false</LeftAnchorToLeft>
     <RightAnchorToLeft>false</RightAnchorToLeft>
-    <LeftAnchorOffset>74</LeftAnchorOffset>
-    <TopAnchorOffset>44</TopAnchorOffset>
+    <LeftAnchorOffset>90</LeftAnchorOffset>
+    <TopAnchorOffset>85</TopAnchorOffset>
     <RightAnchorOffset>10</RightAnchorOffset>
-    <BottomAnchorOffset>6</BottomAnchorOffset>
+    <BottomAnchorOffset>5</BottomAnchorOffset>
     <Style_Transparent>false</Style_Transparent>
     <TooltipReference>Click here to close the merchant window</TooltipReference>
     <Style_Checkbox>false</Style_Checkbox>
@@ -216,9 +216,9 @@
     <LeftAnchorToLeft>true</LeftAnchorToLeft>
     <RightAnchorToLeft>true</RightAnchorToLeft>
     <LeftAnchorOffset>10</LeftAnchorOffset>
-    <TopAnchorOffset>44</TopAnchorOffset>
-    <RightAnchorOffset>74</RightAnchorOffset>
-    <BottomAnchorOffset>6</BottomAnchorOffset>
+    <TopAnchorOffset>85</TopAnchorOffset>
+    <RightAnchorOffset>90</RightAnchorOffset>
+    <BottomAnchorOffset>5</BottomAnchorOffset>
     <Style_Transparent>false</Style_Transparent>
     <TooltipReference>Click here to sell the selected item</TooltipReference>
     <Style_Checkbox>false</Style_Checkbox>
