@@ -1,4 +1,11 @@
-# TODO
+# PoT4k
+This skin is mostly based on PowerOfTwo for Project 1999, upscaled for 4k monitors.  
+
+Not all UI components upscale properly, so some windows have not been done. The graphical assets are currently just doubled in size rather than fully upscaled due to strange artifacts that affect the icons, even with AI upscaling.  
+
+Some windows are different from the original Power Of Two skin, due to quality-of-life improvements, scaling issues, or because the original didn't have components for some windows at all.  
+
+## TODO
 
 EQUI_AlarmWnd.xml  
 EQUI_BarterMerchantWnd.xml  
@@ -44,7 +51,7 @@ Graphics
 Tooltip sizes
 
 
-# Issues  
+## Issues  
 
 ### EQUI_AdventureRequestWnd.xml
 - Type font size
@@ -61,11 +68,11 @@ Tooltip sizes
 ### EQUI_MerchantWnd.xml
 - list header row height
 
-# Can't do
+## Can't do
 
 EQUI_OptionsWindow.xml  
 
-# Won't Do
+## Won't Do
 
 EQUI_BugReportWnd.xml  
 EQUI_CharacterCreate.xml  
