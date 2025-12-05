@@ -4130,12 +4130,12 @@
     <ScreenID>HB3_FileButton</ScreenID>
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>714</X>
-      <Y>12</Y>
+      <X>744</X>
+      <Y>40</Y>
     </Location>
     <Size>
-      <CX>40</CX>
-      <CY>40</CY>
+      <CX>0</CX>
+      <CY>0</CY>
     </Size>
     <Style_Checkbox>false</Style_Checkbox>
     <TextColor>
@@ -4160,7 +4160,7 @@
       <Y>230</Y>
     </Location>
     <Size>
-      <CX>810</CX>
+      <CX>780</CX>
       <CY>78</CY>
     </Size>
     <Text>HotBar 3</Text>
@@ -4215,7 +4215,7 @@
     <RelativePosition>true</RelativePosition>
     <Location>
       <X>680</X>
-      <Y>14</Y>
+      <Y>0</Y>
     </Location>
     <Size>
       <CX>32</CX>
@@ -4239,11 +4239,11 @@
     <Font>6</Font>
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>702</X>
-      <Y>18</Y>
+      <X>680</X>
+      <Y>32</Y>
     </Location>
     <Size>
-      <CX>68</CX>
+      <CX>64</CX>
       <CY>32</CY>
     </Size>
     <TextColor>
@@ -4259,8 +4259,8 @@
     <Font>1</Font>
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>760</X>
-      <Y>14</Y>
+      <X>712</X>
+      <Y>0</Y>
     </Location>
     <Size>
       <CX>32</CX>
